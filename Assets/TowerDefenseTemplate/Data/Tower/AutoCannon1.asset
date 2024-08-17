@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 24e2352be0954e359a850a9d99215c6e, type: 3}
-  m_Name: Pylon3
+  m_Name: AutoCannon1
   m_EditorClassIdentifier: 
-  description: Tier 3 - Generates  energy
-  upgradeDescription: + energy production
-  cost: 8
-  sell: 12
-  maxHealth: 5
-  startingHealth: 5
-  icon: {fileID: 21300000, guid: 1db3ad284e98244f5a6dffd2fee0c176, type: 3}
+  description: Tier 1 - Low fire rate, medium damage
+  upgradeDescription: 
+  cost: 6
+  sell: 3
+  maxHealth: 8
+  startingHealth: 8
+  icon: {fileID: 21300000, guid: cb1a4b1c625260c49bb3acd67ce88833, type: 3}
