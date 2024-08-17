@@ -24,7 +24,7 @@ def generate_tree(root_dir: str, exclude: set) -> str:
         try:
             items = sorted(os.listdir(path))
         except PermissionError:
-            output.append(f"{prefix}??? <Permission Denied>")
+            output.append(f"{prefix}├── <Permission Denied>")
             return
 
         dirs = [item for item in items if os.path.isdir(os.path.join(path, item)) and should_include(item)]
@@ -32,13 +32,13 @@ def generate_tree(root_dir: str, exclude: set) -> str:
 
         for i, dir_name in enumerate(dirs):
             is_last = (i == len(dirs) - 1 and len(files) == 0)
-            new_prefix = prefix + ("??? " if is_last else "??? ")
-            next_prefix = prefix + ("    " if is_last else "?   ")
+            new_prefix = prefix + ("└── " if is_last else "├── ")
+            next_prefix = prefix + ("    " if is_last else "│   ")
             add_directory(os.path.join(path, dir_name), new_prefix)
         
         for i, file_name in enumerate(files):
             is_last = (i == len(files) - 1)
-            output.append(f"{prefix}{'??? ' if is_last else '??? '}{file_name}")
+            output.append(f"{prefix}{'└── ' if is_last else '├── '}{file_name}")
 
     add_directory(root_dir)
     return "\n".join(output)
