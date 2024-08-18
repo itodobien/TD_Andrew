@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 2300002}
   - component: {fileID: 11100000}
   m_Layer: 0
-  m_Name: AutoCannon(OG_DoNotTouch)
+  m_Name: AutoCannon(OG)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
