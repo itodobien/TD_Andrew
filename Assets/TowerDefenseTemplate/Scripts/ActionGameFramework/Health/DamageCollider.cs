@@ -2,54 +2,65 @@
 
 namespace ActionGameFramework.Health
 {
-	/// <summary>
-	/// Damage collider - a collider based implementation of DamageZone
-	/// </summary>
-	[RequireComponent(typeof(Collider))]
-	public class DamageCollider : DamageZone
-	{
-		/// <summary>
-		/// On collision enter, see if the colliding object has a Damager and then make the damageableBehaviour take damage
-		/// </summary>
-		/// <param name="c">The collider</param>
-		protected void OnCollisionEnter(Collision c)
-		{
-			var damager = c.gameObject.GetComponent<Damager>();
-			if (damager == null)
-			{
-				return;
-			}
-			LazyLoad();
-			
-			float scaledDamage = ScaleDamage(damager.damage);
-			Vector3 collisionPosition = ConvertContactsToPosition(c.contacts);
-			damageableBehaviour.TakeDamage(scaledDamage, collisionPosition, damager.alignmentProvider);
-			
-			damager.HasDamaged(collisionPosition, damageableBehaviour.configuration.alignmentProvider);
-		}
+    /// <summary>
+    /// DamageCollider is a collider-based implementation of DamageZone.
+    /// It detects collisions and applies damage to the colliding object if it has a Damager component.
+    /// </summary>
+    [RequireComponent(typeof(Collider))]
+    public class DamageCollider : DamageZone
+    {
+        /// <summary>
+        /// Called when this collider collides with another collider.
+        /// If the colliding object has a Damager component, it applies damage to the DamageableBehaviour.
+        /// </summary>
+        /// <param name="c">The collision data associated with this collision.</param>
+        protected void OnCollisionEnter(Collision c)
+        {
+            // Try to get the Damager component from the colliding object
+            var damager = c.gameObject.GetComponent<Damager>();
+            if (damager == null)
+            {
+                // If no Damager component is found, exit the method
+                return;
+            }
+            // Ensure the DamageableBehaviour is loaded
+            LazyLoad();
 
-		/// <summary>
-		/// Averages the contacts to get the position.
-		/// </summary>
-		/// <returns>The average position.</returns>
-		/// <param name="contacts">Contacts.</param>
-		protected Vector3 ConvertContactsToPosition(ContactPoint[] contacts)
-		{
-			Vector3 output = Vector3.zero;
-			int length = contacts.Length;
+            // Scale the damage based on the damager's damage value
+            float scaledDamage = ScaleDamage(damager.damage);
+            // Calculate the collision position by averaging the contact points
+            Vector3 collisionPosition = ConvertContactsToPosition(c.contacts);
+            // Apply the scaled damage to the DamageableBehaviour
+            damageableBehaviour.TakeDamage(scaledDamage, collisionPosition, damager.alignmentProvider);
 
-			if (length == 0)
-			{
-				return output;
-			}
+            // Notify the damager that it has successfully damaged the target
+            damager.HasDamaged(collisionPosition, damageableBehaviour.configuration.alignmentProvider);
+        }
 
-			for (int i = 0; i < length; i++)
-			{
-				output += contacts[i].point;
-			}
+        /// <summary>
+        /// Converts an array of contact points to a single position by averaging the contact points.
+        /// </summary>
+        /// <param name="contacts">An array of contact points from the collision.</param>
+        /// <returns>The average position of the contact points.</returns>
+        protected Vector3 ConvertContactsToPosition(ContactPoint[] contacts)
+        {
+            Vector3 output = Vector3.zero;
+            int length = contacts.Length;
 
-			output = output / length;
-			return output;
-		}
-	}
+            if (length == 0)
+            {
+                return output;
+            }
+
+            // Sum all contact points
+            for (int i = 0; i < length; i++)
+            {
+                output += contacts[i].point;
+            }
+
+            // Calculate the average position
+            output = output / length;
+            return output;
+        }
+    }
 }

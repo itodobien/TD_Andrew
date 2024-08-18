@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 400000}
   - component: {fileID: 3300000}
   - component: {fileID: 2300000}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: barrel_1_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400002}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,11 +132,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400004}
-  - component: {fileID: 3300002}
-  - component: {fileID: 2300002}
-  - component: {fileID: 11100000}
   - component: {fileID: 1906108909457803968}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: AutoCannonTower_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -159,74 +156,6 @@ Transform:
   - {fileID: 400052}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &3300002
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100004}
-  m_Mesh: {fileID: 4300000, guid: fc977c3b88711498d94b22462a83cdd4, type: 3}
---- !u!23 &2300002
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100004}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 95857c915fa934d19921405fa382f3d0, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!111 &11100000
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100004}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: fc977c3b88711498d94b22462a83cdd4, type: 3}
-  m_Animations:
-  - {fileID: 7400000, guid: fc977c3b88711498d94b22462a83cdd4, type: 3}
-  - {fileID: 7400002, guid: fc977c3b88711498d94b22462a83cdd4, type: 3}
-  - {fileID: 7400004, guid: fc977c3b88711498d94b22462a83cdd4, type: 3}
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!114 &1906108909457803968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -239,8 +168,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5d8e55681884ffb9fb6ed0b6f18f0bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerGhostPrefab: {fileID: 0}
-  buildEffectPrefab: {fileID: 0}
+  towerGhostPrefab: {fileID: 6362493630579927472, guid: 365fd47da7c1d7544b4cd566dc0f3d6f,
+    type: 3}
+  buildEffectPrefab: {fileID: 1395313577031670, guid: c559c1920b5d04e6d83aa4464fba5c68,
+    type: 3}
   levelData: {fileID: 11400000, guid: 6583895958202084f88ef1d44fb7e9f3, type: 2}
 --- !u!1 &100006
 GameObject:
@@ -253,7 +184,7 @@ GameObject:
   - component: {fileID: 400006}
   - component: {fileID: 3300004}
   - component: {fileID: 2300004}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: diopter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,7 +267,7 @@ GameObject:
   - component: {fileID: 400008}
   - component: {fileID: 3300006}
   - component: {fileID: 2300006}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: rotor3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,7 +354,7 @@ GameObject:
   - component: {fileID: 400010}
   - component: {fileID: 3300008}
   - component: {fileID: 2300008}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: hammer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -506,7 +437,7 @@ GameObject:
   - component: {fileID: 400012}
   - component: {fileID: 19800000}
   - component: {fileID: 19900000}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Flare
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5325,7 +5256,7 @@ GameObject:
   - component: {fileID: 400014}
   - component: {fileID: 19800002}
   - component: {fileID: 19900002}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: blast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10134,7 +10065,7 @@ GameObject:
   - component: {fileID: 400016}
   - component: {fileID: 3300010}
   - component: {fileID: 2300010}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: rouleman
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10217,7 +10148,7 @@ GameObject:
   - component: {fileID: 400018}
   - component: {fileID: 3300012}
   - component: {fileID: 2300012}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ammo_1_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10300,7 +10231,7 @@ GameObject:
   - component: {fileID: 400020}
   - component: {fileID: 3300014}
   - component: {fileID: 2300014}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: barrel_3_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10383,7 +10314,7 @@ GameObject:
   - component: {fileID: 400022}
   - component: {fileID: 3300016}
   - component: {fileID: 2300016}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: barrel_2_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10466,7 +10397,7 @@ GameObject:
   - component: {fileID: 400024}
   - component: {fileID: 3300018}
   - component: {fileID: 2300018}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: rotor1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10550,7 +10481,7 @@ GameObject:
   - component: {fileID: 400026}
   - component: {fileID: 3300020}
   - component: {fileID: 2300020}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ammo_1_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10633,7 +10564,7 @@ GameObject:
   - component: {fileID: 400028}
   - component: {fileID: 3300022}
   - component: {fileID: 2300022}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10716,7 +10647,7 @@ GameObject:
   - component: {fileID: 400030}
   - component: {fileID: 3300024}
   - component: {fileID: 2300024}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ammo_2_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10799,7 +10730,7 @@ GameObject:
   - component: {fileID: 400032}
   - component: {fileID: 3300026}
   - component: {fileID: 2300026}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: rotor2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10885,7 +10816,7 @@ GameObject:
   - component: {fileID: 400034}
   - component: {fileID: 3300028}
   - component: {fileID: 2300028}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: barrel_2_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10966,7 +10897,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400036}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ammo_up_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10999,7 +10930,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400038}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ammo_up_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11034,7 +10965,7 @@ GameObject:
   - component: {fileID: 400040}
   - component: {fileID: 3300030}
   - component: {fileID: 2300030}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: barrel_3_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11117,7 +11048,7 @@ GameObject:
   - component: {fileID: 400042}
   - component: {fileID: 3300032}
   - component: {fileID: 2300032}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ammo_2_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11200,7 +11131,7 @@ GameObject:
   - component: {fileID: 400044}
   - component: {fileID: 3300034}
   - component: {fileID: 2300034}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: hydraulic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11283,7 +11214,7 @@ GameObject:
   - component: {fileID: 400046}
   - component: {fileID: 3300036}
   - component: {fileID: 2300036}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: body_parts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11366,7 +11297,7 @@ GameObject:
   - component: {fileID: 400048}
   - component: {fileID: 3300038}
   - component: {fileID: 2300038}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: barrel_3_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11449,7 +11380,7 @@ GameObject:
   - component: {fileID: 400050}
   - component: {fileID: 3300040}
   - component: {fileID: 2300040}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: rouleman3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11532,7 +11463,7 @@ GameObject:
   - component: {fileID: 400052}
   - component: {fileID: 3300042}
   - component: {fileID: 2300042}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Gyroscope
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11617,7 +11548,7 @@ GameObject:
   - component: {fileID: 400054}
   - component: {fileID: 3300044}
   - component: {fileID: 2300044}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Body_Gyroscope
   m_TagString: Untagged
   m_Icon: {fileID: 0}
