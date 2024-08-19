@@ -16,6 +16,6 @@ MonoBehaviour:
   upgradeDescription: + Fire rate, range and damage
   cost: 30
   sell: 15
-  maxHealth: 12
-  startingHealth: 12
+  maxHealth: 10
+  startingHealth: 10
   icon: {fileID: 21300000, guid: cb1a4b1c625260c49bb3acd67ce88833, type: 3}

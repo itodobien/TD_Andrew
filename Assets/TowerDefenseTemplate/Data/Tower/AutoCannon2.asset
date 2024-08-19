@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   description: Tier 1 - Low fire rate, medium damage
   upgradeDescription: 
-  cost: 6
-  sell: 3
+  cost: 20
+  sell: 10
   maxHealth: 8
   startingHealth: 8
   icon: {fileID: 21300000, guid: cb1a4b1c625260c49bb3acd67ce88833, type: 3}
