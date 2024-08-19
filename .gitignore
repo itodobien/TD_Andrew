@@ -28,6 +28,7 @@
 
 #env
 .env
+*.env
 # Gradle cache directory
 .gradle/
 
