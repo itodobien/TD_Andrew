@@ -119,9 +119,9 @@ MonoBehaviour:
         type: 2}
   targetTransform: {fileID: 0}
   levels:
-  - {fileID: 3975100199450600511, guid: 69385962944e52c41b701d571673045a, type: 3}
-  - {fileID: 3975100199450600511, guid: 8b9d4f5e8f8a6954f91d3279515b13fd, type: 3}
-  - {fileID: 3975100199450600511, guid: 080815e5098c20940b2b7240e4bc5f0e, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 6275287063881377454, guid: 45c9e2b28ce987f409a1be0b69c0df67, type: 3}
   towerName: Auto Cannon
   dimensions:
     x: 2
