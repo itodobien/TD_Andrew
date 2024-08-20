@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24e2352be0954e359a850a9d99215c6e, type: 3}
   m_Name: AutoCannon2
   m_EditorClassIdentifier: 
-  description: Tier 1 - Low fire rate, medium damage
-  upgradeDescription: 
+  description: Tier 2 - Low fire rate, medium damage
+  upgradeDescription: +Fire Rate +Damage
   cost: 20
   sell: 10
   maxHealth: 8

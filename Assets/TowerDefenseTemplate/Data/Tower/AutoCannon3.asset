@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24e2352be0954e359a850a9d99215c6e, type: 3}
   m_Name: AutoCannon3
   m_EditorClassIdentifier: 
-  description: Tier 3- High fire fate, high damage
-  upgradeDescription: + Fire rate, range and damage
+  description: Tier 3- Medium fire fate, high damage
+  upgradeDescription: 
   cost: 30
   sell: 15
   maxHealth: 10
