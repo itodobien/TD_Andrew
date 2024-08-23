@@ -1,0 +1,2879 @@
+
+Project Tree:
+TD_Andrew/
+├── Assets/
+├── ├── Mech_Constructor_LtMed/
+├── ├── ├── Animations/
+├── ├── ├── ├── Animations_Rigs/
+├── ├── ├── ├── ├── Animations_Jump_Fall.mb
+├── ├── ├── ├── ├── Animations_Jump_Fall.mb.meta
+├── ├── ├── ├── ├── Animations_Rigs.fbx
+├── ├── ├── ├── ├── Animations_Rigs.fbx.meta
+├── ├── ├── ├── ├── Animations_rigs.mb
+├── ├── ├── ├── └── Animations_rigs.mb.meta
+├── ├── ├── ├── Animations_Rigs.meta
+├── ├── ├── ├── Animations_Rigs.rar
+├── ├── ├── ├── Animations_Rigs.rar.meta
+├── ├── ├── ├── Legs_Lt@Legs_Lt_turn_30deg_left.fbx
+├── ├── ├── ├── Legs_Lt@Legs_Lt_turn_30deg_left.fbx.meta
+├── ├── ├── ├── Legs_Lt@Legs_Lt_turn_30deg_right.fbx
+├── ├── ├── ├── Legs_Lt@Legs_Lt_turn_30deg_right.fbx.meta
+├── ├── ├── ├── Legs_Lt@Legs_Lt_turn_45deg_L.fbx
+├── ├── ├── ├── Legs_Lt@Legs_Lt_turn_45deg_L.fbx.meta
+├── ├── ├── ├── Legs_Lt@Legs_Lt_turn_45deg_R.fbx
+├── ├── ├── ├── Legs_Lt@Legs_Lt_turn_45deg_R.fbx.meta
+├── ├── ├── ├── Legs_Lt@Legs_lt_fall_back.fbx
+├── ├── ├── ├── Legs_Lt@Legs_lt_fall_back.fbx.meta
+├── ├── ├── ├── Legs_Lt@Legs_lt_fall_forward.fbx
+├── ├── ├── ├── Legs_Lt@Legs_lt_fall_forward.fbx.meta
+├── ├── ├── ├── Legs_Lt@Legs_lt_idle.fbx
+├── ├── ├── ├── Legs_Lt@Legs_lt_idle.fbx.meta
+├── ├── ├── ├── Legs_Lt@Legs_lt_jump_jetpack.fbx
+├── ├── ├── ├── Legs_Lt@Legs_lt_jump_jetpack.fbx.meta
+├── ├── ├── ├── Legs_Lt@Legs_lt_jump_simple.fbx
+├── ├── ├── ├── Legs_Lt@Legs_lt_jump_simple.fbx.meta
+├── ├── ├── ├── Legs_Lt@Legs_lt_run.fbx
+├── ├── ├── ├── Legs_Lt@Legs_lt_run.fbx.meta
+├── ├── ├── ├── Legs_Lt@Legs_lt_run_faster.fbx
+├── ├── ├── ├── Legs_Lt@Legs_lt_run_faster.fbx.meta
+├── ├── ├── ├── Legs_Lt@Legs_lt_run_turn_L.fbx
+├── ├── ├── ├── Legs_Lt@Legs_lt_run_turn_L.fbx.meta
+├── ├── ├── ├── Legs_Lt@Legs_lt_run_turn_R.fbx
+├── ├── ├── ├── Legs_Lt@Legs_lt_run_turn_R.fbx.meta
+├── ├── ├── ├── Legs_Lt@Legs_lt_walk.fbx
+├── ├── ├── ├── Legs_Lt@Legs_lt_walk.fbx.meta
+├── ├── ├── ├── Legs_Lt@Legs_lt_walk_turn_45deg_L.fbx
+├── ├── ├── ├── Legs_Lt@Legs_lt_walk_turn_45deg_L.fbx.meta
+├── ├── ├── ├── Legs_Lt@Legs_lt_walk_turn_45deg_R.fbx
+├── ├── ├── ├── Legs_Lt@Legs_lt_walk_turn_45deg_R.fbx.meta
+├── ├── ├── ├── Legs_Lt@Legs_lt_walk_turn_L.fbx
+├── ├── ├── ├── Legs_Lt@Legs_lt_walk_turn_L.fbx.meta
+├── ├── ├── ├── Legs_Lt@Legs_lt_walk_turn_R.fbx
+├── ├── ├── ├── Legs_Lt@Legs_lt_walk_turn_R.fbx.meta
+├── ├── ├── ├── Legs_LtMed@Legs_LtMed_turn_30deg_left.fbx
+├── ├── ├── ├── Legs_LtMed@Legs_LtMed_turn_30deg_left.fbx.meta
+├── ├── ├── ├── Legs_LtMed@Legs_LtMed_turn_30deg_right.fbx
+├── ├── ├── ├── Legs_LtMed@Legs_LtMed_turn_30deg_right.fbx.meta
+├── ├── ├── ├── Legs_LtMed@Legs_LtMed_turn_45deg_L.fbx
+├── ├── ├── ├── Legs_LtMed@Legs_LtMed_turn_45deg_L.fbx.meta
+├── ├── ├── ├── Legs_LtMed@Legs_LtMed_turn_45deg_R.fbx
+├── ├── ├── ├── Legs_LtMed@Legs_LtMed_turn_45deg_R.fbx.meta
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_fall_back.fbx
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_fall_back.fbx.meta
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_fall_forward.fbx
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_fall_forward.fbx.meta
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_idle.fbx
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_idle.fbx.meta
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_jump_jetpack.fbx
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_jump_jetpack.fbx.meta
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_jump_simple.fbx
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_jump_simple.fbx.meta
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_run.fbx
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_run.fbx.meta
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_run_faster.fbx
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_run_faster.fbx.meta
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_run_turn_L.fbx
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_run_turn_L.fbx.meta
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_run_turn_R.fbx
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_run_turn_R.fbx.meta
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_walk.fbx
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_walk.fbx.meta
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_walk_turn_L.fbx
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_walk_turn_L.fbx.meta
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_walk_turn_R.fbx
+├── ├── ├── ├── Legs_LtMed@Legs_ltMed_walk_turn_R.fbx.meta
+├── ├── ├── ├── Legs_LtMed_Ctrl.controller
+├── ├── ├── ├── Legs_LtMed_Ctrl.controller.meta
+├── ├── ├── ├── Legs_Lt_Ctrl.controller
+├── ├── ├── ├── Legs_Lt_Ctrl.controller.meta
+├── ├── ├── ├── Legs_Med@Legs_Med_fall_back.fbx
+├── ├── ├── ├── Legs_Med@Legs_Med_fall_back.fbx.meta
+├── ├── ├── ├── Legs_Med@Legs_Med_fall_forward.fbx
+├── ├── ├── ├── Legs_Med@Legs_Med_fall_forward.fbx.meta
+├── ├── ├── ├── Legs_Med@Legs_Med_idle.fbx
+├── ├── ├── ├── Legs_Med@Legs_Med_idle.fbx.meta
+├── ├── ├── ├── Legs_Med@Legs_Med_jump_jetpack.fbx
+├── ├── ├── ├── Legs_Med@Legs_Med_jump_jetpack.fbx.meta
+├── ├── ├── ├── Legs_Med@Legs_Med_run.fbx
+├── ├── ├── ├── Legs_Med@Legs_Med_run.fbx.meta
+├── ├── ├── ├── Legs_Med@Legs_Med_run_faster.fbx
+├── ├── ├── ├── Legs_Med@Legs_Med_run_faster.fbx.meta
+├── ├── ├── ├── Legs_Med@Legs_Med_run_turn_L.fbx
+├── ├── ├── ├── Legs_Med@Legs_Med_run_turn_L.fbx.meta
+├── ├── ├── ├── Legs_Med@Legs_Med_run_turn_R.fbx
+├── ├── ├── ├── Legs_Med@Legs_Med_run_turn_R.fbx.meta
+├── ├── ├── ├── Legs_Med@Legs_Med_turn_30deg_left.fbx
+├── ├── ├── ├── Legs_Med@Legs_Med_turn_30deg_left.fbx.meta
+├── ├── ├── ├── Legs_Med@Legs_Med_turn_30deg_right.fbx
+├── ├── ├── ├── Legs_Med@Legs_Med_turn_30deg_right.fbx.meta
+├── ├── ├── ├── Legs_Med@Legs_Med_turn_45deg_L.fbx
+├── ├── ├── ├── Legs_Med@Legs_Med_turn_45deg_L.fbx.meta
+├── ├── ├── ├── Legs_Med@Legs_Med_turn_45deg_R.fbx
+├── ├── ├── ├── Legs_Med@Legs_Med_turn_45deg_R.fbx.meta
+├── ├── ├── ├── Legs_Med@Legs_Med_walk.fbx
+├── ├── ├── ├── Legs_Med@Legs_Med_walk.fbx.meta
+├── ├── ├── ├── Legs_Med@Legs_Med_walk_turn_L.fbx
+├── ├── ├── ├── Legs_Med@Legs_Med_walk_turn_L.fbx.meta
+├── ├── ├── ├── Legs_Med@Legs_Med_walk_turn_R.fbx
+├── ├── ├── ├── Legs_Med@Legs_Med_walk_turn_R.fbx.meta
+├── ├── ├── ├── Legs_Med@Legs_med_jump_simple.fbx
+├── ├── ├── ├── Legs_Med@Legs_med_jump_simple.fbx.meta
+├── ├── ├── ├── Legs_Med_Ctrl.controller
+├── ├── ├── ├── Legs_Med_Ctrl.controller.meta
+├── ├── ├── ├── Top_anim_weapons_bounce.fbx
+├── ├── ├── ├── Top_anim_weapons_bounce.fbx.meta
+├── ├── ├── ├── Top_anim_weapons_bounce@Top_weapons_bounce_run.fbx
+├── ├── ├── ├── Top_anim_weapons_bounce@Top_weapons_bounce_run.fbx.meta
+├── ├── ├── ├── Top_anim_weapons_bounce@Top_weapons_bounce_walk.fbx
+├── ├── ├── ├── Top_anim_weapons_bounce@Top_weapons_bounce_walk.fbx.meta
+├── ├── ├── ├── Top_anim_weapons_bounce_Ctrl.controller
+├── ├── ├── ├── Top_anim_weapons_bounce_Ctrl.controller.meta
+├── ├── ├── ├── Weapons_Cannon_Ctrl.controller
+├── ├── ├── ├── Weapons_Cannon_Ctrl.controller.meta
+├── ├── ├── ├── Weapons_Machinegun_Ctrl.controller
+├── ├── ├── ├── Weapons_Machinegun_Ctrl.controller.meta
+├── ├── ├── ├── Weapons_Minigun_Ctrl.controller
+├── ├── ├── ├── Weapons_Minigun_Ctrl.controller.meta
+├── ├── ├── ├── Weapons_cannons@Weapon_cannons_shoot.fbx
+├── ├── ├── ├── Weapons_cannons@Weapon_cannons_shoot.fbx.meta
+├── ├── ├── ├── Weapons_machineguns@Weapon_machineguns_shoot.fbx
+├── ├── ├── └── Weapons_machineguns@Weapon_machineguns_shoot.fbx.meta
+├── ├── ├── Materials/
+├── ├── ├── ├── Realistic/
+├── ├── ├── ├── ├── MC_LtMed_Albedo_Black.png
+├── ├── ├── ├── ├── MC_LtMed_Albedo_Black.png.meta
+├── ├── ├── ├── ├── MC_LtMed_Albedo_Blue.png
+├── ├── ├── ├── ├── MC_LtMed_Albedo_Blue.png.meta
+├── ├── ├── ├── ├── MC_LtMed_Albedo_Green.png
+├── ├── ├── ├── ├── MC_LtMed_Albedo_Green.png.meta
+├── ├── ├── ├── ├── MC_LtMed_Albedo_Red.png
+├── ├── ├── ├── ├── MC_LtMed_Albedo_Red.png.meta
+├── ├── ├── ├── ├── MC_LtMed_Albedo_White.png
+├── ├── ├── ├── ├── MC_LtMed_Albedo_White.png.meta
+├── ├── ├── ├── ├── MC_LtMed_Albedo_Yellow.png
+├── ├── ├── ├── └── MC_LtMed_Albedo_Yellow.png.meta
+├── ├── ├── ├── Source/
+├── ├── ├── ├── ├── MC_Humanoids__Previous_Version_Textures_Link.txt
+├── ├── ├── ├── ├── MC_Humanoids__Previous_Version_Textures_Link.txt.meta
+├── ├── ├── ├── ├── MC_Humanoids__Source_PSD_Link.txt
+├── ├── ├── ├── ├── MC_Humanoids__Source_PSD_Link.txt.meta
+├── ├── ├── ├── ├── MC_LtMed_Bump.png
+├── ├── ├── ├── ├── MC_LtMed_Bump.png.meta
+├── ├── ├── ├── ├── MC_LtMed_Gloss.png
+├── ├── ├── ├── ├── MC_LtMed_Gloss.png.meta
+├── ├── ├── ├── ├── MC_LtMed_Metalness.png
+├── ├── ├── ├── ├── MC_LtMed_Metalness.png.meta
+├── ├── ├── ├── ├── MC_LtMed_Occlusion.png
+├── ├── ├── ├── ├── MC_LtMed_Occlusion.png.meta
+├── ├── ├── ├── ├── MC_LtMed_Specular.png
+├── ├── ├── ├── ├── MC_LtMed_Specular.png.meta
+├── ├── ├── ├── ├── MC_LtMed_Specular_Gloss_(Specular_Setup).png
+├── ├── ├── ├── └── MC_LtMed_Specular_Gloss_(Specular_Setup).png.meta
+├── ├── ├── ├── A_Base_plane_material.mat
+├── ├── ├── ├── A_Base_plane_material.mat.meta
+├── ├── ├── ├── A_MC_LtMed_Mat.mat
+├── ├── ├── ├── A_MC_LtMed_Mat.mat.meta
+├── ├── ├── ├── A_MC_LtMed_Realistic_Mat.mat
+├── ├── ├── ├── A_MC_LtMed_Realistic_Mat.mat.meta
+├── ├── ├── ├── MC_LtMed_Diffuse_Black.png
+├── ├── ├── ├── MC_LtMed_Diffuse_Black.png.meta
+├── ├── ├── ├── MC_LtMed_Diffuse_Blue.png
+├── ├── ├── ├── MC_LtMed_Diffuse_Blue.png.meta
+├── ├── ├── ├── MC_LtMed_Diffuse_Green.png
+├── ├── ├── ├── MC_LtMed_Diffuse_Green.png.meta
+├── ├── ├── ├── MC_LtMed_Diffuse_Red.png
+├── ├── ├── ├── MC_LtMed_Diffuse_Red.png.meta
+├── ├── ├── ├── MC_LtMed_Diffuse_Rust.png
+├── ├── ├── ├── MC_LtMed_Diffuse_Rust.png.meta
+├── ├── ├── ├── MC_LtMed_Diffuse_Rust_Dead.png
+├── ├── ├── ├── MC_LtMed_Diffuse_Rust_Dead.png.meta
+├── ├── ├── ├── MC_LtMed_Diffuse_White.png
+├── ├── ├── ├── MC_LtMed_Diffuse_White.png.meta
+├── ├── ├── ├── MC_LtMed_Diffuse_Yellow.png
+├── ├── ├── ├── MC_LtMed_Diffuse_Yellow.png.meta
+├── ├── ├── ├── MC_LtMed_Emission.png
+├── ├── ├── ├── MC_LtMed_Emission.png.meta
+├── ├── ├── ├── MC_LtMed_Metallic_Smoothness.png
+├── ├── ├── ├── MC_LtMed_Metallic_Smoothness.png.meta
+├── ├── ├── ├── MC_LtMed_Normals.png
+├── ├── ├── ├── MC_LtMed_Normals.png.meta
+├── ├── ├── ├── MC_LtMed_X_Color_ID.png
+├── ├── ├── ├── MC_LtMed_X_Color_ID.png.meta
+├── ├── ├── ├── MC_LtMed_X_Diffuse_Grayscale.png
+├── ├── ├── ├── MC_LtMed_X_Diffuse_Grayscale.png.meta
+├── ├── ├── ├── MC_LtMed_X_HDRP_Mask.tga
+├── ├── ├── ├── MC_LtMed_X_HDRP_Mask.tga.meta
+├── ├── ├── ├── Realistic.meta
+├── ├── ├── └── Source.meta
+├── ├── ├── Models/
+├── ├── ├── ├── Backpack_Ballons.fbx
+├── ├── ├── ├── Backpack_Ballons.fbx.meta
+├── ├── ├── ├── Backpack_Container.fbx
+├── ├── ├── ├── Backpack_Container.fbx.meta
+├── ├── ├── ├── Backpack_Jetpack_1x.fbx
+├── ├── ├── ├── Backpack_Jetpack_1x.fbx.meta
+├── ├── ├── ├── Backpack_Jetpack_2x.fbx
+├── ├── ├── ├── Backpack_Jetpack_2x.fbx.meta
+├── ├── ├── ├── Cockpit_Copter.fbx
+├── ├── ├── ├── Cockpit_Copter.fbx.meta
+├── ├── ├── ├── Cockpit_Fox.fbx
+├── ├── ├── ├── Cockpit_Fox.fbx.meta
+├── ├── ├── ├── Cockpit_Jet.fbx
+├── ├── ├── ├── Cockpit_Jet.fbx.meta
+├── ├── ├── ├── Cockpit_Tractor.fbx
+├── ├── ├── ├── Cockpit_Tractor.fbx.meta
+├── ├── ├── ├── HalfShoulders.fbx
+├── ├── ├── ├── HalfShoulders.fbx.meta
+├── ├── ├── ├── Legs_Lt.fbx
+├── ├── ├── ├── Legs_Lt.fbx.meta
+├── ├── ├── ├── Legs_LtMed.fbx
+├── ├── ├── ├── Legs_LtMed.fbx.meta
+├── ├── ├── ├── Legs_LtMed_Skinned.fbx
+├── ├── ├── ├── Legs_LtMed_Skinned.fbx.meta
+├── ├── ├── ├── Legs_Lt_Skinned.fbx
+├── ├── ├── ├── Legs_Lt_Skinned.fbx.meta
+├── ├── ├── ├── Legs_Med.fbx
+├── ├── ├── ├── Legs_Med.fbx.meta
+├── ├── ├── ├── Legs_Med_Skinned.fbx
+├── ├── ├── ├── Legs_Med_Skinned.fbx.meta
+├── ├── ├── ├── Legs_top_cap.fbx
+├── ├── ├── ├── Legs_top_cap.fbx.meta
+├── ├── ├── ├── Shoulders.fbx
+├── ├── ├── ├── Shoulders.fbx.meta
+├── ├── ├── ├── Top_Raiser_Bumper.fbx
+├── ├── ├── ├── Top_Raiser_Bumper.fbx.meta
+├── ├── ├── ├── Top_Raiser_Shield.fbx
+├── ├── ├── ├── Top_Raiser_Shield.fbx.meta
+├── ├── ├── ├── Update_parts_upgrades.fbx
+├── ├── ├── ├── Update_parts_upgrades.fbx.meta
+├── ├── ├── ├── Vehicles_Jet_Lvl1.fbx
+├── ├── ├── ├── Vehicles_Jet_Lvl1.fbx.meta
+├── ├── ├── ├── Vehicles_Jet_Lvl2.fbx
+├── ├── ├── ├── Vehicles_Jet_Lvl2.fbx.meta
+├── ├── ├── ├── Vehicles_Jet_Lvl3.fbx
+├── ├── ├── ├── Vehicles_Jet_Lvl3.fbx.meta
+├── ├── ├── ├── Vehicles_Jet_Lvl4.fbx
+├── ├── ├── ├── Vehicles_Jet_Lvl4.fbx.meta
+├── ├── ├── ├── Vehicles_Jet_Lvl4_v2.fbx
+├── ├── ├── ├── Vehicles_Jet_Lvl4_v2.fbx.meta
+├── ├── ├── ├── Vehicles_Jet_Lvl5.fbx
+├── ├── ├── ├── Vehicles_Jet_Lvl5.fbx.meta
+├── ├── ├── ├── Weapons_Flamethrower_Lvl1.fbx
+├── ├── ├── ├── Weapons_Flamethrower_Lvl1.fbx.meta
+├── ├── ├── ├── Weapons_Flamethrower_Lvl2.fbx
+├── ├── ├── ├── Weapons_Flamethrower_Lvl2.fbx.meta
+├── ├── ├── ├── Weapons_Flamethrower_Lvl3.fbx
+├── ├── ├── ├── Weapons_Flamethrower_Lvl3.fbx.meta
+├── ├── ├── ├── Weapons_Flamethrower_Lvl4.fbx
+├── ├── ├── ├── Weapons_Flamethrower_Lvl4.fbx.meta
+├── ├── ├── ├── Weapons_Flamethrower_Lvl5.fbx
+├── ├── ├── ├── Weapons_Flamethrower_Lvl5.fbx.meta
+├── ├── ├── ├── Weapons_Laser_Lvl1.fbx
+├── ├── ├── ├── Weapons_Laser_Lvl1.fbx.meta
+├── ├── ├── ├── Weapons_Laser_Lvl2.fbx
+├── ├── ├── ├── Weapons_Laser_Lvl2.fbx.meta
+├── ├── ├── ├── Weapons_Laser_Lvl3.fbx
+├── ├── ├── ├── Weapons_Laser_Lvl3.fbx.meta
+├── ├── ├── ├── Weapons_Laser_Lvl4.fbx
+├── ├── ├── ├── Weapons_Laser_Lvl4.fbx.meta
+├── ├── ├── ├── Weapons_Laser_Lvl5.fbx
+├── ├── ├── ├── Weapons_Laser_Lvl5.fbx.meta
+├── ├── ├── ├── Weapons_cannon_lvl1.fbx
+├── ├── ├── ├── Weapons_cannon_lvl1.fbx.meta
+├── ├── ├── ├── Weapons_cannon_lvl1_skinned.fbx
+├── ├── ├── ├── Weapons_cannon_lvl1_skinned.fbx.meta
+├── ├── ├── ├── Weapons_cannon_lvl2.fbx
+├── ├── ├── ├── Weapons_cannon_lvl2.fbx.meta
+├── ├── ├── ├── Weapons_cannon_lvl2_Skinned.fbx
+├── ├── ├── ├── Weapons_cannon_lvl2_Skinned.fbx.meta
+├── ├── ├── ├── Weapons_cannon_lvl3.fbx
+├── ├── ├── ├── Weapons_cannon_lvl3.fbx.meta
+├── ├── ├── ├── Weapons_cannon_lvl3_Skinned.fbx
+├── ├── ├── ├── Weapons_cannon_lvl3_Skinned.fbx.meta
+├── ├── ├── ├── Weapons_cannon_lvl4.fbx
+├── ├── ├── ├── Weapons_cannon_lvl4.fbx.meta
+├── ├── ├── ├── Weapons_cannon_lvl4_Skinned.fbx
+├── ├── ├── ├── Weapons_cannon_lvl4_Skinned.fbx.meta
+├── ├── ├── ├── Weapons_cannon_lvl5.fbx
+├── ├── ├── ├── Weapons_cannon_lvl5.fbx.meta
+├── ├── ├── ├── Weapons_cannon_lvl5_Skinned.fbx
+├── ├── ├── ├── Weapons_cannon_lvl5_Skinned.fbx.meta
+├── ├── ├── ├── Weapons_machinegun_lvl1.fbx
+├── ├── ├── ├── Weapons_machinegun_lvl1.fbx.meta
+├── ├── ├── ├── Weapons_machinegun_lvl1_Skinned.fbx
+├── ├── ├── ├── Weapons_machinegun_lvl1_Skinned.fbx.meta
+├── ├── ├── ├── Weapons_machinegun_lvl2.fbx
+├── ├── ├── ├── Weapons_machinegun_lvl2.fbx.meta
+├── ├── ├── ├── Weapons_machinegun_lvl2_Skinned.fbx
+├── ├── ├── ├── Weapons_machinegun_lvl2_Skinned.fbx.meta
+├── ├── ├── ├── Weapons_machinegun_lvl3.fbx
+├── ├── ├── ├── Weapons_machinegun_lvl3.fbx.meta
+├── ├── ├── ├── Weapons_machinegun_lvl3_Skinned.fbx
+├── ├── ├── ├── Weapons_machinegun_lvl3_Skinned.fbx.meta
+├── ├── ├── ├── Weapons_machinegun_lvl4.fbx
+├── ├── ├── ├── Weapons_machinegun_lvl4.fbx.meta
+├── ├── ├── ├── Weapons_machinegun_lvl4_Skinned.fbx
+├── ├── ├── ├── Weapons_machinegun_lvl4_Skinned.fbx.meta
+├── ├── ├── ├── Weapons_machinegun_lvl5.fbx
+├── ├── ├── ├── Weapons_machinegun_lvl5.fbx.meta
+├── ├── ├── ├── Weapons_machinegun_lvl5_Skinned.fbx
+├── ├── ├── ├── Weapons_machinegun_lvl5_Skinned.fbx.meta
+├── ├── ├── ├── Weapons_minigun_lvl1@Weapons_minigun_lvl1_shoot.fbx
+├── ├── ├── ├── Weapons_minigun_lvl1@Weapons_minigun_lvl1_shoot.fbx.meta
+├── ├── ├── ├── Weapons_minigun_lvl2@Weapons_minigun_lvl2_shoot.fbx
+├── ├── ├── ├── Weapons_minigun_lvl2@Weapons_minigun_lvl2_shoot.fbx.meta
+├── ├── ├── ├── Weapons_minigun_lvl3@Weapons_minigun_lvl3_shoot.fbx
+├── ├── ├── ├── Weapons_minigun_lvl3@Weapons_minigun_lvl3_shoot.fbx.meta
+├── ├── ├── ├── Weapons_minigun_lvl4@Weapons_minigun_lvl4_shoot.fbx
+├── ├── ├── ├── Weapons_minigun_lvl4@Weapons_minigun_lvl4_shoot.fbx.meta
+├── ├── ├── ├── Weapons_minigun_lvl5@Weapons_minigun_lvl5_shoot.fbx
+├── ├── ├── ├── Weapons_minigun_lvl5@Weapons_minigun_lvl5_shoot.fbx.meta
+├── ├── ├── ├── Weapons_no_weapon.fbx
+├── ├── ├── ├── Weapons_no_weapon.fbx.meta
+├── ├── ├── ├── Weapons_rockets_1x_lvl1.fbx
+├── ├── ├── ├── Weapons_rockets_1x_lvl1.fbx.meta
+├── ├── ├── ├── Weapons_rockets_1x_lvl2.fbx
+├── ├── ├── ├── Weapons_rockets_1x_lvl2.fbx.meta
+├── ├── ├── ├── Weapons_rockets_1x_lvl3.fbx
+├── ├── ├── ├── Weapons_rockets_1x_lvl3.fbx.meta
+├── ├── ├── ├── Weapons_rockets_1x_lvl4.fbx
+├── ├── ├── ├── Weapons_rockets_1x_lvl4.fbx.meta
+├── ├── ├── ├── Weapons_rockets_1x_lvl5.fbx
+├── ├── ├── ├── Weapons_rockets_1x_lvl5.fbx.meta
+├── ├── ├── ├── Weapons_rockets_2x_lvl1.fbx
+├── ├── ├── ├── Weapons_rockets_2x_lvl1.fbx.meta
+├── ├── ├── ├── Weapons_rockets_2x_lvl2.fbx
+├── ├── ├── ├── Weapons_rockets_2x_lvl2.fbx.meta
+├── ├── ├── ├── Weapons_rockets_2x_lvl3.fbx
+├── ├── ├── ├── Weapons_rockets_2x_lvl3.fbx.meta
+├── ├── ├── ├── Weapons_rockets_2x_lvl4.fbx
+├── ├── ├── ├── Weapons_rockets_2x_lvl4.fbx.meta
+├── ├── ├── ├── Weapons_rockets_2x_lvl5.fbx
+├── ├── ├── ├── Weapons_rockets_2x_lvl5.fbx.meta
+├── ├── ├── ├── Weapons_rockets_rocket.fbx
+├── ├── ├── ├── Weapons_rockets_rocket.fbx.meta
+├── ├── ├── ├── Weapons_rockets_shoulder_lvl1.fbx
+├── ├── ├── ├── Weapons_rockets_shoulder_lvl1.fbx.meta
+├── ├── ├── ├── Weapons_rockets_shoulder_lvl2.fbx
+├── ├── ├── ├── Weapons_rockets_shoulder_lvl2.fbx.meta
+├── ├── ├── ├── Weapons_rockets_shoulder_lvl3.fbx
+├── ├── ├── ├── Weapons_rockets_shoulder_lvl3.fbx.meta
+├── ├── ├── ├── Weapons_rockets_shoulder_lvl4.fbx
+├── ├── ├── └── Weapons_rockets_shoulder_lvl4.fbx.meta
+├── ├── ├── Prefabs/
+├── ├── ├── ├── HalfShoulders/
+├── ├── ├── ├── ├── HalfShoulder_Box.prefab
+├── ├── ├── ├── ├── HalfShoulder_Box.prefab.meta
+├── ├── ├── ├── ├── HalfShoulder_Elf.prefab
+├── ├── ├── ├── ├── HalfShoulder_Elf.prefab.meta
+├── ├── ├── ├── ├── HalfShoulder_Lt_Frame.prefab
+├── ├── ├── ├── ├── HalfShoulder_Lt_Frame.prefab.meta
+├── ├── ├── ├── ├── HalfShoulder_Lt_Frame_Up.prefab
+├── ├── ├── ├── ├── HalfShoulder_Lt_Frame_Up.prefab.meta
+├── ├── ├── ├── ├── HalfShoulder_Med_Frame.prefab
+├── ├── ├── ├── ├── HalfShoulder_Med_Frame.prefab.meta
+├── ├── ├── ├── ├── HalfShoulder_Med_Frame_Up.prefab
+├── ├── ├── ├── ├── HalfShoulder_Med_Frame_Up.prefab.meta
+├── ├── ├── ├── ├── HalfShoulder_Shield.prefab
+├── ├── ├── ├── ├── HalfShoulder_Shield.prefab.meta
+├── ├── ├── ├── ├── HalfShoulder_Shield_Up.prefab
+├── ├── ├── ├── ├── HalfShoulder_Shield_Up.prefab.meta
+├── ├── ├── ├── ├── HalfShoulder_Wall.prefab
+├── ├── ├── ├── └── HalfShoulder_Wall.prefab.meta
+├── ├── ├── ├── Non_skinned/
+├── ├── ├── ├── ├── Legs_LtMed_No_Skin.prefab
+├── ├── ├── ├── ├── Legs_LtMed_No_Skin.prefab.meta
+├── ├── ├── ├── ├── Legs_Lt_No_Skin.prefab
+├── ├── ├── ├── ├── Legs_Lt_No_Skin.prefab.meta
+├── ├── ├── ├── ├── Legs_Med_No_Skin.prefab
+├── ├── ├── ├── ├── Legs_Med_No_Skin.prefab.meta
+├── ├── ├── ├── ├── Weapon_cannon_lvl1_No_Skin.prefab
+├── ├── ├── ├── ├── Weapon_cannon_lvl1_No_Skin.prefab.meta
+├── ├── ├── ├── ├── Weapon_cannon_lvl2_No_Skin.prefab
+├── ├── ├── ├── ├── Weapon_cannon_lvl2_No_Skin.prefab.meta
+├── ├── ├── ├── ├── Weapon_cannon_lvl3_No_Skin.prefab
+├── ├── ├── ├── ├── Weapon_cannon_lvl3_No_Skin.prefab.meta
+├── ├── ├── ├── ├── Weapon_cannon_lvl4_No_Skin.prefab
+├── ├── ├── ├── ├── Weapon_cannon_lvl4_No_Skin.prefab.meta
+├── ├── ├── ├── ├── Weapon_cannon_lvl5_No_Skin.prefab
+├── ├── ├── ├── ├── Weapon_cannon_lvl5_No_Skin.prefab.meta
+├── ├── ├── ├── ├── Weapon_machinegun_lvl1_No_Skin.prefab
+├── ├── ├── ├── ├── Weapon_machinegun_lvl1_No_Skin.prefab.meta
+├── ├── ├── ├── ├── Weapon_machinegun_lvl2_No_Skin.prefab
+├── ├── ├── ├── ├── Weapon_machinegun_lvl2_No_Skin.prefab.meta
+├── ├── ├── ├── ├── Weapon_machinegun_lvl3_No_Skin.prefab
+├── ├── ├── ├── ├── Weapon_machinegun_lvl3_No_Skin.prefab.meta
+├── ├── ├── ├── ├── Weapon_machinegun_lvl4_No_Skin.prefab
+├── ├── ├── ├── ├── Weapon_machinegun_lvl4_No_Skin.prefab.meta
+├── ├── ├── ├── ├── Weapon_machinegun_lvl5_No_Skin.prefab
+├── ├── ├── ├── └── Weapon_machinegun_lvl5_No_Skin.prefab.meta
+├── ├── ├── ├── Vehicles_Jets/
+├── ├── ├── ├── ├── Vehicles_Jet_Lvl1.prefab
+├── ├── ├── ├── ├── Vehicles_Jet_Lvl1.prefab.meta
+├── ├── ├── ├── ├── Vehicles_Jet_Lvl2.prefab
+├── ├── ├── ├── ├── Vehicles_Jet_Lvl2.prefab.meta
+├── ├── ├── ├── ├── Vehicles_Jet_Lvl3.prefab
+├── ├── ├── ├── ├── Vehicles_Jet_Lvl3.prefab.meta
+├── ├── ├── ├── ├── Vehicles_Jet_Lvl4.prefab
+├── ├── ├── ├── ├── Vehicles_Jet_Lvl4.prefab.meta
+├── ├── ├── ├── ├── Vehicles_Jet_Lvl4_V2.prefab
+├── ├── ├── ├── ├── Vehicles_Jet_Lvl4_V2.prefab.meta
+├── ├── ├── ├── ├── Vehicles_Jet_Lvl5.prefab
+├── ├── ├── ├── └── Vehicles_Jet_Lvl5.prefab.meta
+├── ├── ├── ├── Backpack_ballons.prefab
+├── ├── ├── ├── Backpack_ballons.prefab.meta
+├── ├── ├── ├── Backpack_container.prefab
+├── ├── ├── ├── Backpack_container.prefab.meta
+├── ├── ├── ├── Backpack_jetpack_1x.prefab
+├── ├── ├── ├── Backpack_jetpack_1x.prefab.meta
+├── ├── ├── ├── Backpack_jetpack_2x.prefab
+├── ├── ├── ├── Backpack_jetpack_2x.prefab.meta
+├── ├── ├── ├── Cockpit_copter.prefab
+├── ├── ├── ├── Cockpit_copter.prefab.meta
+├── ├── ├── ├── Cockpit_fox.prefab
+├── ├── ├── ├── Cockpit_fox.prefab.meta
+├── ├── ├── ├── Cockpit_jet.prefab
+├── ├── ├── ├── Cockpit_jet.prefab.meta
+├── ├── ├── ├── Cockpit_jet_upgrade.prefab
+├── ├── ├── ├── Cockpit_jet_upgrade.prefab.meta
+├── ├── ├── ├── Cockpit_tractor.prefab
+├── ├── ├── ├── Cockpit_tractor.prefab.meta
+├── ├── ├── ├── HalfShoulders.meta
+├── ├── ├── ├── Legs_Lt.prefab
+├── ├── ├── ├── Legs_Lt.prefab.meta
+├── ├── ├── ├── Legs_LtMed.prefab
+├── ├── ├── ├── Legs_LtMed.prefab.meta
+├── ├── ├── ├── Legs_Med.prefab
+├── ├── ├── ├── Legs_Med.prefab.meta
+├── ├── ├── ├── Non_skinned.meta
+├── ├── ├── ├── Shoulders_lt_box.prefab
+├── ├── ├── ├── Shoulders_lt_box.prefab.meta
+├── ├── ├── ├── Shoulders_lt_elf.prefab
+├── ├── ├── ├── Shoulders_lt_elf.prefab.meta
+├── ├── ├── ├── Shoulders_lt_frame.prefab
+├── ├── ├── ├── Shoulders_lt_frame.prefab.meta
+├── ├── ├── ├── Shoulders_lt_frame_upgrade.prefab
+├── ├── ├── ├── Shoulders_lt_frame_upgrade.prefab.meta
+├── ├── ├── ├── Shoulders_med_frame.prefab
+├── ├── ├── ├── Shoulders_med_frame.prefab.meta
+├── ├── ├── ├── Shoulders_med_frame_upgrade.prefab
+├── ├── ├── ├── Shoulders_med_frame_upgrade.prefab.meta
+├── ├── ├── ├── Shoulders_med_shield.prefab
+├── ├── ├── ├── Shoulders_med_shield.prefab.meta
+├── ├── ├── ├── Shoulders_med_shield_upgrade.prefab
+├── ├── ├── ├── Shoulders_med_shield_upgrade.prefab.meta
+├── ├── ├── ├── Shoulders_med_wall.prefab
+├── ├── ├── ├── Shoulders_med_wall.prefab.meta
+├── ├── ├── ├── Top_Raiser_Bumper.prefab
+├── ├── ├── ├── Top_Raiser_Bumper.prefab.meta
+├── ├── ├── ├── Top_Raiser_Shield.prefab
+├── ├── ├── ├── Top_Raiser_Shield.prefab.meta
+├── ├── ├── ├── Top_anim_weapons_bounce.prefab
+├── ├── ├── ├── Top_anim_weapons_bounce.prefab.meta
+├── ├── ├── ├── Top_raiser.prefab
+├── ├── ├── ├── Top_raiser.prefab.meta
+├── ├── ├── ├── Vehicles_Jets.meta
+├── ├── ├── ├── Weapon_cannon_lvl1.prefab
+├── ├── ├── ├── Weapon_cannon_lvl1.prefab.meta
+├── ├── ├── ├── Weapon_cannon_lvl2.prefab
+├── ├── ├── ├── Weapon_cannon_lvl2.prefab.meta
+├── ├── ├── ├── Weapon_cannon_lvl3.prefab
+├── ├── ├── ├── Weapon_cannon_lvl3.prefab.meta
+├── ├── ├── ├── Weapon_cannon_lvl4.prefab
+├── ├── ├── ├── Weapon_cannon_lvl4.prefab.meta
+├── ├── ├── ├── Weapon_cannon_lvl5.prefab
+├── ├── ├── ├── Weapon_cannon_lvl5.prefab.meta
+├── ├── ├── ├── Weapon_flamethrower_lvl1.prefab
+├── ├── ├── ├── Weapon_flamethrower_lvl1.prefab.meta
+├── ├── ├── ├── Weapon_flamethrower_lvl2.prefab
+├── ├── ├── ├── Weapon_flamethrower_lvl2.prefab.meta
+├── ├── ├── ├── Weapon_flamethrower_lvl3.prefab
+├── ├── ├── ├── Weapon_flamethrower_lvl3.prefab.meta
+├── ├── ├── ├── Weapon_flamethrower_lvl4.prefab
+├── ├── ├── ├── Weapon_flamethrower_lvl4.prefab.meta
+├── ├── ├── ├── Weapon_flamethrower_lvl5.prefab
+├── ├── ├── ├── Weapon_flamethrower_lvl5.prefab.meta
+├── ├── ├── ├── Weapon_laser_lvl1.prefab
+├── ├── ├── ├── Weapon_laser_lvl1.prefab.meta
+├── ├── ├── ├── Weapon_laser_lvl2.prefab
+├── ├── ├── ├── Weapon_laser_lvl2.prefab.meta
+├── ├── ├── ├── Weapon_laser_lvl3.prefab
+├── ├── ├── ├── Weapon_laser_lvl3.prefab.meta
+├── ├── ├── ├── Weapon_laser_lvl4.prefab
+├── ├── ├── ├── Weapon_laser_lvl4.prefab.meta
+├── ├── ├── ├── Weapon_laser_lvl5.prefab
+├── ├── ├── ├── Weapon_laser_lvl5.prefab.meta
+├── ├── ├── ├── Weapon_machinegun_lvl1.prefab
+├── ├── ├── ├── Weapon_machinegun_lvl1.prefab.meta
+├── ├── ├── ├── Weapon_machinegun_lvl2.prefab
+├── ├── ├── ├── Weapon_machinegun_lvl2.prefab.meta
+├── ├── ├── ├── Weapon_machinegun_lvl3.prefab
+├── ├── ├── ├── Weapon_machinegun_lvl3.prefab.meta
+├── ├── ├── ├── Weapon_machinegun_lvl4.prefab
+├── ├── ├── ├── Weapon_machinegun_lvl4.prefab.meta
+├── ├── ├── ├── Weapon_machinegun_lvl5.prefab
+├── ├── ├── ├── Weapon_machinegun_lvl5.prefab.meta
+├── ├── ├── ├── Weapon_rockets_1x_lvl1.prefab
+├── ├── ├── ├── Weapon_rockets_1x_lvl1.prefab.meta
+├── ├── ├── ├── Weapon_rockets_1x_lvl2.prefab
+├── ├── ├── ├── Weapon_rockets_1x_lvl2.prefab.meta
+├── ├── ├── ├── Weapon_rockets_1x_lvl3.prefab
+├── ├── ├── ├── Weapon_rockets_1x_lvl3.prefab.meta
+├── ├── ├── ├── Weapon_rockets_1x_lvl4.prefab
+├── ├── ├── ├── Weapon_rockets_1x_lvl4.prefab.meta
+├── ├── ├── ├── Weapon_rockets_1x_lvl5.prefab
+├── ├── ├── ├── Weapon_rockets_1x_lvl5.prefab.meta
+├── ├── ├── ├── Weapon_rockets_2x_lvl1.prefab
+├── ├── ├── ├── Weapon_rockets_2x_lvl1.prefab.meta
+├── ├── ├── ├── Weapon_rockets_2x_lvl2.prefab
+├── ├── ├── ├── Weapon_rockets_2x_lvl2.prefab.meta
+├── ├── ├── ├── Weapon_rockets_2x_lvl3.prefab
+├── ├── ├── ├── Weapon_rockets_2x_lvl3.prefab.meta
+├── ├── ├── ├── Weapon_rockets_2x_lvl4.prefab
+├── ├── ├── ├── Weapon_rockets_2x_lvl4.prefab.meta
+├── ├── ├── ├── Weapon_rockets_2x_lvl5.prefab
+├── ├── ├── ├── Weapon_rockets_2x_lvl5.prefab.meta
+├── ├── ├── ├── Weapon_rockets_rocket.prefab
+├── ├── ├── ├── Weapon_rockets_rocket.prefab.meta
+├── ├── ├── ├── Weapon_rockets_shoulder_lvl1.prefab
+├── ├── ├── ├── Weapon_rockets_shoulder_lvl1.prefab.meta
+├── ├── ├── ├── Weapon_rockets_shoulder_lvl2.prefab
+├── ├── ├── ├── Weapon_rockets_shoulder_lvl2.prefab.meta
+├── ├── ├── ├── Weapon_rockets_shoulder_lvl3.prefab
+├── ├── ├── ├── Weapon_rockets_shoulder_lvl3.prefab.meta
+├── ├── ├── ├── Weapon_rockets_shoulder_lvl4.prefab
+├── ├── ├── ├── Weapon_rockets_shoulder_lvl4.prefab.meta
+├── ├── ├── ├── Weapons_minigun_lvl1.prefab
+├── ├── ├── ├── Weapons_minigun_lvl1.prefab.meta
+├── ├── ├── ├── Weapons_minigun_lvl2.prefab
+├── ├── ├── ├── Weapons_minigun_lvl2.prefab.meta
+├── ├── ├── ├── Weapons_minigun_lvl3.prefab
+├── ├── ├── ├── Weapons_minigun_lvl3.prefab.meta
+├── ├── ├── ├── Weapons_minigun_lvl4.prefab
+├── ├── ├── ├── Weapons_minigun_lvl4.prefab.meta
+├── ├── ├── ├── Weapons_minigun_lvl5.prefab
+├── ├── ├── ├── Weapons_minigun_lvl5.prefab.meta
+├── ├── ├── ├── Weapons_no_weapon.prefab
+├── ├── ├── └── Weapons_no_weapon.prefab.meta
+├── ├── ├── Animations.meta
+├── ├── ├── Demo_scene_ltMed.unity
+├── ├── ├── Demo_scene_ltMed.unity.meta
+├── ├── ├── Demo_scene_ltMedSettings.lighting
+├── ├── ├── Demo_scene_ltMedSettings.lighting.meta
+├── ├── ├── Materials.meta
+├── ├── ├── Models.meta
+├── ├── ├── Prefabs.meta
+├── ├── ├── Readme_MC_LtMed.txt
+├── ├── └── Readme_MC_LtMed.txt.meta
+├── ├── Plugins/
+├── ├── ├── RelationsInspector/
+├── ├── ├── ├── AutoBackendAttributes.cs
+├── ├── ├── └── AutoBackendAttributes.cs.meta
+├── ├── ├── Sirenix/
+├── ├── ├── ├── Assemblies/
+├── ├── ├── ├── ├── NoEditor/
+├── ├── ├── ├── ├── ├── Sirenix.Serialization.dll
+├── ├── ├── ├── ├── ├── Sirenix.Serialization.dll.meta
+├── ├── ├── ├── ├── ├── Sirenix.Utilities.dll
+├── ├── ├── ├── ├── └── Sirenix.Utilities.dll.meta
+├── ├── ├── ├── ├── NoEmitAndNoEditor/
+├── ├── ├── ├── ├── ├── Sirenix.Serialization.dll
+├── ├── ├── ├── ├── ├── Sirenix.Serialization.dll.meta
+├── ├── ├── ├── ├── ├── Sirenix.Utilities.dll
+├── ├── ├── ├── ├── └── Sirenix.Utilities.dll.meta
+├── ├── ├── ├── ├── NoEditor.meta
+├── ├── ├── ├── ├── NoEmitAndNoEditor.meta
+├── ├── ├── ├── ├── Sirenix.OdinInspector.Attributes.dll
+├── ├── ├── ├── ├── Sirenix.OdinInspector.Attributes.dll.meta
+├── ├── ├── ├── ├── Sirenix.OdinInspector.Attributes.xml
+├── ├── ├── ├── ├── Sirenix.OdinInspector.Attributes.xml.meta
+├── ├── ├── ├── ├── Sirenix.OdinInspector.Editor.dll
+├── ├── ├── ├── ├── Sirenix.OdinInspector.Editor.dll.meta
+├── ├── ├── ├── ├── Sirenix.OdinInspector.Editor.xml
+├── ├── ├── ├── ├── Sirenix.OdinInspector.Editor.xml.meta
+├── ├── ├── ├── ├── Sirenix.OdinValidator.Editor.dll
+├── ├── ├── ├── ├── Sirenix.OdinValidator.Editor.dll.meta
+├── ├── ├── ├── ├── Sirenix.OdinValidator.Editor.xml
+├── ├── ├── ├── ├── Sirenix.OdinValidator.Editor.xml.meta
+├── ├── ├── ├── ├── Sirenix.Reflection.Editor.dll
+├── ├── ├── ├── ├── Sirenix.Reflection.Editor.dll.meta
+├── ├── ├── ├── ├── Sirenix.Serialization.Config.dll
+├── ├── ├── ├── ├── Sirenix.Serialization.Config.dll.meta
+├── ├── ├── ├── ├── Sirenix.Serialization.Config.xml
+├── ├── ├── ├── ├── Sirenix.Serialization.Config.xml.meta
+├── ├── ├── ├── ├── Sirenix.Serialization.dll
+├── ├── ├── ├── ├── Sirenix.Serialization.dll.meta
+├── ├── ├── ├── ├── Sirenix.Serialization.xml
+├── ├── ├── ├── ├── Sirenix.Serialization.xml.meta
+├── ├── ├── ├── ├── Sirenix.Utilities.Editor.dll
+├── ├── ├── ├── ├── Sirenix.Utilities.Editor.dll.meta
+├── ├── ├── ├── ├── Sirenix.Utilities.Editor.xml
+├── ├── ├── ├── ├── Sirenix.Utilities.Editor.xml.meta
+├── ├── ├── ├── ├── Sirenix.Utilities.dll
+├── ├── ├── ├── ├── Sirenix.Utilities.dll.meta
+├── ├── ├── ├── ├── Sirenix.Utilities.xml
+├── ├── ├── ├── ├── Sirenix.Utilities.xml.meta
+├── ├── ├── ├── ├── link.xml
+├── ├── ├── ├── └── link.xml.meta
+├── ├── ├── ├── Demos/
+├── ├── ├── ├── Odin Inspector/
+├── ├── ├── ├── ├── Assets/
+├── ├── ├── ├── ├── ├── Editor/
+├── ├── ├── ├── ├── ├── ├── Bootstrap License.txt
+├── ├── ├── ├── ├── ├── ├── Bootstrap License.txt.meta
+├── ├── ├── ├── ├── ├── ├── ConfigData.bytes
+├── ├── ├── ├── ├── ├── ├── ConfigData.bytes.meta
+├── ├── ├── ├── ├── ├── ├── OdinPathLookup.asset
+├── ├── ├── ├── ├── ├── ├── OdinPathLookup.asset.meta
+├── ├── ├── ├── ├── ├── ├── SdfIconAtlas.png
+├── ├── ├── ├── ├── ├── └── SdfIconAtlas.png.meta
+├── ├── ├── ├── ├── └── Editor.meta
+├── ├── ├── ├── ├── Config/
+├── ├── ├── ├── ├── ├── Editor/
+├── ├── ├── ├── ├── ├── ├── GeneralDrawerConfig.asset
+├── ├── ├── ├── ├── ├── ├── GeneralDrawerConfig.asset.meta
+├── ├── ├── ├── ├── ├── ├── InspectorConfig.asset
+├── ├── ├── ├── ├── ├── ├── InspectorConfig.asset.meta
+├── ├── ├── ├── ├── ├── ├── OdinModuleConfig.asset
+├── ├── ├── ├── ├── ├── ├── OdinModuleConfig.asset.meta
+├── ├── ├── ├── ├── ├── ├── TypeRegistryUserConfig.asset
+├── ├── ├── ├── ├── ├── └── TypeRegistryUserConfig.asset.meta
+├── ├── ├── ├── ├── ├── Resources/
+├── ├── ├── ├── ├── ├── ├── Sirenix/
+├── ├── ├── ├── ├── ├── └── Sirenix.meta
+├── ├── ├── ├── ├── ├── Editor.meta
+├── ├── ├── ├── ├── └── Resources.meta
+├── ├── ├── ├── ├── Modules/
+├── ├── ├── ├── ├── ├── Unity.Mathematics/
+├── ├── ├── ├── ├── ├── ├── MathematicsDrawers.cs
+├── ├── ├── ├── ├── ├── ├── MathematicsDrawers.cs.meta
+├── ├── ├── ├── ├── ├── ├── Sirenix.OdinInspector.Modules.UnityMathematics.asmdef
+├── ├── ├── ├── ├── ├── ├── Sirenix.OdinInspector.Modules.UnityMathematics.asmdef.meta
+├── ├── ├── ├── ├── ├── ├── manifest.txt
+├── ├── ├── ├── ├── ├── └── manifest.txt.meta
+├── ├── ├── ├── ├── ├── Unity.Addressables.data
+├── ├── ├── ├── ├── ├── Unity.Addressables.data.meta
+├── ├── ├── ├── ├── ├── Unity.Entities.data
+├── ├── ├── ├── ├── ├── Unity.Entities.data.meta
+├── ├── ├── ├── ├── ├── Unity.Localization.data
+├── ├── ├── ├── ├── ├── Unity.Localization.data.meta
+├── ├── ├── ├── ├── ├── Unity.Mathematics.data
+├── ├── ├── ├── ├── ├── Unity.Mathematics.data.meta
+├── ├── ├── ├── ├── └── Unity.Mathematics.meta
+├── ├── ├── ├── ├── Assets.meta
+├── ├── ├── ├── ├── Config.meta
+├── ├── ├── ├── └── Modules.meta
+├── ├── ├── ├── Odin Validator/
+├── ├── ├── ├── ├── Editor/
+├── ├── ├── ├── ├── ├── Config/
+├── ├── ├── ├── ├── ├── ├── AutomationConfig.asset
+├── ├── ├── ├── ├── ├── ├── AutomationConfig.asset.meta
+├── ├── ├── ├── ├── ├── ├── GlobalValidationConfig.asset
+├── ├── ├── ├── ├── ├── ├── GlobalValidationConfig.asset.meta
+├── ├── ├── ├── ├── ├── ├── RuleConfig.asset
+├── ├── ├── ├── ├── ├── └── RuleConfig.asset.meta
+├── ├── ├── ├── ├── ├── Profiles/
+├── ├── ├── ├── ├── ├── ├── Main Profile.asset
+├── ├── ├── ├── ├── ├── └── Main Profile.asset.meta
+├── ├── ├── ├── ├── ├── Config.meta
+├── ├── ├── ├── ├── └── Profiles.meta
+├── ├── ├── ├── ├── Editor.meta
+├── ├── ├── ├── ├── EnsureCorrectOdinVersion.cs
+├── ├── ├── ├── ├── EnsureCorrectOdinVersion.cs.meta
+├── ├── ├── ├── ├── Readme.txt
+├── ├── ├── ├── └── Readme.txt.meta
+├── ├── ├── ├── Assemblies.meta
+├── ├── ├── ├── Demos.meta
+├── ├── ├── ├── Odin Inspector.meta
+├── ├── ├── ├── Odin Validator.meta
+├── ├── ├── ├── Readme.txt
+├── ├── ├── └── Readme.txt.meta
+├── ├── ├── RelationsInspector.meta
+├── ├── └── Sirenix.meta
+├── ├── Resources/
+├── ├── ├── MasterAudio/
+├── ├── ├── ├── MasterAudioSettings.asset
+├── ├── ├── └── MasterAudioSettings.asset.meta
+├── ├── └── MasterAudio.meta
+├── ├── Scenes/
+├── ├── ├── New Scene.unity
+├── ├── ├── New Scene.unity.meta
+├── ├── ├── SampleScene.unity
+├── ├── └── SampleScene.unity.meta
+├── ├── Settings/
+├── ├── ├── SampleSceneProfile.asset
+├── ├── ├── SampleSceneProfile.asset.meta
+├── ├── ├── URP-Balanced-Renderer.asset
+├── ├── ├── URP-Balanced-Renderer.asset.meta
+├── ├── ├── URP-Balanced.asset
+├── ├── ├── URP-Balanced.asset.meta
+├── ├── ├── URP-HighFidelity-Renderer.asset
+├── ├── ├── URP-HighFidelity-Renderer.asset.meta
+├── ├── ├── URP-HighFidelity.asset
+├── ├── ├── URP-HighFidelity.asset.meta
+├── ├── ├── URP-Performant-Renderer.asset
+├── ├── ├── URP-Performant-Renderer.asset.meta
+├── ├── ├── URP-Performant.asset
+├── ├── └── URP-Performant.asset.meta
+├── ├── TowerDefenseTemplate/
+├── ├── ├── Animations/
+├── ├── ├── ├── Agents/
+├── ├── ├── ├── ├── MechAnimatorController.controller
+├── ├── ├── ├── └── MechAnimatorController.controller.meta
+├── ├── ├── ├── MainMenu/
+├── ├── ├── ├── ├── CameraMove0.anim
+├── ├── ├── ├── ├── CameraMove0.anim.meta
+├── ├── ├── ├── ├── CameraMove1.anim
+├── ├── ├── ├── └── CameraMove1.anim.meta
+├── ├── ├── ├── UI/
+├── ├── ├── ├── ├── Hide.anim
+├── ├── ├── ├── ├── Hide.anim.meta
+├── ├── ├── ├── ├── Show.anim
+├── ├── ├── ├── └── Show.anim.meta
+├── ├── ├── ├── Agents.meta
+├── ├── ├── ├── HoverCopterGlow.anim
+├── ├── ├── ├── HoverCopterGlow.anim.meta
+├── ├── ├── ├── HoverTankGlow.anim
+├── ├── ├── ├── HoverTankGlow.anim.meta
+├── ├── ├── ├── MainMenu.meta
+├── ├── ├── ├── SlowFx.anim
+├── ├── ├── ├── SlowFx.anim.meta
+├── ├── ├── └── UI.meta
+├── ├── ├── Audio/
+├── ├── ├── ├── Music/
+├── ├── ├── ├── ├── Game Music.mp3
+├── ├── ├── ├── ├── Game Music.mp3.meta
+├── ├── ├── ├── ├── Menu Music.mp3
+├── ├── ├── ├── └── Menu Music.mp3.meta
+├── ├── ├── ├── SFX/
+├── ├── ├── ├── ├── Base Attack/
+├── ├── ├── ├── ├── ├── base_attack.wav
+├── ├── ├── ├── ├── ├── base_attack.wav.meta
+├── ├── ├── ├── ├── ├── zone_enter.wav
+├── ├── ├── ├── ├── └── zone_enter.wav.meta
+├── ├── ├── ├── ├── Enemies Exploding/
+├── ├── ├── ├── ├── ├── Enemies Exploding 1.wav
+├── ├── ├── ├── ├── ├── Enemies Exploding 1.wav.meta
+├── ├── ├── ├── ├── ├── Enemies Exploding 2.wav
+├── ├── ├── ├── ├── ├── Enemies Exploding 2.wav.meta
+├── ├── ├── ├── ├── ├── Enemies Exploding 3.wav
+├── ├── ├── ├── ├── ├── Enemies Exploding 3.wav.meta
+├── ├── ├── ├── ├── ├── Enemies Exploding 4.wav
+├── ├── ├── ├── ├── ├── Enemies Exploding 4.wav.meta
+├── ├── ├── ├── ├── ├── Enemies Exploding 5.wav
+├── ├── ├── ├── ├── └── Enemies Exploding 5.wav.meta
+├── ├── ├── ├── ├── Tower Destruction/
+├── ├── ├── ├── ├── ├── Destruction 1.wav
+├── ├── ├── ├── ├── ├── Destruction 1.wav.meta
+├── ├── ├── ├── ├── ├── Destruction 2.wav
+├── ├── ├── ├── ├── ├── Destruction 2.wav.meta
+├── ├── ├── ├── ├── ├── Destruction 3.wav
+├── ├── ├── ├── ├── ├── Destruction 3.wav.meta
+├── ├── ├── ├── ├── ├── Destruction 4.wav
+├── ├── ├── ├── ├── ├── Destruction 4.wav.meta
+├── ├── ├── ├── ├── ├── Destruction 5.wav
+├── ├── ├── ├── ├── └── Destruction 5.wav.meta
+├── ├── ├── ├── ├── Towers/
+├── ├── ├── ├── ├── ├── AutoCannon/
+├── ├── ├── ├── ├── ├── ├── AA Weapoin Sound.wav
+├── ├── ├── ├── ├── ├── ├── AA Weapoin Sound.wav.meta
+├── ├── ├── ├── ├── ├── ├── Macross Placement.wav
+├── ├── ├── ├── ├── ├── └── Macross Placement.wav.meta
+├── ├── ├── ├── ├── ├── Laser/
+├── ├── ├── ├── ├── ├── ├── LaserFire.wav
+├── ├── ├── ├── ├── ├── └── LaserFire.wav.meta
+├── ├── ├── ├── ├── ├── MachineGun/
+├── ├── ├── ├── ├── ├── ├── MG 1.wav
+├── ├── ├── ├── ├── ├── ├── MG 1.wav.meta
+├── ├── ├── ├── ├── ├── ├── MG 10.wav
+├── ├── ├── ├── ├── ├── ├── MG 10.wav.meta
+├── ├── ├── ├── ├── ├── ├── MG 11.wav
+├── ├── ├── ├── ├── ├── ├── MG 11.wav.meta
+├── ├── ├── ├── ├── ├── ├── MG 12.wav
+├── ├── ├── ├── ├── ├── ├── MG 12.wav.meta
+├── ├── ├── ├── ├── ├── ├── MG 13.wav
+├── ├── ├── ├── ├── ├── ├── MG 13.wav.meta
+├── ├── ├── ├── ├── ├── ├── MG 14.wav
+├── ├── ├── ├── ├── ├── ├── MG 14.wav.meta
+├── ├── ├── ├── ├── ├── ├── MG 2.wav
+├── ├── ├── ├── ├── ├── ├── MG 2.wav.meta
+├── ├── ├── ├── ├── ├── ├── MG 3.wav
+├── ├── ├── ├── ├── ├── ├── MG 3.wav.meta
+├── ├── ├── ├── ├── ├── ├── MG 4.wav
+├── ├── ├── ├── ├── ├── ├── MG 4.wav.meta
+├── ├── ├── ├── ├── ├── ├── MG 5.wav
+├── ├── ├── ├── ├── ├── ├── MG 5.wav.meta
+├── ├── ├── ├── ├── ├── ├── MG 6.wav
+├── ├── ├── ├── ├── ├── ├── MG 6.wav.meta
+├── ├── ├── ├── ├── ├── ├── MG 7.wav
+├── ├── ├── ├── ├── ├── ├── MG 7.wav.meta
+├── ├── ├── ├── ├── ├── ├── MG 8.wav
+├── ├── ├── ├── ├── ├── ├── MG 8.wav.meta
+├── ├── ├── ├── ├── ├── ├── MG 9.wav
+├── ├── ├── ├── ├── ├── └── MG 9.wav.meta
+├── ├── ├── ├── ├── ├── RocketLauncher/
+├── ├── ├── ├── ├── ├── ├── Rocket Tower Shoot.wav
+├── ├── ├── ├── ├── ├── └── Rocket Tower Shoot.wav.meta
+├── ├── ├── ├── ├── ├── SuperTower/
+├── ├── ├── ├── ├── ├── ├── Super Tower Shot 1.wav
+├── ├── ├── ├── ├── ├── ├── Super Tower Shot 1.wav.meta
+├── ├── ├── ├── ├── ├── ├── Super Tower Shot 2.wav
+├── ├── ├── ├── ├── ├── ├── Super Tower Shot 2.wav.meta
+├── ├── ├── ├── ├── ├── ├── Super Tower Shot 3.wav
+├── ├── ├── ├── ├── ├── ├── Super Tower Shot 3.wav.meta
+├── ├── ├── ├── ├── ├── ├── Super Tower Shot 4.wav
+├── ├── ├── ├── ├── ├── ├── Super Tower Shot 4.wav.meta
+├── ├── ├── ├── ├── ├── ├── Super Tower Shot 5.wav
+├── ├── ├── ├── ├── ├── ├── Super Tower Shot 5.wav.meta
+├── ├── ├── ├── ├── ├── ├── Super Tower Shot 6.wav
+├── ├── ├── ├── ├── ├── ├── Super Tower Shot 6.wav.meta
+├── ├── ├── ├── ├── ├── ├── Super Tower Shot 7.wav
+├── ├── ├── ├── ├── ├── └── Super Tower Shot 7.wav.meta
+├── ├── ├── ├── ├── ├── AutoCannon.meta
+├── ├── ├── ├── ├── ├── Laser.meta
+├── ├── ├── ├── ├── ├── MachineGun.meta
+├── ├── ├── ├── ├── ├── RocketLauncher.meta
+├── ├── ├── ├── ├── └── SuperTower.meta
+├── ├── ├── ├── ├── Base Attack.meta
+├── ├── ├── ├── ├── Enemies Exploding.meta
+├── ├── ├── ├── ├── Enemy Fire.wav
+├── ├── ├── ├── ├── Enemy Fire.wav.meta
+├── ├── ├── ├── ├── Macross Placement.wav
+├── ├── ├── ├── ├── Macross Placement.wav.meta
+├── ├── ├── ├── ├── Tower Destruction.meta
+├── ├── ├── ├── ├── Towers.meta
+├── ├── ├── ├── ├── Weapon Placement 1.wav
+├── ├── ├── ├── ├── Weapon Placement 1.wav.meta
+├── ├── ├── ├── ├── Weapon Placement 2.wav
+├── ├── ├── ├── └── Weapon Placement 2.wav.meta
+├── ├── ├── ├── UI/
+├── ├── ├── ├── ├── TD Currency.wav
+├── ├── ├── ├── ├── TD Currency.wav.meta
+├── ├── ├── ├── ├── TD Defeat .wav
+├── ├── ├── ├── ├── TD Defeat .wav.meta
+├── ├── ├── ├── ├── TD EMP Idle.wav
+├── ├── ├── ├── ├── TD EMP Idle.wav.meta
+├── ├── ├── ├── ├── TD Tower Sell.wav
+├── ├── ├── ├── ├── TD Tower Sell.wav.meta
+├── ├── ├── ├── ├── TD Tower Upgrade.wav
+├── ├── ├── ├── ├── TD Tower Upgrade.wav.meta
+├── ├── ├── ├── ├── TD Victory.wav
+├── ├── ├── ├── ├── TD Victory.wav.meta
+├── ├── ├── ├── ├── ui_sound_back.mp3
+├── ├── ├── ├── ├── ui_sound_back.mp3.meta
+├── ├── ├── ├── ├── ui_sound_forward.mp3
+├── ├── ├── ├── └── ui_sound_forward.mp3.meta
+├── ├── ├── ├── GameMix.mixer
+├── ├── ├── ├── GameMix.mixer.meta
+├── ├── ├── ├── Music.meta
+├── ├── ├── ├── SFX.meta
+├── ├── ├── └── UI.meta
+├── ├── ├── Data/
+├── ├── ├── ├── Agents/
+├── ├── ├── ├── ├── Biggest Super Hoverboss.asset
+├── ├── ├── ├── ├── Biggest Super Hoverboss.asset.meta
+├── ├── ├── ├── ├── Hoverboss.asset
+├── ├── ├── ├── ├── Hoverboss.asset.meta
+├── ├── ├── ├── ├── Hoverbuggy.asset
+├── ├── ├── ├── ├── Hoverbuggy.asset.meta
+├── ├── ├── ├── ├── Hovercopter.asset
+├── ├── ├── ├── ├── Hovercopter.asset.meta
+├── ├── ├── ├── ├── Hovertank.asset
+├── ├── ├── ├── ├── Hovertank.asset.meta
+├── ├── ├── ├── ├── MechFox.asset
+├── ├── ├── ├── ├── MechFox.asset.meta
+├── ├── ├── ├── ├── MechJet.asset
+├── ├── ├── ├── ├── MechJet.asset.meta
+├── ├── ├── ├── ├── Super Hoverboss.asset
+├── ├── ├── ├── ├── Super Hoverboss.asset.meta
+├── ├── ├── ├── ├── Super Hoverbuggy.asset
+├── ├── ├── ├── ├── Super Hoverbuggy.asset.meta
+├── ├── ├── ├── ├── Super Hovercopter.asset
+├── ├── ├── ├── ├── Super Hovercopter.asset.meta
+├── ├── ├── ├── ├── Super Hovertank.asset
+├── ├── ├── ├── └── Super Hovertank.asset.meta
+├── ├── ├── ├── Alignments/
+├── ├── ├── ├── ├── Enemy.asset
+├── ├── ├── ├── ├── Enemy.asset.meta
+├── ├── ├── ├── ├── Player.asset
+├── ├── ├── ├── └── Player.asset.meta
+├── ├── ├── ├── Levels/
+├── ├── ├── ├── ├── LevelList.asset
+├── ├── ├── ├── └── LevelList.asset.meta
+├── ├── ├── ├── Tower/
+├── ├── ├── ├── ├── AutoCannon1.asset
+├── ├── ├── ├── ├── AutoCannon1.asset.meta
+├── ├── ├── ├── ├── AutoCannon2.asset
+├── ├── ├── ├── ├── AutoCannon2.asset.meta
+├── ├── ├── ├── ├── AutoCannon3.asset
+├── ├── ├── ├── ├── AutoCannon3.asset.meta
+├── ├── ├── ├── ├── Emp1.asset
+├── ├── ├── ├── ├── Emp1.asset.meta
+├── ├── ├── ├── ├── Emp2.asset
+├── ├── ├── ├── ├── Emp2.asset.meta
+├── ├── ├── ├── ├── Emp3.asset
+├── ├── ├── ├── ├── Emp3.asset.meta
+├── ├── ├── ├── ├── Laser1.asset
+├── ├── ├── ├── ├── Laser1.asset.meta
+├── ├── ├── ├── ├── Laser2.asset
+├── ├── ├── ├── ├── Laser2.asset.meta
+├── ├── ├── ├── ├── Laser3.asset
+├── ├── ├── ├── ├── Laser3.asset.meta
+├── ├── ├── ├── ├── MachineGun1.asset
+├── ├── ├── ├── ├── MachineGun1.asset.meta
+├── ├── ├── ├── ├── MachineGun2.asset
+├── ├── ├── ├── ├── MachineGun2.asset.meta
+├── ├── ├── ├── ├── MachineGun3.asset
+├── ├── ├── ├── ├── MachineGun3.asset.meta
+├── ├── ├── ├── ├── Pylon1.asset
+├── ├── ├── ├── ├── Pylon1.asset.meta
+├── ├── ├── ├── ├── Pylon2.asset
+├── ├── ├── ├── ├── Pylon2.asset.meta
+├── ├── ├── ├── ├── Pylon3.asset
+├── ├── ├── ├── ├── Pylon3.asset.meta
+├── ├── ├── ├── ├── Rocket1.asset
+├── ├── ├── ├── ├── Rocket1.asset.meta
+├── ├── ├── ├── ├── Rocket2.asset
+├── ├── ├── ├── ├── Rocket2.asset.meta
+├── ├── ├── ├── ├── Rocket3.asset
+├── ├── ├── ├── ├── Rocket3.asset.meta
+├── ├── ├── ├── ├── SuperTower.asset
+├── ├── ├── ├── └── SuperTower.asset.meta
+├── ├── ├── ├── TowerLibrary/
+├── ├── ├── ├── ├── Level_1_TowerLibrary.asset
+├── ├── ├── ├── ├── Level_1_TowerLibrary.asset.meta
+├── ├── ├── ├── ├── Level_2_TowerLibrary.asset
+├── ├── ├── ├── ├── Level_2_TowerLibrary.asset.meta
+├── ├── ├── ├── ├── Level_3_TowerLibrary.asset
+├── ├── ├── ├── ├── Level_3_TowerLibrary.asset.meta
+├── ├── ├── ├── ├── Level_4_TowerLibrary.asset
+├── ├── ├── ├── ├── Level_4_TowerLibrary.asset.meta
+├── ├── ├── ├── ├── Level_5_TowerLibrary.asset
+├── ├── ├── ├── └── Level_5_TowerLibrary.asset.meta
+├── ├── ├── ├── Agents.meta
+├── ├── ├── ├── Alignments.meta
+├── ├── ├── ├── HighQPostprocessing.asset
+├── ├── ├── ├── HighQPostprocessing.asset.meta
+├── ├── ├── ├── HighQPostprocessingMenu.asset
+├── ├── ├── ├── HighQPostprocessingMenu.asset.meta
+├── ├── ├── ├── Levels.meta
+├── ├── ├── ├── LowQPostprocessing.asset
+├── ├── ├── ├── LowQPostprocessing.asset.meta
+├── ├── ├── ├── LowQPostprocessingMenu.asset
+├── ├── ├── ├── LowQPostprocessingMenu.asset.meta
+├── ├── ├── ├── Tower.meta
+├── ├── ├── └── TowerLibrary.meta
+├── ├── ├── Documentation/
+├── ├── ├── ├── TowerDefenseDocumentation.pdf
+├── ├── ├── └── TowerDefenseDocumentation.pdf.meta
+├── ├── ├── Fonts/
+├── ├── ├── ├── Roboto/
+├── ├── ├── ├── ├── LICENSE.txt
+├── ├── ├── ├── ├── LICENSE.txt.meta
+├── ├── ├── ├── ├── Roboto-Black.ttf
+├── ├── ├── ├── ├── Roboto-Black.ttf.meta
+├── ├── ├── ├── ├── Roboto-Regular.ttf
+├── ├── ├── ├── └── Roboto-Regular.ttf.meta
+├── ├── ├── └── Roboto.meta
+├── ├── ├── Gizmos/
+├── ├── ├── ├── movement_node.png
+├── ├── ├── └── movement_node.png.meta
+├── ├── ├── Icon/
+├── ├── ├── ├── Icon400.png
+├── ├── ├── └── Icon400.png.meta
+├── ├── ├── Materials/
+├── ├── ├── ├── Levels/
+├── ├── ├── ├── ├── Level01_Environment.mat
+├── ├── ├── ├── ├── Level01_Environment.mat.meta
+├── ├── ├── ├── ├── Level01_Road.mat
+├── ├── ├── ├── ├── Level01_Road.mat.meta
+├── ├── ├── ├── ├── Level02_Environment.mat
+├── ├── ├── ├── ├── Level02_Environment.mat.meta
+├── ├── ├── ├── ├── Level02_Road.mat
+├── ├── ├── ├── ├── Level02_Road.mat.meta
+├── ├── ├── ├── ├── Level03_Environment.mat
+├── ├── ├── ├── ├── Level03_Environment.mat.meta
+├── ├── ├── ├── ├── Level03_Road.mat
+├── ├── ├── ├── ├── Level03_Road.mat.meta
+├── ├── ├── ├── ├── Level04_Environment.mat
+├── ├── ├── ├── ├── Level04_Environment.mat.meta
+├── ├── ├── ├── ├── Level04_Road.mat
+├── ├── ├── ├── ├── Level04_Road.mat.meta
+├── ├── ├── ├── ├── Level05_Environment.mat
+├── ├── ├── ├── ├── Level05_Environment.mat.meta
+├── ├── ├── ├── ├── Level05_Road.mat
+├── ├── ├── ├── ├── Level05_Road.mat.meta
+├── ├── ├── ├── ├── Skybox.mat
+├── ├── ├── ├── └── Skybox.mat.meta
+├── ├── ├── ├── Particles/
+├── ├── ├── ├── ├── AttackLightning.mat
+├── ├── ├── ├── ├── AttackLightning.mat.meta
+├── ├── ├── ├── ├── BossHover_sprite.mat
+├── ├── ├── ├── ├── BossHover_sprite.mat.meta
+├── ├── ├── ├── ├── BuggyHover_sprite.mat
+├── ├── ├── ├── ├── BuggyHover_sprite.mat.meta
+├── ├── ├── ├── ├── BulletImpact.mat
+├── ├── ├── ├── ├── BulletImpact.mat.meta
+├── ├── ├── ├── ├── EnergyGainGlow.mat
+├── ├── ├── ├── ├── EnergyGainGlow.mat.meta
+├── ├── ├── ├── ├── EnergyGainLightning.mat
+├── ├── ├── ├── ├── EnergyGainLightning.mat.meta
+├── ├── ├── ├── ├── Flare.mat
+├── ├── ├── ├── ├── Flare.mat.meta
+├── ├── ├── ├── ├── Helicopter_Hover.mat
+├── ├── ├── ├── ├── Helicopter_Hover.mat.meta
+├── ├── ├── ├── ├── LaserBeam.mat
+├── ├── ├── ├── ├── LaserBeam.mat.meta
+├── ├── ├── ├── ├── LaserImpact.mat
+├── ├── ├── ├── ├── LaserImpact.mat.meta
+├── ├── ├── ├── ├── LaserMuzzleFlashMaterial.mat
+├── ├── ├── ├── ├── LaserMuzzleFlashMaterial.mat.meta
+├── ├── ├── ├── ├── MuzzleFlash.mat
+├── ├── ├── ├── ├── MuzzleFlash.mat.meta
+├── ├── ├── ├── ├── RocketImpact.mat
+├── ├── ├── ├── ├── RocketImpact.mat.meta
+├── ├── ├── ├── ├── SlowFx.mat
+├── ├── ├── ├── ├── SlowFx.mat.meta
+├── ├── ├── ├── ├── Smoke.mat
+├── ├── ├── ├── ├── Smoke.mat.meta
+├── ├── ├── ├── ├── TankHover_sprite.mat
+├── ├── ├── ├── ├── TankHover_sprite.mat.meta
+├── ├── ├── ├── ├── Tracer.mat
+├── ├── ├── ├── ├── Tracer.mat.meta
+├── ├── ├── ├── ├── explosion_Flame.mat
+├── ├── ├── ├── ├── explosion_Flame.mat.meta
+├── ├── ├── ├── ├── explosion_Flame_2.mat
+├── ├── ├── ├── ├── explosion_Flame_2.mat.meta
+├── ├── ├── ├── ├── explosion_Flame_3.mat
+├── ├── ├── ├── ├── explosion_Flame_3.mat.meta
+├── ├── ├── ├── ├── explosion_Flame_4.mat
+├── ├── ├── ├── ├── explosion_Flame_4.mat.meta
+├── ├── ├── ├── ├── explosion_Smoke_1.mat
+├── ├── ├── ├── ├── explosion_Smoke_1.mat.meta
+├── ├── ├── ├── ├── explosion_Smoke_3.mat
+├── ├── ├── ├── ├── explosion_Smoke_3.mat.meta
+├── ├── ├── ├── ├── explosion_Spark_1.mat
+├── ├── ├── ├── ├── explosion_Spark_1.mat.meta
+├── ├── ├── ├── ├── explosion_Spark_2.mat
+├── ├── ├── ├── ├── explosion_Spark_2.mat.meta
+├── ├── ├── ├── ├── explosion_Spark_3.mat
+├── ├── ├── ├── └── explosion_Spark_3.mat.meta
+├── ├── ├── ├── Player/
+├── ├── ├── ├── ├── HeadQuarters_tex_v001.mat
+├── ├── ├── ├── └── HeadQuarters_tex_v001.mat.meta
+├── ├── ├── ├── Projectiles/
+├── ├── ├── ├── ├── Enemy_Projectile.mat
+├── ├── ├── ├── ├── Enemy_Projectile.mat.meta
+├── ├── ├── ├── ├── Rocket_Projectile.mat
+├── ├── ├── ├── └── Rocket_Projectile.mat.meta
+├── ├── ├── ├── Towers/
+├── ├── ├── ├── ├── EMP Tower/
+├── ├── ├── ├── ├── ├── EMP_Tower_level_1_tex_v001.mat
+├── ├── ├── ├── ├── ├── EMP_Tower_level_1_tex_v001.mat.meta
+├── ├── ├── ├── ├── ├── EMP_Tower_level_2_tex_v001.mat
+├── ├── ├── ├── ├── ├── EMP_Tower_level_2_tex_v001.mat.meta
+├── ├── ├── ├── ├── ├── EMP_Tower_level_3_tex_v001.mat
+├── ├── ├── ├── ├── └── EMP_Tower_level_3_tex_v001.mat.meta
+├── ├── ├── ├── ├── EnergyPylon/
+├── ├── ├── ├── ├── ├── EnergyPylon_L01_Albedo_V001.mat
+├── ├── ├── ├── ├── ├── EnergyPylon_L01_Albedo_V001.mat.meta
+├── ├── ├── ├── ├── ├── EnergyPylon_L02_Albedo_V002.mat
+├── ├── ├── ├── ├── ├── EnergyPylon_L02_Albedo_V002.mat.meta
+├── ├── ├── ├── ├── ├── EnergyPylon_L03_Albedo_V001.mat
+├── ├── ├── ├── ├── └── EnergyPylon_L03_Albedo_V001.mat.meta
+├── ├── ├── ├── ├── Laser/
+├── ├── ├── ├── ├── ├── LaserTower_L01_Albedo_V001.mat
+├── ├── ├── ├── ├── ├── LaserTower_L01_Albedo_V001.mat.meta
+├── ├── ├── ├── ├── ├── LaserTower_L02_Albedo_V001.mat
+├── ├── ├── ├── ├── ├── LaserTower_L02_Albedo_V001.mat.meta
+├── ├── ├── ├── ├── ├── LaserTower_L03_Albedo_V001.mat
+├── ├── ├── ├── ├── └── LaserTower_L03_Albedo_V001.mat.meta
+├── ├── ├── ├── ├── MachineGun/
+├── ├── ├── ├── ├── ├── MachineGun_Level1_tex_v001.mat
+├── ├── ├── ├── ├── ├── MachineGun_Level1_tex_v001.mat.meta
+├── ├── ├── ├── ├── ├── MachineGun_Level2_tex_v003.mat
+├── ├── ├── ├── ├── ├── MachineGun_Level2_tex_v003.mat.meta
+├── ├── ├── ├── ├── ├── MachineGun_Level3_tex_v003.mat
+├── ├── ├── ├── ├── └── MachineGun_Level3_tex_v003.mat.meta
+├── ├── ├── ├── ├── Rocket/
+├── ├── ├── ├── ├── ├── Rocket_Tower_L01_Texture_V001.mat
+├── ├── ├── ├── ├── ├── Rocket_Tower_L01_Texture_V001.mat.meta
+├── ├── ├── ├── ├── ├── Rocket_Tower_L02_Texture_V003.mat
+├── ├── ├── ├── ├── ├── Rocket_Tower_L02_Texture_V003.mat.meta
+├── ├── ├── ├── ├── ├── Rocket_Tower_L03_Texture_V003.mat
+├── ├── ├── ├── ├── └── Rocket_Tower_L03_Texture_V003.mat.meta
+├── ├── ├── ├── ├── SuperTower/
+├── ├── ├── ├── ├── ├── SuperTower_Albedo_V001.mat
+├── ├── ├── ├── ├── └── SuperTower_Albedo_V001.mat.meta
+├── ├── ├── ├── ├── EMP Tower.meta
+├── ├── ├── ├── ├── EnergyPylon.meta
+├── ├── ├── ├── ├── Laser.meta
+├── ├── ├── ├── ├── MachineGun.meta
+├── ├── ├── ├── ├── Rocket.meta
+├── ├── ├── ├── ├── SuperTower.meta
+├── ├── ├── ├── ├── TowerGhost.mat
+├── ├── ├── ├── ├── TowerGhost.mat.meta
+├── ├── ├── ├── ├── TowerGhostInvalid.mat
+├── ├── ├── ├── └── TowerGhostInvalid.mat.meta
+├── ├── ├── ├── UI/
+├── ├── ├── ├── ├── HealthBarGreen.mat
+├── ├── ├── ├── ├── HealthBarGreen.mat.meta
+├── ├── ├── ├── ├── HealthBarRed.mat
+├── ├── ├── ├── ├── HealthBarRed.mat.meta
+├── ├── ├── ├── ├── HomeBaseTargetZone.mat
+├── ├── ├── ├── ├── HomeBaseTargetZone.mat.meta
+├── ├── ├── ├── ├── PlacementArea.mat
+├── ├── ├── ├── ├── PlacementArea.mat.meta
+├── ├── ├── ├── ├── PlacementAreaFillled.mat
+├── ├── ├── ├── ├── PlacementAreaFillled.mat.meta
+├── ├── ├── ├── ├── PlacementAreaMobile.mat
+├── ├── ├── ├── ├── PlacementAreaMobile.mat.meta
+├── ├── ├── ├── ├── PlacementAreaMobileFillled.mat
+├── ├── ├── ├── ├── PlacementAreaMobileFillled.mat.meta
+├── ├── ├── ├── ├── RadiusVisualiser.mat
+├── ├── ├── ├── ├── RadiusVisualiser.mat.meta
+├── ├── ├── ├── ├── SinglePlacementTile.mat
+├── ├── ├── ├── ├── SinglePlacementTile.mat.meta
+├── ├── ├── ├── ├── SinglePlacementTileFilled.mat
+├── ├── ├── ├── ├── SinglePlacementTileFilled.mat.meta
+├── ├── ├── ├── ├── SinglePlacementTileMobile.mat
+├── ├── ├── ├── ├── SinglePlacementTileMobile.mat.meta
+├── ├── ├── ├── ├── SinglePlacementTileMobileFilled.mat
+├── ├── ├── ├── └── SinglePlacementTileMobileFilled.mat.meta
+├── ├── ├── ├── Units/
+├── ├── ├── ├── ├── Buggy_Albedo_V001.mat
+├── ├── ├── ├── ├── Buggy_Albedo_V001.mat.meta
+├── ├── ├── ├── ├── Buggy_Orange_Albedo_V001.mat
+├── ├── ├── ├── ├── Buggy_Orange_Albedo_V001.mat.meta
+├── ├── ├── ├── ├── Helicopter_Albedo_V001.mat
+├── ├── ├── ├── ├── Helicopter_Albedo_V001.mat.meta
+├── ├── ├── ├── ├── Helicopter_Orange_Albedo_V001.mat
+├── ├── ├── ├── ├── Helicopter_Orange_Albedo_V001.mat.meta
+├── ├── ├── ├── ├── TankBasic_Albedo_V001.mat
+├── ├── ├── ├── ├── TankBasic_Albedo_V001.mat.meta
+├── ├── ├── ├── ├── TankBasic_Orange_Albedo_V001.mat
+├── ├── ├── ├── ├── TankBasic_Orange_Albedo_V001.mat.meta
+├── ├── ├── ├── ├── TankBoss_Albedo_V001.mat
+├── ├── ├── ├── ├── TankBoss_Albedo_V001.mat.meta
+├── ├── ├── ├── ├── TankBoss_Orange_Albedo_V001.mat
+├── ├── ├── ├── └── TankBoss_Orange_Albedo_V001.mat.meta
+├── ├── ├── ├── Levels.meta
+├── ├── ├── ├── Particles.meta
+├── ├── ├── ├── Player.meta
+├── ├── ├── ├── Projectiles.meta
+├── ├── ├── ├── ShadowCaster.mat
+├── ├── ├── ├── ShadowCaster.mat.meta
+├── ├── ├── ├── Towers.meta
+├── ├── ├── ├── UI.meta
+├── ├── ├── └── Units.meta
+├── ├── ├── Models/
+├── ├── ├── ├── Levels/
+├── ├── ├── ├── ├── Enviro_Level_1.fbx
+├── ├── ├── ├── ├── Enviro_Level_1.fbx.meta
+├── ├── ├── ├── ├── Enviro_Level_1_COL.fbx
+├── ├── ├── ├── ├── Enviro_Level_1_COL.fbx.meta
+├── ├── ├── ├── ├── Enviro_Level_2.fbx
+├── ├── ├── ├── ├── Enviro_Level_2.fbx.meta
+├── ├── ├── ├── ├── Enviro_Level_2_COL.fbx
+├── ├── ├── ├── ├── Enviro_Level_2_COL.fbx.meta
+├── ├── ├── ├── ├── Enviro_Level_3.fbx
+├── ├── ├── ├── ├── Enviro_Level_3.fbx.meta
+├── ├── ├── ├── ├── Enviro_Level_3_COL.fbx
+├── ├── ├── ├── ├── Enviro_Level_3_COL.fbx.meta
+├── ├── ├── ├── ├── Enviro_Level_4.fbx
+├── ├── ├── ├── ├── Enviro_Level_4.fbx.meta
+├── ├── ├── ├── ├── Enviro_Level_4_COL.fbx
+├── ├── ├── ├── ├── Enviro_Level_4_COL.fbx.meta
+├── ├── ├── ├── ├── Enviro_Level_5.fbx
+├── ├── ├── ├── ├── Enviro_Level_5.fbx.meta
+├── ├── ├── ├── ├── Enviro_Level_5_COL.fbx
+├── ├── ├── ├── ├── Enviro_Level_5_COL.fbx.meta
+├── ├── ├── ├── ├── Road_Tile_NormalMap_V003.tiff
+├── ├── ├── ├── ├── Road_Tile_NormalMap_V003.tiff.meta
+├── ├── ├── ├── ├── Skybox.hdr
+├── ├── ├── ├── └── Skybox.hdr.meta
+├── ├── ├── ├── Player/
+├── ├── ├── ├── ├── HeadQuarters.fbx
+├── ├── ├── ├── ├── HeadQuarters.fbx.meta
+├── ├── ├── ├── ├── HeadQuarters_tex_v001.tga
+├── ├── ├── ├── └── HeadQuarters_tex_v001.tga.meta
+├── ├── ├── ├── Projectiles/
+├── ├── ├── ├── ├── Rocket_Projectile.fbx
+├── ├── ├── ├── ├── Rocket_Projectile.fbx.meta
+├── ├── ├── ├── ├── Rocket_Projectile_Shadow.fbx
+├── ├── ├── ├── └── Rocket_Projectile_Shadow.fbx.meta
+├── ├── ├── ├── Towers/
+├── ├── ├── ├── ├── AutoCannon/
+├── ├── ├── ├── ├── ├── Materials/
+├── ├── ├── ├── ├── ├── ├── Autocannon_material.mat
+├── ├── ├── ├── ├── ├── ├── Autocannon_material.mat.meta
+├── ├── ├── ├── ├── ├── ├── Floor.mat
+├── ├── ├── ├── ├── ├── ├── Floor.mat.meta
+├── ├── ├── ├── ├── ├── ├── Texture_dff_2048.mat
+├── ├── ├── ├── ├── ├── ├── Texture_dff_2048.mat.meta
+├── ├── ├── ├── ├── ├── ├── fire.mat
+├── ├── ├── ├── ├── ├── ├── fire.mat.meta
+├── ├── ├── ├── ├── ├── ├── muzzleFlash.mat
+├── ├── ├── ├── ├── ├── └── muzzleFlash.mat.meta
+├── ├── ├── ├── ├── ├── AutoCannon.fbx
+├── ├── ├── ├── ├── ├── AutoCannon.fbx.meta
+├── ├── ├── ├── ├── ├── Materials.meta
+├── ├── ├── ├── ├── ├── cartrige.fbx
+├── ├── ├── ├── ├── ├── cartrige.fbx.meta
+├── ├── ├── ├── ├── ├── shell.fbx
+├── ├── ├── ├── ├── ├── shell.fbx.meta
+├── ├── ├── ├── ├── ├── shell_nose.fbx
+├── ├── ├── ├── ├── └── shell_nose.fbx.meta
+├── ├── ├── ├── ├── EMP Tower/
+├── ├── ├── ├── ├── ├── Materials/
+├── ├── ├── ├── ├── ├── ├── EMP_Tower_level_1_tex_v001.mat
+├── ├── ├── ├── ├── ├── ├── EMP_Tower_level_1_tex_v001.mat.meta
+├── ├── ├── ├── ├── ├── ├── EMP_Tower_level_2_tex_v001.mat
+├── ├── ├── ├── ├── ├── ├── EMP_Tower_level_2_tex_v001.mat.meta
+├── ├── ├── ├── ├── ├── ├── EMP_Tower_level_3_tex_v001.mat
+├── ├── ├── ├── ├── ├── └── EMP_Tower_level_3_tex_v001.mat.meta
+├── ├── ├── ├── ├── ├── EMP_Tower_level_1.fbx
+├── ├── ├── ├── ├── ├── EMP_Tower_level_1.fbx.meta
+├── ├── ├── ├── ├── ├── EMP_Tower_level_1_Shadow.fbx
+├── ├── ├── ├── ├── ├── EMP_Tower_level_1_Shadow.fbx.meta
+├── ├── ├── ├── ├── ├── EMP_Tower_level_1_tex_v001.tiff
+├── ├── ├── ├── ├── ├── EMP_Tower_level_1_tex_v001.tiff.meta
+├── ├── ├── ├── ├── ├── EMP_Tower_level_2.fbx
+├── ├── ├── ├── ├── ├── EMP_Tower_level_2.fbx.meta
+├── ├── ├── ├── ├── ├── EMP_Tower_level_2_Shadow.fbx
+├── ├── ├── ├── ├── ├── EMP_Tower_level_2_Shadow.fbx.meta
+├── ├── ├── ├── ├── ├── EMP_Tower_level_2_tex_v001.tiff
+├── ├── ├── ├── ├── ├── EMP_Tower_level_2_tex_v001.tiff.meta
+├── ├── ├── ├── ├── ├── EMP_Tower_level_3.fbx
+├── ├── ├── ├── ├── ├── EMP_Tower_level_3.fbx.meta
+├── ├── ├── ├── ├── ├── EMP_Tower_level_3_Shadow.fbx
+├── ├── ├── ├── ├── ├── EMP_Tower_level_3_Shadow.fbx.meta
+├── ├── ├── ├── ├── ├── EMP_Tower_level_3_tex_v001.tiff
+├── ├── ├── ├── ├── ├── EMP_Tower_level_3_tex_v001.tiff.meta
+├── ├── ├── ├── ├── └── Materials.meta
+├── ├── ├── ├── ├── EnergyPylon/
+├── ├── ├── ├── ├── ├── EnergyPylon_L01.fbx
+├── ├── ├── ├── ├── ├── EnergyPylon_L01.fbx.meta
+├── ├── ├── ├── ├── ├── EnergyPylon_L01_Albedo_V001.tiff
+├── ├── ├── ├── ├── ├── EnergyPylon_L01_Albedo_V001.tiff.meta
+├── ├── ├── ├── ├── ├── EnergyPylon_L01_Shadow.fbx
+├── ├── ├── ├── ├── ├── EnergyPylon_L01_Shadow.fbx.meta
+├── ├── ├── ├── ├── ├── EnergyPylon_L02.fbx
+├── ├── ├── ├── ├── ├── EnergyPylon_L02.fbx.meta
+├── ├── ├── ├── ├── ├── EnergyPylon_L02_Albedo_V002.tiff
+├── ├── ├── ├── ├── ├── EnergyPylon_L02_Albedo_V002.tiff.meta
+├── ├── ├── ├── ├── ├── EnergyPylon_L02_Shadow.fbx
+├── ├── ├── ├── ├── ├── EnergyPylon_L02_Shadow.fbx.meta
+├── ├── ├── ├── ├── ├── EnergyPylon_L03.fbx
+├── ├── ├── ├── ├── ├── EnergyPylon_L03.fbx.meta
+├── ├── ├── ├── ├── ├── EnergyPylon_L03_Albedo_V001.tiff
+├── ├── ├── ├── ├── ├── EnergyPylon_L03_Albedo_V001.tiff.meta
+├── ├── ├── ├── ├── ├── EnergyPylon_L03_Shadow.fbx
+├── ├── ├── ├── ├── └── EnergyPylon_L03_Shadow.fbx.meta
+├── ├── ├── ├── ├── Laser/
+├── ├── ├── ├── ├── ├── Materials/
+├── ├── ├── ├── ├── ├── ├── LaserTower_L01_Albedo_V001.mat
+├── ├── ├── ├── ├── ├── ├── LaserTower_L01_Albedo_V001.mat.meta
+├── ├── ├── ├── ├── ├── ├── LaserTower_L02_Albedo_V001.mat
+├── ├── ├── ├── ├── ├── ├── LaserTower_L02_Albedo_V001.mat.meta
+├── ├── ├── ├── ├── ├── ├── LaserTower_L03_Albedo_V001.mat
+├── ├── ├── ├── ├── ├── └── LaserTower_L03_Albedo_V001.mat.meta
+├── ├── ├── ├── ├── ├── LaserTower_BASE_L01.fbx
+├── ├── ├── ├── ├── ├── LaserTower_BASE_L01.fbx.meta
+├── ├── ├── ├── ├── ├── LaserTower_BASE_L01_Shadow.fbx
+├── ├── ├── ├── ├── ├── LaserTower_BASE_L01_Shadow.fbx.meta
+├── ├── ├── ├── ├── ├── LaserTower_BASE_L02.fbx
+├── ├── ├── ├── ├── ├── LaserTower_BASE_L02.fbx.meta
+├── ├── ├── ├── ├── ├── LaserTower_BASE_L02_Shadow.fbx
+├── ├── ├── ├── ├── ├── LaserTower_BASE_L02_Shadow.fbx.meta
+├── ├── ├── ├── ├── ├── LaserTower_BASE_L03.fbx
+├── ├── ├── ├── ├── ├── LaserTower_BASE_L03.fbx.meta
+├── ├── ├── ├── ├── ├── LaserTower_BASE_L03_Shadow.fbx
+├── ├── ├── ├── ├── ├── LaserTower_BASE_L03_Shadow.fbx.meta
+├── ├── ├── ├── ├── ├── LaserTower_L01_Albedo_V001.tiff
+├── ├── ├── ├── ├── ├── LaserTower_L01_Albedo_V001.tiff.meta
+├── ├── ├── ├── ├── ├── LaserTower_L02_Albedo_V001.tiff
+├── ├── ├── ├── ├── ├── LaserTower_L02_Albedo_V001.tiff.meta
+├── ├── ├── ├── ├── ├── LaserTower_L03_Albedo_V001.tiff
+├── ├── ├── ├── ├── ├── LaserTower_L03_Albedo_V001.tiff.meta
+├── ├── ├── ├── ├── ├── LaserTower_TURRET_L01.fbx
+├── ├── ├── ├── ├── ├── LaserTower_TURRET_L01.fbx.meta
+├── ├── ├── ├── ├── ├── LaserTower_TURRET_L01_Shadow.fbx
+├── ├── ├── ├── ├── ├── LaserTower_TURRET_L01_Shadow.fbx.meta
+├── ├── ├── ├── ├── ├── LaserTower_TURRET_L02.fbx
+├── ├── ├── ├── ├── ├── LaserTower_TURRET_L02.fbx.meta
+├── ├── ├── ├── ├── ├── LaserTower_TURRET_L02_Shadow.fbx
+├── ├── ├── ├── ├── ├── LaserTower_TURRET_L02_Shadow.fbx.meta
+├── ├── ├── ├── ├── ├── LaserTower_TURRET_L03.fbx
+├── ├── ├── ├── ├── ├── LaserTower_TURRET_L03.fbx.meta
+├── ├── ├── ├── ├── ├── LaserTower_TURRET_L03_Shadow.fbx
+├── ├── ├── ├── ├── ├── LaserTower_TURRET_L03_Shadow.fbx.meta
+├── ├── ├── ├── ├── └── Materials.meta
+├── ├── ├── ├── ├── MachineGun/
+├── ├── ├── ├── ├── ├── Base_MachineGun_L01.fbx
+├── ├── ├── ├── ├── ├── Base_MachineGun_L01.fbx.meta
+├── ├── ├── ├── ├── ├── Base_MachineGun_L01_Shadow.fbx
+├── ├── ├── ├── ├── ├── Base_MachineGun_L01_Shadow.fbx.meta
+├── ├── ├── ├── ├── ├── Base_MachineGun_L02.fbx
+├── ├── ├── ├── ├── ├── Base_MachineGun_L02.fbx.meta
+├── ├── ├── ├── ├── ├── Base_MachineGun_L02_Shadow.fbx
+├── ├── ├── ├── ├── ├── Base_MachineGun_L02_Shadow.fbx.meta
+├── ├── ├── ├── ├── ├── Base_MachineGun_L03.fbx
+├── ├── ├── ├── ├── ├── Base_MachineGun_L03.fbx.meta
+├── ├── ├── ├── ├── ├── Base_MachineGun_L03_Shadow.fbx
+├── ├── ├── ├── ├── ├── Base_MachineGun_L03_Shadow.fbx.meta
+├── ├── ├── ├── ├── ├── MachineGun_Level1_tex_v001.tif
+├── ├── ├── ├── ├── ├── MachineGun_Level1_tex_v001.tif.meta
+├── ├── ├── ├── ├── ├── MachineGun_Level2_tex_v003.tif
+├── ├── ├── ├── ├── ├── MachineGun_Level2_tex_v003.tif.meta
+├── ├── ├── ├── ├── ├── MachineGun_Level3_tex_v003.tif
+├── ├── ├── ├── ├── ├── MachineGun_Level3_tex_v003.tif.meta
+├── ├── ├── ├── ├── ├── Turret_MachineGun_L01.fbx
+├── ├── ├── ├── ├── ├── Turret_MachineGun_L01.fbx.meta
+├── ├── ├── ├── ├── ├── Turret_MachineGun_L01_Shadow.fbx
+├── ├── ├── ├── ├── ├── Turret_MachineGun_L01_Shadow.fbx.meta
+├── ├── ├── ├── ├── ├── Turret_MachineGun_L02.fbx
+├── ├── ├── ├── ├── ├── Turret_MachineGun_L02.fbx.meta
+├── ├── ├── ├── ├── ├── Turret_MachineGun_L02_Shadow.fbx
+├── ├── ├── ├── ├── ├── Turret_MachineGun_L02_Shadow.fbx.meta
+├── ├── ├── ├── ├── ├── Turret_MachineGun_L03.fbx
+├── ├── ├── ├── ├── ├── Turret_MachineGun_L03.fbx.meta
+├── ├── ├── ├── ├── ├── Turret_MachineGun_L03_Shadow.fbx
+├── ├── ├── ├── ├── └── Turret_MachineGun_L03_Shadow.fbx.meta
+├── ├── ├── ├── ├── Rocket/
+├── ├── ├── ├── ├── ├── Base_RocketTower_L01.fbx
+├── ├── ├── ├── ├── ├── Base_RocketTower_L01.fbx.meta
+├── ├── ├── ├── ├── ├── Base_RocketTower_L01_Shadow.fbx
+├── ├── ├── ├── ├── ├── Base_RocketTower_L01_Shadow.fbx.meta
+├── ├── ├── ├── ├── ├── Base_RocketTower_L02.fbx
+├── ├── ├── ├── ├── ├── Base_RocketTower_L02.fbx.meta
+├── ├── ├── ├── ├── ├── Base_RocketTower_L02_Shadow.fbx
+├── ├── ├── ├── ├── ├── Base_RocketTower_L02_Shadow.fbx.meta
+├── ├── ├── ├── ├── ├── Base_RocketTower_L03.fbx
+├── ├── ├── ├── ├── ├── Base_RocketTower_L03.fbx.meta
+├── ├── ├── ├── ├── ├── Base_RocketTower_L03_Shadow.fbx
+├── ├── ├── ├── ├── ├── Base_RocketTower_L03_Shadow.fbx.meta
+├── ├── ├── ├── ├── ├── Rocket_Tower_L01_Texture_V001.tif
+├── ├── ├── ├── ├── ├── Rocket_Tower_L01_Texture_V001.tif.meta
+├── ├── ├── ├── ├── ├── Rocket_Tower_L02_Texture_V003.tif
+├── ├── ├── ├── ├── ├── Rocket_Tower_L02_Texture_V003.tif.meta
+├── ├── ├── ├── ├── ├── Rocket_Tower_L03_Texture_V003.tif
+├── ├── ├── ├── ├── ├── Rocket_Tower_L03_Texture_V003.tif.meta
+├── ├── ├── ├── ├── ├── Turret_RocketTower_L01.fbx
+├── ├── ├── ├── ├── ├── Turret_RocketTower_L01.fbx.meta
+├── ├── ├── ├── ├── ├── Turret_RocketTower_L01_Shadow.fbx
+├── ├── ├── ├── ├── ├── Turret_RocketTower_L01_Shadow.fbx.meta
+├── ├── ├── ├── ├── ├── Turret_RocketTower_L02.fbx
+├── ├── ├── ├── ├── ├── Turret_RocketTower_L02.fbx.meta
+├── ├── ├── ├── ├── ├── Turret_RocketTower_L02_Shadow.fbx
+├── ├── ├── ├── ├── ├── Turret_RocketTower_L02_Shadow.fbx.meta
+├── ├── ├── ├── ├── ├── Turret_RocketTower_L03.fbx
+├── ├── ├── ├── ├── ├── Turret_RocketTower_L03.fbx.meta
+├── ├── ├── ├── ├── ├── Turret_RocketTower_L03_Shadow.fbx
+├── ├── ├── ├── ├── └── Turret_RocketTower_L03_Shadow.fbx.meta
+├── ├── ├── ├── ├── SuperTower/
+├── ├── ├── ├── ├── ├── SuperTower_Albedo_V001.tif
+├── ├── ├── ├── ├── ├── SuperTower_Albedo_V001.tif.meta
+├── ├── ├── ├── ├── ├── SuperTower_Base.fbx
+├── ├── ├── ├── ├── ├── SuperTower_Base.fbx.meta
+├── ├── ├── ├── ├── ├── SuperTower_Base_Shadow.fbx
+├── ├── ├── ├── ├── ├── SuperTower_Base_Shadow.fbx.meta
+├── ├── ├── ├── ├── ├── SuperTower_Turret.fbx
+├── ├── ├── ├── ├── ├── SuperTower_Turret.fbx.meta
+├── ├── ├── ├── ├── ├── SuperTower_Turret_Shadow.fbx
+├── ├── ├── ├── ├── └── SuperTower_Turret_Shadow.fbx.meta
+├── ├── ├── ├── ├── AutoCannon.meta
+├── ├── ├── ├── ├── EMP Tower.meta
+├── ├── ├── ├── ├── EnergyPylon.meta
+├── ├── ├── ├── ├── Laser.meta
+├── ├── ├── ├── ├── MachineGun.meta
+├── ├── ├── ├── ├── Rocket.meta
+├── ├── ├── ├── └── SuperTower.meta
+├── ├── ├── ├── Units/
+├── ├── ├── ├── ├── Materials/
+├── ├── ├── ├── ├── ├── TankBasic_Albedo_V001.mat
+├── ├── ├── ├── ├── ├── TankBasic_Albedo_V001.mat.meta
+├── ├── ├── ├── ├── ├── TankBoss_Albedo_V001.mat
+├── ├── ├── ├── ├── └── TankBoss_Albedo_V001.mat.meta
+├── ├── ├── ├── ├── BossTank_Base.fbx
+├── ├── ├── ├── ├── BossTank_Base.fbx.meta
+├── ├── ├── ├── ├── BossTank_Base_Shadow.fbx
+├── ├── ├── ├── ├── BossTank_Base_Shadow.fbx.meta
+├── ├── ├── ├── ├── BossTank_Turret.fbx
+├── ├── ├── ├── ├── BossTank_Turret.fbx.meta
+├── ├── ├── ├── ├── BossTank_Turret_Shadow.fbx
+├── ├── ├── ├── ├── BossTank_Turret_Shadow.fbx.meta
+├── ├── ├── ├── ├── Buggy.fbx
+├── ├── ├── ├── ├── Buggy.fbx.meta
+├── ├── ├── ├── ├── Buggy_Albedo_V001.tiff
+├── ├── ├── ├── ├── Buggy_Albedo_V001.tiff.meta
+├── ├── ├── ├── ├── Buggy_Orange_Albedo_V001.tiff
+├── ├── ├── ├── ├── Buggy_Orange_Albedo_V001.tiff.meta
+├── ├── ├── ├── ├── Buggy_Shadow.fbx
+├── ├── ├── ├── ├── Buggy_Shadow.fbx.meta
+├── ├── ├── ├── ├── Disk.fbx
+├── ├── ├── ├── ├── Disk.fbx.meta
+├── ├── ├── ├── ├── Helicopter.fbx
+├── ├── ├── ├── ├── Helicopter.fbx.meta
+├── ├── ├── ├── ├── Helicopter_Albedo_V002.tiff
+├── ├── ├── ├── ├── Helicopter_Albedo_V002.tiff.meta
+├── ├── ├── ├── ├── Helicopter_FX_Cones.fbx
+├── ├── ├── ├── ├── Helicopter_FX_Cones.fbx.meta
+├── ├── ├── ├── ├── Helicopter_Orange_Albedo_V002.tiff
+├── ├── ├── ├── ├── Helicopter_Orange_Albedo_V002.tiff.meta
+├── ├── ├── ├── ├── Helicopter_Shadow.fbx
+├── ├── ├── ├── ├── Helicopter_Shadow.fbx.meta
+├── ├── ├── ├── ├── HoverTank_Base.fbx
+├── ├── ├── ├── ├── HoverTank_Base.fbx.meta
+├── ├── ├── ├── ├── HoverTank_Base_Shadow.fbx
+├── ├── ├── ├── ├── HoverTank_Base_Shadow.fbx.meta
+├── ├── ├── ├── ├── HoverTank_Turret.fbx
+├── ├── ├── ├── ├── HoverTank_Turret.fbx.meta
+├── ├── ├── ├── ├── HoverTank_Turret_Shadow.fbx
+├── ├── ├── ├── ├── HoverTank_Turret_Shadow.fbx.meta
+├── ├── ├── ├── ├── Materials.meta
+├── ├── ├── ├── ├── TankBasic_Albedo_V001.tiff
+├── ├── ├── ├── ├── TankBasic_Albedo_V001.tiff.meta
+├── ├── ├── ├── ├── TankBasic_Orange_Albedo_V001.tiff
+├── ├── ├── ├── ├── TankBasic_Orange_Albedo_V001.tiff.meta
+├── ├── ├── ├── ├── TankBoss_Albedo_V001.tiff
+├── ├── ├── ├── ├── TankBoss_Albedo_V001.tiff.meta
+├── ├── ├── ├── ├── TankBoss_Orange_Albedo_V001.tiff
+├── ├── ├── ├── └── TankBoss_Orange_Albedo_V001.tiff.meta
+├── ├── ├── ├── Levels.meta
+├── ├── ├── ├── Player.meta
+├── ├── ├── ├── Projectiles.meta
+├── ├── ├── ├── Towers.meta
+├── ├── ├── └── Units.meta
+├── ├── ├── Particles/
+├── ├── ├── ├── Prefabs/
+├── ├── ├── ├── ├── AutoCannon_BuildPfx.prefab
+├── ├── ├── ├── ├── AutoCannon_BuildPfx.prefab.meta
+├── ├── ├── ├── ├── BigDeathExplosionPfx.prefab
+├── ├── ├── ├── ├── BigDeathExplosionPfx.prefab.meta
+├── ├── ├── ├── ├── BuildPfx.prefab
+├── ├── ├── ├── ├── BuildPfx.prefab.meta
+├── ├── ├── ├── ├── BulletHit.prefab
+├── ├── ├── ├── ├── BulletHit.prefab.meta
+├── ├── ├── ├── ├── Flare.prefab
+├── ├── ├── ├── ├── Flare.prefab.meta
+├── ├── ├── ├── ├── LaserImpactPFX.prefab
+├── ├── ├── ├── ├── LaserImpactPFX.prefab.meta
+├── ├── ├── ├── ├── RocketExplosionPfx.prefab
+├── ├── ├── ├── ├── RocketExplosionPfx.prefab.meta
+├── ├── ├── ├── ├── RocketTrail.prefab
+├── ├── ├── ├── ├── RocketTrail.prefab.meta
+├── ├── ├── ├── ├── SmallDeathExplosionPfx.prefab
+├── ├── ├── ├── ├── SmallDeathExplosionPfx.prefab.meta
+├── ├── ├── ├── ├── SupertowerMissileTrail.prefab
+├── ├── ├── ├── ├── SupertowerMissileTrail.prefab.meta
+├── ├── ├── ├── ├── TowerDeathExplosion.prefab
+├── ├── ├── ├── └── TowerDeathExplosion.prefab.meta
+├── ├── ├── ├── Textures/
+├── ├── ├── ├── ├── AttackLightning.png
+├── ├── ├── ├── ├── AttackLightning.png.meta
+├── ├── ├── ├── ├── BossHover_sprite.png
+├── ├── ├── ├── ├── BossHover_sprite.png.meta
+├── ├── ├── ├── ├── BuggyHover_sprite.png
+├── ├── ├── ├── ├── BuggyHover_sprite.png.meta
+├── ├── ├── ├── ├── BulletImpact.png
+├── ├── ├── ├── ├── BulletImpact.png.meta
+├── ├── ├── ├── ├── EnergyGainGlow.png
+├── ├── ├── ├── ├── EnergyGainGlow.png.meta
+├── ├── ├── ├── ├── EnergyGainLightning.png
+├── ├── ├── ├── ├── EnergyGainLightning.png.meta
+├── ├── ├── ├── ├── Flare.png
+├── ├── ├── ├── ├── Flare.png.meta
+├── ├── ├── ├── ├── HelicopterHover_sprite.png
+├── ├── ├── ├── ├── HelicopterHover_sprite.png.meta
+├── ├── ├── ├── ├── LaserBeam.png
+├── ├── ├── ├── ├── LaserBeam.png.meta
+├── ├── ├── ├── ├── LaserImpact.png
+├── ├── ├── ├── ├── LaserImpact.png.meta
+├── ├── ├── ├── ├── LaserMuzzleFlash.png
+├── ├── ├── ├── ├── LaserMuzzleFlash.png.meta
+├── ├── ├── ├── ├── Muzzle Falsh Sprite Sheet.png
+├── ├── ├── ├── ├── Muzzle Falsh Sprite Sheet.png.meta
+├── ├── ├── ├── ├── Rocket Explosion Sprite sheet.png
+├── ├── ├── ├── ├── Rocket Explosion Sprite sheet.png.meta
+├── ├── ├── ├── ├── SlowFx.png
+├── ├── ├── ├── ├── SlowFx.png.meta
+├── ├── ├── ├── ├── Smoke.png
+├── ├── ├── ├── ├── Smoke.png.meta
+├── ├── ├── ├── ├── TankHover_sprite.png
+├── ├── ├── ├── ├── TankHover_sprite.png.meta
+├── ├── ├── ├── ├── Tracer.png
+├── ├── ├── ├── ├── Tracer.png.meta
+├── ├── ├── ├── ├── explosion_Flame.png
+├── ├── ├── ├── ├── explosion_Flame.png.meta
+├── ├── ├── ├── ├── explosion_Flame_2.png
+├── ├── ├── ├── ├── explosion_Flame_2.png.meta
+├── ├── ├── ├── ├── explosion_Flame_3.png
+├── ├── ├── ├── ├── explosion_Flame_3.png.meta
+├── ├── ├── ├── ├── explosion_Flame_4.png
+├── ├── ├── ├── ├── explosion_Flame_4.png.meta
+├── ├── ├── ├── ├── explosion_Smoke_1.png
+├── ├── ├── ├── ├── explosion_Smoke_1.png.meta
+├── ├── ├── ├── ├── explosion_Smoke_2.png
+├── ├── ├── ├── ├── explosion_Smoke_2.png.meta
+├── ├── ├── ├── ├── explosion_Smoke_3.png
+├── ├── ├── ├── ├── explosion_Smoke_3.png.meta
+├── ├── ├── ├── ├── explosion_Spark_1.png
+├── ├── ├── ├── ├── explosion_Spark_1.png.meta
+├── ├── ├── ├── ├── explosion_Spark_2.png
+├── ├── ├── ├── ├── explosion_Spark_2.png.meta
+├── ├── ├── ├── ├── explosion_Spark_3.png
+├── ├── ├── ├── └── explosion_Spark_3.png.meta
+├── ├── ├── ├── Prefabs.meta
+├── ├── ├── └── Textures.meta
+├── ├── ├── Prefabs/
+├── ├── ├── ├── Audio/
+├── ├── ├── ├── ├── LevelMusic.prefab
+├── ├── ├── ├── ├── LevelMusic.prefab.meta
+├── ├── ├── ├── ├── MenuMusic.prefab
+├── ├── ├── ├── └── MenuMusic.prefab.meta
+├── ├── ├── ├── Enemies/
+├── ├── ├── ├── ├── BOSS Super Hoverboss.prefab
+├── ├── ├── ├── ├── BOSS Super Hoverboss.prefab.meta
+├── ├── ├── ├── ├── Enemy Projectile.prefab
+├── ├── ├── ├── ├── Enemy Projectile.prefab.meta
+├── ├── ├── ├── ├── EnemyShootEffect.prefab
+├── ├── ├── ├── ├── EnemyShootEffect.prefab.meta
+├── ├── ├── ├── ├── Hoverboss.prefab
+├── ├── ├── ├── ├── Hoverboss.prefab.meta
+├── ├── ├── ├── ├── Hoverbuggy.prefab
+├── ├── ├── ├── ├── Hoverbuggy.prefab.meta
+├── ├── ├── ├── ├── Hovercopter.prefab
+├── ├── ├── ├── ├── Hovercopter.prefab.meta
+├── ├── ├── ├── ├── Hovertank.prefab
+├── ├── ├── ├── ├── Hovertank.prefab.meta
+├── ├── ├── ├── ├── MechFox.prefab
+├── ├── ├── ├── ├── MechFox.prefab.meta
+├── ├── ├── ├── ├── MechJet.prefab
+├── ├── ├── ├── ├── MechJet.prefab.meta
+├── ├── ├── ├── ├── SlowFx.prefab
+├── ├── ├── ├── ├── SlowFx.prefab.meta
+├── ├── ├── ├── ├── Super Hoverboss.prefab
+├── ├── ├── ├── ├── Super Hoverboss.prefab.meta
+├── ├── ├── ├── ├── Super Hoverbuggy.prefab
+├── ├── ├── ├── ├── Super Hoverbuggy.prefab.meta
+├── ├── ├── ├── ├── Super Hovercopter.prefab
+├── ├── ├── ├── ├── Super Hovercopter.prefab.meta
+├── ├── ├── ├── ├── Super Hovertank.prefab
+├── ├── ├── ├── └── Super Hovertank.prefab.meta
+├── ├── ├── ├── Health/
+├── ├── ├── ├── ├── DamageAudioSource.prefab
+├── ├── ├── ├── ├── DamageAudioSource.prefab.meta
+├── ├── ├── ├── ├── TowerAudio.prefab
+├── ├── ├── ├── └── TowerAudio.prefab.meta
+├── ├── ├── ├── Managers/
+├── ├── ├── ├── ├── GameManager.prefab
+├── ├── ├── ├── ├── GameManager.prefab.meta
+├── ├── ├── ├── ├── PoolManager.prefab
+├── ├── ├── ├── └── PoolManager.prefab.meta
+├── ├── ├── ├── Player/
+├── ├── ├── ├── ├── GameCamera.prefab
+├── ├── ├── ├── ├── GameCamera.prefab.meta
+├── ├── ├── ├── ├── HomeBase.prefab
+├── ├── ├── ├── └── HomeBase.prefab.meta
+├── ├── ├── ├── Towers/
+├── ├── ├── ├── ├── AutoCannon/
+├── ├── ├── ├── ├── ├── AutoCannon(OG).prefab
+├── ├── ├── ├── ├── ├── AutoCannon(OG).prefab.meta
+├── ├── ├── ├── ├── ├── AutoCannonGhost.prefab
+├── ├── ├── ├── ├── ├── AutoCannonGhost.prefab.meta
+├── ├── ├── ├── ├── ├── AutoCannonProjectile_0.prefab
+├── ├── ├── ├── ├── ├── AutoCannonProjectile_0.prefab.meta
+├── ├── ├── ├── ├── ├── AutoCannonProjectile_1.prefab
+├── ├── ├── ├── ├── ├── AutoCannonProjectile_1.prefab.meta
+├── ├── ├── ├── ├── ├── AutoCannonProjectile_2.prefab
+├── ├── ├── ├── ├── ├── AutoCannonProjectile_2.prefab.meta
+├── ├── ├── ├── ├── ├── AutoCannonTower.prefab
+├── ├── ├── ├── ├── ├── AutoCannonTower.prefab.meta
+├── ├── ├── ├── ├── ├── AutoCannonTower_0.prefab
+├── ├── ├── ├── ├── ├── AutoCannonTower_0.prefab.meta
+├── ├── ├── ├── ├── ├── AutoCannonTower_1.prefab
+├── ├── ├── ├── ├── ├── AutoCannonTower_1.prefab.meta
+├── ├── ├── ├── ├── ├── AutoCannonTower_2.prefab
+├── ├── ├── ├── ├── ├── AutoCannonTower_2.prefab.meta
+├── ├── ├── ├── ├── ├── Flare.prefab
+├── ├── ├── ├── ├── └── Flare.prefab.meta
+├── ├── ├── ├── ├── EMP/
+├── ├── ├── ├── ├── ├── EMP.prefab
+├── ├── ├── ├── ├── ├── EMP.prefab.meta
+├── ├── ├── ├── ├── ├── EMPGhost.prefab
+├── ├── ├── ├── ├── ├── EMPGhost.prefab.meta
+├── ├── ├── ├── ├── ├── EMP_0.prefab
+├── ├── ├── ├── ├── ├── EMP_0.prefab.meta
+├── ├── ├── ├── ├── ├── EMP_1.prefab
+├── ├── ├── ├── ├── ├── EMP_1.prefab.meta
+├── ├── ├── ├── ├── ├── EMP_2.prefab
+├── ├── ├── ├── ├── └── EMP_2.prefab.meta
+├── ├── ├── ├── ├── Laser/
+├── ├── ├── ├── ├── ├── LaserGhost.prefab
+├── ├── ├── ├── ├── ├── LaserGhost.prefab.meta
+├── ├── ├── ├── ├── ├── LaserProjectile_0.prefab
+├── ├── ├── ├── ├── ├── LaserProjectile_0.prefab.meta
+├── ├── ├── ├── ├── ├── LaserProjectile_1.prefab
+├── ├── ├── ├── ├── ├── LaserProjectile_1.prefab.meta
+├── ├── ├── ├── ├── ├── LaserProjectile_2.prefab
+├── ├── ├── ├── ├── ├── LaserProjectile_2.prefab.meta
+├── ├── ├── ├── ├── ├── LaserTower.prefab
+├── ├── ├── ├── ├── ├── LaserTower.prefab.meta
+├── ├── ├── ├── ├── ├── LaserTower_0.prefab
+├── ├── ├── ├── ├── ├── LaserTower_0.prefab.meta
+├── ├── ├── ├── ├── ├── LaserTower_1.prefab
+├── ├── ├── ├── ├── ├── LaserTower_1.prefab.meta
+├── ├── ├── ├── ├── ├── LaserTower_2.prefab
+├── ├── ├── ├── ├── └── LaserTower_2.prefab.meta
+├── ├── ├── ├── ├── MachineGun/
+├── ├── ├── ├── ├── ├── MachineGunGhost.prefab
+├── ├── ├── ├── ├── ├── MachineGunGhost.prefab.meta
+├── ├── ├── ├── ├── ├── MachineGunProjectile_0.prefab
+├── ├── ├── ├── ├── ├── MachineGunProjectile_0.prefab.meta
+├── ├── ├── ├── ├── ├── MachineGunProjectile_1.prefab
+├── ├── ├── ├── ├── ├── MachineGunProjectile_1.prefab.meta
+├── ├── ├── ├── ├── ├── MachineGunProjectile_2.prefab
+├── ├── ├── ├── ├── ├── MachineGunProjectile_2.prefab.meta
+├── ├── ├── ├── ├── ├── MachineGunTower.prefab
+├── ├── ├── ├── ├── ├── MachineGunTower.prefab.meta
+├── ├── ├── ├── ├── ├── MachineGunTower_0.prefab
+├── ├── ├── ├── ├── ├── MachineGunTower_0.prefab.meta
+├── ├── ├── ├── ├── ├── MachineGunTower_1.prefab
+├── ├── ├── ├── ├── ├── MachineGunTower_1.prefab.meta
+├── ├── ├── ├── ├── ├── MachineGunTower_2.prefab
+├── ├── ├── ├── ├── └── MachineGunTower_2.prefab.meta
+├── ├── ├── ├── ├── Pylon/
+├── ├── ├── ├── ├── ├── EnergyPylon.prefab
+├── ├── ├── ├── ├── ├── EnergyPylon.prefab.meta
+├── ├── ├── ├── ├── ├── EnergyPylonGhost.prefab
+├── ├── ├── ├── ├── ├── EnergyPylonGhost.prefab.meta
+├── ├── ├── ├── ├── ├── EnergyPylon_0.prefab
+├── ├── ├── ├── ├── ├── EnergyPylon_0.prefab.meta
+├── ├── ├── ├── ├── ├── EnergyPylon_1.prefab
+├── ├── ├── ├── ├── ├── EnergyPylon_1.prefab.meta
+├── ├── ├── ├── ├── ├── EnergyPylon_2.prefab
+├── ├── ├── ├── ├── └── EnergyPylon_2.prefab.meta
+├── ├── ├── ├── ├── Rocket/
+├── ├── ├── ├── ├── ├── RocketGhost.prefab
+├── ├── ├── ├── ├── ├── RocketGhost.prefab.meta
+├── ├── ├── ├── ├── ├── RocketProjectile_0.prefab
+├── ├── ├── ├── ├── ├── RocketProjectile_0.prefab.meta
+├── ├── ├── ├── ├── ├── RocketProjectile_1.prefab
+├── ├── ├── ├── ├── ├── RocketProjectile_1.prefab.meta
+├── ├── ├── ├── ├── ├── RocketProjectile_2.prefab
+├── ├── ├── ├── ├── ├── RocketProjectile_2.prefab.meta
+├── ├── ├── ├── ├── ├── RocketTower.prefab
+├── ├── ├── ├── ├── ├── RocketTower.prefab.meta
+├── ├── ├── ├── ├── ├── RocketTower_0.prefab
+├── ├── ├── ├── ├── ├── RocketTower_0.prefab.meta
+├── ├── ├── ├── ├── ├── RocketTower_1.prefab
+├── ├── ├── ├── ├── ├── RocketTower_1.prefab.meta
+├── ├── ├── ├── ├── ├── RocketTower_2.prefab
+├── ├── ├── ├── ├── └── RocketTower_2.prefab.meta
+├── ├── ├── ├── ├── Supertower/
+├── ├── ├── ├── ├── ├── SuperTower.prefab
+├── ├── ├── ├── ├── ├── SuperTower.prefab.meta
+├── ├── ├── ├── ├── ├── SuperTowerGhost.prefab
+├── ├── ├── ├── ├── ├── SuperTowerGhost.prefab.meta
+├── ├── ├── ├── ├── ├── SuperTowerProjectile_0.prefab
+├── ├── ├── ├── ├── ├── SuperTowerProjectile_0.prefab.meta
+├── ├── ├── ├── ├── ├── SuperTower_0.prefab
+├── ├── ├── ├── ├── └── SuperTower_0.prefab.meta
+├── ├── ├── ├── ├── AutoCannon.meta
+├── ├── ├── ├── ├── EMP.meta
+├── ├── ├── ├── ├── Laser.meta
+├── ├── ├── ├── ├── MachineGun.meta
+├── ├── ├── ├── ├── Pylon.meta
+├── ├── ├── ├── ├── Rocket.meta
+├── ├── ├── ├── └── Supertower.meta
+├── ├── ├── ├── UI/
+├── ├── ├── ├── ├── HUD/
+├── ├── ├── ├── ├── ├── Build Menu.prefab
+├── ├── ├── ├── ├── ├── Build Menu.prefab.meta
+├── ├── ├── ├── ├── ├── Game Over.prefab
+├── ├── ├── ├── ├── ├── Game Over.prefab.meta
+├── ├── ├── ├── ├── ├── PauseMenu.prefab
+├── ├── ├── ├── ├── ├── PauseMenu.prefab.meta
+├── ├── ├── ├── ├── ├── PlayerBaseLife.prefab
+├── ├── ├── ├── ├── ├── PlayerBaseLife.prefab.meta
+├── ├── ├── ├── ├── ├── TowerBuildButton.prefab
+├── ├── ├── ├── ├── ├── TowerBuildButton.prefab.meta
+├── ├── ├── ├── ├── ├── TowerControllerUI.prefab
+├── ├── ├── ├── ├── ├── TowerControllerUI.prefab.meta
+├── ├── ├── ├── ├── ├── TowerPlaceConfirmationUI.prefab
+├── ├── ├── ├── ├── ├── TowerPlaceConfirmationUI.prefab.meta
+├── ├── ├── ├── ├── ├── TowerPlaceInvalid.prefab
+├── ├── ├── ├── ├── ├── TowerPlaceInvalid.prefab.meta
+├── ├── ├── ├── ├── ├── WaveContainer.prefab
+├── ├── ├── ├── ├── └── WaveContainer.prefab.meta
+├── ├── ├── ├── ├── LevelSelect/
+├── ├── ├── ├── ├── ├── LevelSelectionButton.prefab
+├── ├── ├── ├── ├── └── LevelSelectionButton.prefab.meta
+├── ├── ├── ├── ├── HUD.meta
+├── ├── ├── ├── ├── HealthBar.prefab
+├── ├── ├── ├── ├── HealthBar.prefab.meta
+├── ├── ├── ├── ├── HealthBarHomeBase.prefab
+├── ├── ├── ├── ├── HealthBarHomeBase.prefab.meta
+├── ├── ├── ├── ├── LevelSelect.meta
+├── ├── ├── ├── ├── PlacementTile.prefab
+├── ├── ├── ├── ├── PlacementTile.prefab.meta
+├── ├── ├── ├── ├── PlacementTileMobile.prefab
+├── ├── ├── ├── ├── PlacementTileMobile.prefab.meta
+├── ├── ├── ├── ├── RadiusVisualiser.prefab
+├── ├── ├── ├── ├── RadiusVisualiser.prefab.meta
+├── ├── ├── ├── ├── SinglePlacementTile.prefab
+├── ├── ├── ├── ├── SinglePlacementTile.prefab.meta
+├── ├── ├── ├── ├── SinglePlacementTileMobile.prefab
+├── ├── ├── ├── └── SinglePlacementTileMobile.prefab.meta
+├── ├── ├── ├── Audio.meta
+├── ├── ├── ├── Enemies.meta
+├── ├── ├── ├── Health.meta
+├── ├── ├── ├── Managers.meta
+├── ├── ├── ├── Player.meta
+├── ├── ├── ├── Towers.meta
+├── ├── ├── └── UI.meta
+├── ├── ├── Scenes/
+├── ├── ├── ├── Levels/
+├── ├── ├── ├── ├── Level1/
+├── ├── ├── ├── ├── ├── Level1/
+├── ├── ├── ├── ├── ├── ├── LightingData.asset
+├── ├── ├── ├── ├── ├── ├── LightingData.asset.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_dir.png
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_dir.png.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_light.exr
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_light.exr.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_shadowmask.png
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_shadowmask.png.meta
+├── ├── ├── ├── ├── ├── ├── NavMesh.asset
+├── ├── ├── ├── ├── ├── ├── NavMesh.asset.meta
+├── ├── ├── ├── ├── ├── ├── ReflectionProbe-0.exr
+├── ├── ├── ├── ├── ├── └── ReflectionProbe-0.exr.meta
+├── ├── ├── ├── ├── ├── Level1.meta
+├── ├── ├── ├── ├── ├── Level1.unity
+├── ├── ├── ├── ├── ├── Level1.unity.meta
+├── ├── ├── ├── ├── ├── Level1Settings.lighting
+├── ├── ├── ├── ├── └── Level1Settings.lighting.meta
+├── ├── ├── ├── ├── Level1_Prototype/
+├── ├── ├── ├── ├── ├── Level1_Prototype/
+├── ├── ├── ├── ├── ├── ├── NavMesh.asset
+├── ├── ├── ├── ├── ├── └── NavMesh.asset.meta
+├── ├── ├── ├── ├── ├── Prototype/
+├── ├── ├── ├── ├── ├── ├── LightingData.asset
+├── ├── ├── ├── ├── ├── ├── LightingData.asset.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_dir.png
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_dir.png.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_light.exr
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_light.exr.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_shadowmask.png
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_shadowmask.png.meta
+├── ├── ├── ├── ├── ├── ├── ReflectionProbe-0.exr
+├── ├── ├── ├── ├── ├── └── ReflectionProbe-0.exr.meta
+├── ├── ├── ├── ├── ├── Level1_Prototype.meta
+├── ├── ├── ├── ├── ├── Prototype.meta
+├── ├── ├── ├── ├── ├── Prototype.unity
+├── ├── ├── ├── ├── ├── Prototype.unity.meta
+├── ├── ├── ├── ├── ├── PrototypeSettings.lighting
+├── ├── ├── ├── ├── └── PrototypeSettings.lighting.meta
+├── ├── ├── ├── ├── Level2/
+├── ├── ├── ├── ├── ├── Level2/
+├── ├── ├── ├── ├── ├── ├── LightingData.asset
+├── ├── ├── ├── ├── ├── ├── LightingData.asset.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_dir.png
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_dir.png.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_light.exr
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_light.exr.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_shadowmask.png
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_shadowmask.png.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-1_comp_dir.png
+├── ├── ├── ├── ├── ├── ├── Lightmap-1_comp_dir.png.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-1_comp_light.exr
+├── ├── ├── ├── ├── ├── ├── Lightmap-1_comp_light.exr.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-1_comp_shadowmask.png
+├── ├── ├── ├── ├── ├── ├── Lightmap-1_comp_shadowmask.png.meta
+├── ├── ├── ├── ├── ├── ├── NavMesh.asset
+├── ├── ├── ├── ├── ├── ├── NavMesh.asset.meta
+├── ├── ├── ├── ├── ├── ├── ReflectionProbe-0.exr
+├── ├── ├── ├── ├── ├── └── ReflectionProbe-0.exr.meta
+├── ├── ├── ├── ├── ├── Level2.meta
+├── ├── ├── ├── ├── ├── Level2.unity
+├── ├── ├── ├── ├── ├── Level2.unity.meta
+├── ├── ├── ├── ├── ├── Level2Settings.lighting
+├── ├── ├── ├── ├── └── Level2Settings.lighting.meta
+├── ├── ├── ├── ├── Level3/
+├── ├── ├── ├── ├── ├── Level3/
+├── ├── ├── ├── ├── ├── ├── LightingData.asset
+├── ├── ├── ├── ├── ├── ├── LightingData.asset.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_dir.png
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_dir.png.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_light.exr
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_light.exr.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_shadowmask.png
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_shadowmask.png.meta
+├── ├── ├── ├── ├── ├── ├── NavMesh.asset
+├── ├── ├── ├── ├── ├── ├── NavMesh.asset.meta
+├── ├── ├── ├── ├── ├── ├── ReflectionProbe-0.exr
+├── ├── ├── ├── ├── ├── └── ReflectionProbe-0.exr.meta
+├── ├── ├── ├── ├── ├── Level3.meta
+├── ├── ├── ├── ├── ├── Level3.unity
+├── ├── ├── ├── ├── ├── Level3.unity.meta
+├── ├── ├── ├── ├── ├── Level3Settings.lighting
+├── ├── ├── ├── ├── └── Level3Settings.lighting.meta
+├── ├── ├── ├── ├── Level4/
+├── ├── ├── ├── ├── ├── Level4/
+├── ├── ├── ├── ├── ├── ├── LightingData.asset
+├── ├── ├── ├── ├── ├── ├── LightingData.asset.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_dir.png
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_dir.png.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_light.exr
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_light.exr.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_shadowmask.png
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_shadowmask.png.meta
+├── ├── ├── ├── ├── ├── ├── NavMesh.asset
+├── ├── ├── ├── ├── ├── ├── NavMesh.asset.meta
+├── ├── ├── ├── ├── ├── ├── ReflectionProbe-0.exr
+├── ├── ├── ├── ├── ├── └── ReflectionProbe-0.exr.meta
+├── ├── ├── ├── ├── ├── Level4.meta
+├── ├── ├── ├── ├── ├── Level4.unity
+├── ├── ├── ├── ├── ├── Level4.unity.meta
+├── ├── ├── ├── ├── ├── Level4Settings.lighting
+├── ├── ├── ├── ├── └── Level4Settings.lighting.meta
+├── ├── ├── ├── ├── Level5/
+├── ├── ├── ├── ├── ├── Level5/
+├── ├── ├── ├── ├── ├── ├── LightingData.asset
+├── ├── ├── ├── ├── ├── ├── LightingData.asset.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_dir.png
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_dir.png.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_light.exr
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_light.exr.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_shadowmask.png
+├── ├── ├── ├── ├── ├── ├── Lightmap-0_comp_shadowmask.png.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-1_comp_dir.png
+├── ├── ├── ├── ├── ├── ├── Lightmap-1_comp_dir.png.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-1_comp_light.exr
+├── ├── ├── ├── ├── ├── ├── Lightmap-1_comp_light.exr.meta
+├── ├── ├── ├── ├── ├── ├── Lightmap-1_comp_shadowmask.png
+├── ├── ├── ├── ├── ├── ├── Lightmap-1_comp_shadowmask.png.meta
+├── ├── ├── ├── ├── ├── ├── NavMesh.asset
+├── ├── ├── ├── ├── ├── ├── NavMesh.asset.meta
+├── ├── ├── ├── ├── ├── ├── ReflectionProbe-0.exr
+├── ├── ├── ├── ├── ├── └── ReflectionProbe-0.exr.meta
+├── ├── ├── ├── ├── ├── Level5.meta
+├── ├── ├── ├── ├── ├── Level5.unity
+├── ├── ├── ├── ├── ├── Level5.unity.meta
+├── ├── ├── ├── ├── ├── Level5Settings.lighting
+├── ├── ├── ├── ├── └── Level5Settings.lighting.meta
+├── ├── ├── ├── ├── Level1.meta
+├── ├── ├── ├── ├── Level1_Prototype.meta
+├── ├── ├── ├── ├── Level2.meta
+├── ├── ├── ├── ├── Level3.meta
+├── ├── ├── ├── ├── Level4.meta
+├── ├── ├── ├── └── Level5.meta
+├── ├── ├── ├── MainMenu/
+├── ├── ├── ├── ├── LightingData.asset
+├── ├── ├── ├── ├── LightingData.asset.meta
+├── ├── ├── ├── ├── Lightmap-0_comp_dir.png
+├── ├── ├── ├── ├── Lightmap-0_comp_dir.png.meta
+├── ├── ├── ├── ├── Lightmap-0_comp_light.exr
+├── ├── ├── ├── ├── Lightmap-0_comp_light.exr.meta
+├── ├── ├── ├── ├── Lightmap-0_comp_shadowmask.png
+├── ├── ├── ├── ├── Lightmap-0_comp_shadowmask.png.meta
+├── ├── ├── ├── ├── ReflectionProbe-0.exr
+├── ├── ├── ├── └── ReflectionProbe-0.exr.meta
+├── ├── ├── ├── Levels.meta
+├── ├── ├── ├── MainMenu.meta
+├── ├── ├── ├── MainMenu.unity
+├── ├── ├── └── MainMenu.unity.meta
+├── ├── ├── Scripts/
+├── ├── ├── ├── ActionGameFramework/
+├── ├── ├── ├── ├── Audio/
+├── ├── ├── ├── ├── ├── Editor/
+├── ├── ├── ├── ├── ├── ├── HealthChangeAudioSourceEditor.cs
+├── ├── ├── ├── ├── ├── └── HealthChangeAudioSourceEditor.cs.meta
+├── ├── ├── ├── ├── ├── Editor.meta
+├── ├── ├── ├── ├── ├── HealthChangeAudioSource.cs
+├── ├── ├── ├── ├── ├── HealthChangeAudioSource.cs.meta
+├── ├── ├── ├── ├── ├── HealthChangeSound.cs
+├── ├── ├── ├── ├── ├── HealthChangeSound.cs.meta
+├── ├── ├── ├── ├── ├── HealthChangeSoundSelector.cs
+├── ├── ├── ├── ├── ├── HealthChangeSoundSelector.cs.meta
+├── ├── ├── ├── ├── ├── RandomAudioSource.cs
+├── ├── ├── ├── ├── ├── RandomAudioSource.cs.meta
+├── ├── ├── ├── ├── ├── WeightedAudioClip.cs
+├── ├── ├── ├── ├── ├── WeightedAudioClip.cs.meta
+├── ├── ├── ├── ├── ├── WeightedAudioList.cs
+├── ├── ├── ├── ├── └── WeightedAudioList.cs.meta
+├── ├── ├── ├── ├── Health/
+├── ├── ├── ├── ├── ├── DamageCollider.cs
+├── ├── ├── ├── ├── ├── DamageCollider.cs.meta
+├── ├── ├── ├── ├── ├── DamageTrigger.cs
+├── ├── ├── ├── ├── ├── DamageTrigger.cs.meta
+├── ├── ├── ├── ├── ├── DamageZone.cs
+├── ├── ├── ├── ├── ├── DamageZone.cs.meta
+├── ├── ├── ├── ├── ├── Damager.cs
+├── ├── ├── ├── ├── ├── Damager.cs.meta
+├── ├── ├── ├── ├── ├── Targetable.cs
+├── ├── ├── ├── ├── └── Targetable.cs.meta
+├── ├── ├── ├── ├── Helpers/
+├── ├── ├── ├── ├── ├── Ballistics.cs
+├── ├── ├── ├── ├── └── Ballistics.cs.meta
+├── ├── ├── ├── ├── Projectiles/
+├── ├── ├── ├── ├── ├── Editor/
+├── ├── ├── ├── ├── ├── ├── BallisticProjectileEditor.cs
+├── ├── ├── ├── ├── ├── └── BallisticProjectileEditor.cs.meta
+├── ├── ├── ├── ├── ├── BallisticArcHeight.cs
+├── ├── ├── ├── ├── ├── BallisticArcHeight.cs.meta
+├── ├── ├── ├── ├── ├── BallisticFireMode.cs
+├── ├── ├── ├── ├── ├── BallisticFireMode.cs.meta
+├── ├── ├── ├── ├── ├── BallisticProjectile.cs
+├── ├── ├── ├── ├── ├── BallisticProjectile.cs.meta
+├── ├── ├── ├── ├── ├── Editor.meta
+├── ├── ├── ├── ├── ├── HomingLinearProjectile.cs
+├── ├── ├── ├── ├── ├── HomingLinearProjectile.cs.meta
+├── ├── ├── ├── ├── ├── IProjectile.cs
+├── ├── ├── ├── ├── ├── IProjectile.cs.meta
+├── ├── ├── ├── ├── ├── LinearProjectile.cs
+├── ├── ├── ├── ├── ├── LinearProjectile.cs.meta
+├── ├── ├── ├── ├── ├── WobblingHomingProjectile.cs
+├── ├── ├── ├── ├── └── WobblingHomingProjectile.cs.meta
+├── ├── ├── ├── ├── Spawning/
+├── ├── ├── ├── ├── ├── HitObject.cs
+├── ├── ├── ├── ├── ├── HitObject.cs.meta
+├── ├── ├── ├── ├── ├── HitObjectSpawner.cs
+├── ├── ├── ├── ├── ├── HitObjectSpawner.cs.meta
+├── ├── ├── ├── ├── ├── RandomHitObjectSpawner.cs
+├── ├── ├── ├── ├── ├── RandomHitObjectSpawner.cs.meta
+├── ├── ├── ├── ├── ├── SingleHitObjectSpawner.cs
+├── ├── ├── ├── ├── ├── SingleHitObjectSpawner.cs.meta
+├── ├── ├── ├── ├── ├── WeightedObject.cs
+├── ├── ├── ├── ├── ├── WeightedObject.cs.meta
+├── ├── ├── ├── ├── ├── WeightedObjectList.cs
+├── ├── ├── ├── ├── └── WeightedObjectList.cs.meta
+├── ├── ├── ├── ├── Audio.meta
+├── ├── ├── ├── ├── Health.meta
+├── ├── ├── ├── ├── Helpers.meta
+├── ├── ├── ├── ├── Projectiles.meta
+├── ├── ├── ├── └── Spawning.meta
+├── ├── ├── ├── Core/
+├── ├── ├── ├── ├── Camera/
+├── ├── ├── ├── ├── ├── Editor/
+├── ├── ├── ├── ├── ├── ├── CameraRigEditor.cs
+├── ├── ├── ├── ├── ├── └── CameraRigEditor.cs.meta
+├── ├── ├── ├── ├── ├── CameraInitialState.cs
+├── ├── ├── ├── ├── ├── CameraInitialState.cs.meta
+├── ├── ├── ├── ├── ├── CameraRig.cs
+├── ├── ├── ├── ├── ├── CameraRig.cs.meta
+├── ├── ├── ├── ├── └── Editor.meta
+├── ├── ├── ├── ├── Data/
+├── ├── ├── ├── ├── ├── EncryptedJsonSaver.cs
+├── ├── ├── ├── ├── ├── EncryptedJsonSaver.cs.meta
+├── ├── ├── ├── ├── ├── FileSaver.cs
+├── ├── ├── ├── ├── ├── FileSaver.cs.meta
+├── ├── ├── ├── ├── ├── GameDataStoreBase.cs
+├── ├── ├── ├── ├── ├── GameDataStoreBase.cs.meta
+├── ├── ├── ├── ├── ├── GameManagerBase.cs
+├── ├── ├── ├── ├── ├── GameManagerBase.cs.meta
+├── ├── ├── ├── ├── ├── IDataSaver.cs
+├── ├── ├── ├── ├── ├── IDataSaver.cs.meta
+├── ├── ├── ├── ├── ├── IDataStore.cs
+├── ├── ├── ├── ├── ├── IDataStore.cs.meta
+├── ├── ├── ├── ├── ├── JsonSaver.cs
+├── ├── ├── ├── ├── └── JsonSaver.cs.meta
+├── ├── ├── ├── ├── Economy/
+├── ├── ├── ├── ├── ├── Currency.cs
+├── ├── ├── ├── ├── └── Currency.cs.meta
+├── ├── ├── ├── ├── Effects/
+├── ├── ├── ├── ├── ├── PoolableEffect.cs
+├── ├── ├── ├── ├── └── PoolableEffect.cs.meta
+├── ├── ├── ├── ├── Extensions/
+├── ├── ├── ├── ├── ├── GameObjectExtensions.cs
+├── ├── ├── ├── ├── ├── GameObjectExtensions.cs.meta
+├── ├── ├── ├── ├── ├── IListExtensions.cs
+├── ├── ├── ├── ├── └── IListExtensions.cs.meta
+├── ├── ├── ├── ├── Game/
+├── ├── ├── ├── ├── ├── LevelItem.cs
+├── ├── ├── ├── ├── ├── LevelItem.cs.meta
+├── ├── ├── ├── ├── ├── LevelList.cs
+├── ├── ├── ├── ├── └── LevelList.cs.meta
+├── ├── ├── ├── ├── Health/
+├── ├── ├── ├── ├── ├── Damageable.cs
+├── ├── ├── ├── ├── ├── Damageable.cs.meta
+├── ├── ├── ├── ├── ├── DamageableBehaviour.cs
+├── ├── ├── ├── ├── ├── DamageableBehaviour.cs.meta
+├── ├── ├── ├── ├── ├── DamageableListener.cs
+├── ├── ├── ├── ├── ├── DamageableListener.cs.meta
+├── ├── ├── ├── ├── ├── DeathEffect.cs
+├── ├── ├── ├── ├── ├── DeathEffect.cs.meta
+├── ├── ├── ├── ├── ├── HealthChangeInfo.cs
+├── ├── ├── ├── ├── ├── HealthChangeInfo.cs.meta
+├── ├── ├── ├── ├── ├── HealthVisualizer.cs
+├── ├── ├── ├── ├── ├── HealthVisualizer.cs.meta
+├── ├── ├── ├── ├── ├── HitInfo.cs
+├── ├── ├── ├── ├── ├── HitInfo.cs.meta
+├── ├── ├── ├── ├── ├── IAlignmentProvider.cs
+├── ├── ├── ├── ├── ├── IAlignmentProvider.cs.meta
+├── ├── ├── ├── ├── ├── SimpleAlignment.cs
+├── ├── ├── ├── ├── └── SimpleAlignment.cs.meta
+├── ├── ├── ├── ├── Input/
+├── ├── ├── ├── ├── ├── CameraInputScheme.cs
+├── ├── ├── ├── ├── ├── CameraInputScheme.cs.meta
+├── ├── ├── ├── ├── ├── InputController.cs
+├── ├── ├── ├── ├── ├── InputController.cs.meta
+├── ├── ├── ├── ├── ├── InputScheme.cs
+├── ├── ├── ├── ├── ├── InputScheme.cs.meta
+├── ├── ├── ├── ├── ├── InputSchemeSwitcher.cs
+├── ├── ├── ├── ├── ├── InputSchemeSwitcher.cs.meta
+├── ├── ├── ├── ├── ├── KeyboardMouseInput.cs
+├── ├── ├── ├── ├── ├── KeyboardMouseInput.cs.meta
+├── ├── ├── ├── ├── ├── MouseButtonInfo.cs
+├── ├── ├── ├── ├── ├── MouseButtonInfo.cs.meta
+├── ├── ├── ├── ├── ├── MouseCursorInfo.cs
+├── ├── ├── ├── ├── ├── MouseCursorInfo.cs.meta
+├── ├── ├── ├── ├── ├── PinchInfo.cs
+├── ├── ├── ├── ├── ├── PinchInfo.cs.meta
+├── ├── ├── ├── ├── ├── PointerActionInfo.cs
+├── ├── ├── ├── ├── ├── PointerActionInfo.cs.meta
+├── ├── ├── ├── ├── ├── PointerInfo.cs
+├── ├── ├── ├── ├── ├── PointerInfo.cs.meta
+├── ├── ├── ├── ├── ├── TouchInfo.cs
+├── ├── ├── ├── ├── ├── TouchInfo.cs.meta
+├── ├── ├── ├── ├── ├── TouchInput.cs
+├── ├── ├── ├── ├── ├── TouchInput.cs.meta
+├── ├── ├── ├── ├── ├── WheelInfo.cs
+├── ├── ├── ├── ├── └── WheelInfo.cs.meta
+├── ├── ├── ├── ├── UI/
+├── ├── ├── ├── ├── ├── AnimatingMainMenuPage.cs
+├── ├── ├── ├── ├── ├── AnimatingMainMenuPage.cs.meta
+├── ├── ├── ├── ├── ├── BasicAnimatingMainMenuPage.cs
+├── ├── ├── ├── ├── ├── BasicAnimatingMainMenuPage.cs.meta
+├── ├── ├── ├── ├── ├── IMainMenuPage.cs
+├── ├── ├── ├── ├── ├── IMainMenuPage.cs.meta
+├── ├── ├── ├── ├── ├── MainMenu.cs
+├── ├── ├── ├── ├── ├── MainMenu.cs.meta
+├── ├── ├── ├── ├── ├── Modal.cs
+├── ├── ├── ├── ├── ├── Modal.cs.meta
+├── ├── ├── ├── ├── ├── SimpleMainMenuPage.cs
+├── ├── ├── ├── ├── └── SimpleMainMenuPage.cs.meta
+├── ├── ├── ├── ├── Utilities/
+├── ├── ├── ├── ├── ├── Editor/
+├── ├── ├── ├── ├── ├── ├── HexPointTests.cs
+├── ├── ├── ├── ├── ├── ├── HexPointTests.cs.meta
+├── ├── ├── ├── ├── ├── ├── SerializableInterfaceDrawer.cs
+├── ├── ├── ├── ├── ├── └── SerializableInterfaceDrawer.cs.meta
+├── ├── ├── ├── ├── ├── Editor.meta
+├── ├── ├── ├── ├── ├── HexPoint.cs
+├── ├── ├── ├── ├── ├── HexPoint.cs.meta
+├── ├── ├── ├── ├── ├── IntVector2.cs
+├── ├── ├── ├── ├── ├── IntVector2.cs.meta
+├── ├── ├── ├── ├── ├── PersistentSingleton.cs
+├── ├── ├── ├── ├── ├── PersistentSingleton.cs.meta
+├── ├── ├── ├── ├── ├── Pool.cs
+├── ├── ├── ├── ├── ├── Pool.cs.meta
+├── ├── ├── ├── ├── ├── PoolManager.cs
+├── ├── ├── ├── ├── ├── PoolManager.cs.meta
+├── ├── ├── ├── ├── ├── Poolable.cs
+├── ├── ├── ├── ├── ├── Poolable.cs.meta
+├── ├── ├── ├── ├── ├── RepeatingTimer.cs
+├── ├── ├── ├── ├── ├── RepeatingTimer.cs.meta
+├── ├── ├── ├── ├── ├── SerializableInterface.cs
+├── ├── ├── ├── ├── ├── SerializableInterface.cs.meta
+├── ├── ├── ├── ├── ├── Singleton.cs
+├── ├── ├── ├── ├── ├── Singleton.cs.meta
+├── ├── ├── ├── ├── ├── TimedBehaviour.cs
+├── ├── ├── ├── ├── ├── TimedBehaviour.cs.meta
+├── ├── ├── ├── ├── ├── Timer.cs
+├── ├── ├── ├── ├── ├── Timer.cs.meta
+├── ├── ├── ├── ├── ├── VectorHelper.cs
+├── ├── ├── ├── ├── └── VectorHelper.cs.meta
+├── ├── ├── ├── ├── Camera.meta
+├── ├── ├── ├── ├── Data.meta
+├── ├── ├── ├── ├── Economy.meta
+├── ├── ├── ├── ├── Effects.meta
+├── ├── ├── ├── ├── Extensions.meta
+├── ├── ├── ├── ├── Game.meta
+├── ├── ├── ├── ├── Health.meta
+├── ├── ├── ├── ├── Input.meta
+├── ├── ├── ├── ├── UI.meta
+├── ├── ├── ├── └── Utilities.meta
+├── ├── ├── ├── TowerDefense/
+├── ├── ├── ├── ├── Affectors/
+├── ├── ├── ├── ├── ├── Affector.cs
+├── ├── ├── ├── ├── ├── Affector.cs.meta
+├── ├── ├── ├── ├── ├── AttackAffector.cs
+├── ├── ├── ├── ├── ├── AttackAffector.cs.meta
+├── ├── ├── ├── ├── ├── CurrencyAffector.cs
+├── ├── ├── ├── ├── ├── CurrencyAffector.cs.meta
+├── ├── ├── ├── ├── ├── PassiveAffector.cs
+├── ├── ├── ├── ├── ├── PassiveAffector.cs.meta
+├── ├── ├── ├── ├── ├── SlowAffector.cs
+├── ├── ├── ├── ├── └── SlowAffector.cs.meta
+├── ├── ├── ├── ├── Agents/
+├── ├── ├── ├── ├── ├── Data/
+├── ├── ├── ├── ├── ├── ├── AgentConfiguration.cs
+├── ├── ├── ├── ├── ├── └── AgentConfiguration.cs.meta
+├── ├── ├── ├── ├── ├── Agent.cs
+├── ├── ├── ├── ├── ├── Agent.cs.meta
+├── ├── ├── ├── ├── ├── AgentEffect.cs
+├── ├── ├── ├── ├── ├── AgentEffect.cs.meta
+├── ├── ├── ├── ├── ├── AgentSlower.cs
+├── ├── ├── ├── ├── ├── AgentSlower.cs.meta
+├── ├── ├── ├── ├── ├── AttackingAgent.cs
+├── ├── ├── ├── ├── ├── AttackingAgent.cs.meta
+├── ├── ├── ├── ├── ├── Data.meta
+├── ├── ├── ├── ├── ├── FlyingAgent.cs
+├── ├── ├── ├── ├── ├── FlyingAgent.cs.meta
+├── ├── ├── ├── ├── ├── HomeBaseAttacker.cs
+├── ├── ├── ├── ├── ├── HomeBaseAttacker.cs.meta
+├── ├── ├── ├── ├── ├── MechAnimationController.cs
+├── ├── ├── ├── ├── └── MechAnimationController.cs.meta
+├── ├── ├── ├── ├── Cameras/
+├── ├── ├── ├── ├── ├── PostProcessorConfigurationSelector.cs
+├── ├── ├── ├── ├── └── PostProcessorConfigurationSelector.cs.meta
+├── ├── ├── ├── ├── Economy/
+├── ├── ├── ├── ├── ├── CurrencyChangeInfo.cs
+├── ├── ├── ├── ├── ├── CurrencyChangeInfo.cs.meta
+├── ├── ├── ├── ├── ├── CurrencyGainer.cs
+├── ├── ├── ├── ├── ├── CurrencyGainer.cs.meta
+├── ├── ├── ├── ├── ├── LootDrop.cs
+├── ├── ├── ├── ├── └── LootDrop.cs.meta
+├── ├── ├── ├── ├── Effects/
+├── ├── ├── ├── ├── ├── MobileParticleSelector.cs
+├── ├── ├── ├── ├── ├── MobileParticleSelector.cs.meta
+├── ├── ├── ├── ├── ├── ProjectileEffect.cs
+├── ├── ├── ├── ├── └── ProjectileEffect.cs.meta
+├── ├── ├── ├── ├── Game/
+├── ├── ├── ├── ├── ├── GameDataStore.cs
+├── ├── ├── ├── ├── ├── GameDataStore.cs.meta
+├── ├── ├── ├── ├── ├── GameManager.cs
+├── ├── ├── ├── ├── ├── GameManager.cs.meta
+├── ├── ├── ├── ├── ├── LevelSaveData.cs
+├── ├── ├── ├── ├── └── LevelSaveData.cs.meta
+├── ├── ├── ├── ├── Input/
+├── ├── ├── ├── ├── ├── TowerDefenseKeyboardMouseInput.cs
+├── ├── ├── ├── ├── ├── TowerDefenseKeyboardMouseInput.cs.meta
+├── ├── ├── ├── ├── ├── TowerDefenseTouchInput.cs
+├── ├── ├── ├── ├── └── TowerDefenseTouchInput.cs.meta
+├── ├── ├── ├── ├── Level/
+├── ├── ├── ├── ├── ├── Editor/
+├── ├── ├── ├── ├── ├── ├── WaveEditor.cs
+├── ├── ├── ├── ├── ├── └── WaveEditor.cs.meta
+├── ├── ├── ├── ├── ├── Editor.meta
+├── ├── ├── ├── ├── ├── LevelIntro.cs
+├── ├── ├── ├── ├── ├── LevelIntro.cs.meta
+├── ├── ├── ├── ├── ├── LevelManager.cs
+├── ├── ├── ├── ├── ├── LevelManager.cs.meta
+├── ├── ├── ├── ├── ├── LevelState.cs
+├── ├── ├── ├── ├── ├── LevelState.cs.meta
+├── ├── ├── ├── ├── ├── PlayerHomeBase.cs
+├── ├── ├── ├── ├── ├── PlayerHomeBase.cs.meta
+├── ├── ├── ├── ├── ├── SpawnInstruction.cs
+├── ├── ├── ├── ├── ├── SpawnInstruction.cs.meta
+├── ├── ├── ├── ├── ├── TimedLevelIntro.cs
+├── ├── ├── ├── ├── ├── TimedLevelIntro.cs.meta
+├── ├── ├── ├── ├── ├── TimedWave.cs
+├── ├── ├── ├── ├── ├── TimedWave.cs.meta
+├── ├── ├── ├── ├── ├── Wave.cs
+├── ├── ├── ├── ├── ├── Wave.cs.meta
+├── ├── ├── ├── ├── ├── WaveManager.cs
+├── ├── ├── ├── ├── └── WaveManager.cs.meta
+├── ├── ├── ├── ├── MeshCreator/
+├── ├── ├── ├── ├── ├── Editor/
+├── ├── ├── ├── ├── ├── ├── AreaMeshCreatorEditor.cs
+├── ├── ├── ├── ├── ├── └── AreaMeshCreatorEditor.cs.meta
+├── ├── ├── ├── ├── ├── AreaMeshCreator.cs
+├── ├── ├── ├── ├── ├── AreaMeshCreator.cs.meta
+├── ├── ├── ├── ├── ├── Editor.meta
+├── ├── ├── ├── ├── ├── Triangulator.cs
+├── ├── ├── ├── ├── └── Triangulator.cs.meta
+├── ├── ├── ├── ├── Nodes/
+├── ├── ├── ├── ├── ├── Editor/
+├── ├── ├── ├── ├── ├── ├── NodeEditor.cs
+├── ├── ├── ├── ├── ├── └── NodeEditor.cs.meta
+├── ├── ├── ├── ├── ├── Editor.meta
+├── ├── ├── ├── ├── ├── FixedNodeSelector.cs
+├── ├── ├── ├── ├── ├── FixedNodeSelector.cs.meta
+├── ├── ├── ├── ├── ├── Node.cs
+├── ├── ├── ├── ├── ├── Node.cs.meta
+├── ├── ├── ├── ├── ├── NodeSelector.cs
+├── ├── ├── ├── ├── ├── NodeSelector.cs.meta
+├── ├── ├── ├── ├── ├── RandomNodeSelector.cs
+├── ├── ├── ├── ├── └── RandomNodeSelector.cs.meta
+├── ├── ├── ├── ├── Targetting/
+├── ├── ├── ├── ├── ├── Editor/
+├── ├── ├── ├── ├── ├── ├── TargetterEditor.cs
+├── ├── ├── ├── ├── ├── └── TargetterEditor.cs.meta
+├── ├── ├── ├── ├── ├── Editor.meta
+├── ├── ├── ├── ├── ├── Targetter.cs
+├── ├── ├── ├── ├── └── Targetter.cs.meta
+├── ├── ├── ├── ├── Towers/
+├── ├── ├── ├── ├── ├── Data/
+├── ├── ├── ├── ├── ├── ├── TowerLevelData.cs
+├── ├── ├── ├── ├── ├── ├── TowerLevelData.cs.meta
+├── ├── ├── ├── ├── ├── ├── TowerLibrary.cs
+├── ├── ├── ├── ├── ├── └── TowerLibrary.cs.meta
+├── ├── ├── ├── ├── ├── Placement/
+├── ├── ├── ├── ├── ├── ├── IPlacementArea.cs
+├── ├── ├── ├── ├── ├── ├── IPlacementArea.cs.meta
+├── ├── ├── ├── ├── ├── ├── SingleTowerPlacementArea.cs
+├── ├── ├── ├── ├── ├── ├── SingleTowerPlacementArea.cs.meta
+├── ├── ├── ├── ├── ├── ├── TowerFitStatus.cs
+├── ├── ├── ├── ├── ├── ├── TowerFitStatus.cs.meta
+├── ├── ├── ├── ├── ├── ├── TowerPlacementGrid.cs
+├── ├── ├── ├── ├── ├── └── TowerPlacementGrid.cs.meta
+├── ├── ├── ├── ├── ├── Projectiles/
+├── ├── ├── ├── ├── ├── ├── ContactDestroyer.cs
+├── ├── ├── ├── ├── ├── ├── ContactDestroyer.cs.meta
+├── ├── ├── ├── ├── ├── ├── HitscanAttack.cs
+├── ├── ├── ├── ├── ├── ├── HitscanAttack.cs.meta
+├── ├── ├── ├── ├── ├── ├── SplashDamager.cs
+├── ├── ├── ├── ├── ├── └── SplashDamager.cs.meta
+├── ├── ├── ├── ├── ├── TowerLaunchers/
+├── ├── ├── ├── ├── ├── ├── BallisticLauncher.cs
+├── ├── ├── ├── ├── ├── ├── BallisticLauncher.cs.meta
+├── ├── ├── ├── ├── ├── ├── HitscanLauncher.cs
+├── ├── ├── ├── ├── ├── ├── HitscanLauncher.cs.meta
+├── ├── ├── ├── ├── ├── ├── HomingLauncher.cs
+├── ├── ├── ├── ├── ├── ├── HomingLauncher.cs.meta
+├── ├── ├── ├── ├── ├── ├── Launcher.cs
+├── ├── ├── ├── ├── ├── ├── Launcher.cs.meta
+├── ├── ├── ├── ├── ├── ├── SuperTowerLauncher.cs
+├── ├── ├── ├── ├── ├── └── SuperTowerLauncher.cs.meta
+├── ├── ├── ├── ├── ├── Data.meta
+├── ├── ├── ├── ├── ├── ILauncher.cs
+├── ├── ├── ├── ├── ├── ILauncher.cs.meta
+├── ├── ├── ├── ├── ├── ITowerRadiusProvider.cs
+├── ├── ├── ├── ├── ├── ITowerRadiusProvider.cs.meta
+├── ├── ├── ├── ├── ├── Placement.meta
+├── ├── ├── ├── ├── ├── Projectiles.meta
+├── ├── ├── ├── ├── ├── SelfDestroyTimer.cs
+├── ├── ├── ├── ├── ├── SelfDestroyTimer.cs.meta
+├── ├── ├── ├── ├── ├── Tower.cs
+├── ├── ├── ├── ├── ├── Tower.cs.meta
+├── ├── ├── ├── ├── ├── TowerLaunchers.meta
+├── ├── ├── ├── ├── ├── TowerLevel.cs
+├── ├── ├── ├── ├── └── TowerLevel.cs.meta
+├── ├── ├── ├── ├── UI/
+├── ├── ├── ├── ├── ├── HUD/
+├── ├── ├── ├── ├── ├── ├── BuildInfoUI.cs
+├── ├── ├── ├── ├── ├── ├── BuildInfoUI.cs.meta
+├── ├── ├── ├── ├── ├── ├── BuildSidebar.cs
+├── ├── ├── ├── ├── ├── ├── BuildSidebar.cs.meta
+├── ├── ├── ├── ├── ├── ├── CurrencyUI.cs
+├── ├── ├── ├── ├── ├── ├── CurrencyUI.cs.meta
+├── ├── ├── ├── ├── ├── ├── GameUI.cs
+├── ├── ├── ├── ├── ├── ├── GameUI.cs.meta
+├── ├── ├── ├── ├── ├── ├── PlacementTile.cs
+├── ├── ├── ├── ├── ├── ├── PlacementTile.cs.meta
+├── ├── ├── ├── ├── ├── ├── PlayerBaseHealth.cs
+├── ├── ├── ├── ├── ├── ├── PlayerBaseHealth.cs.meta
+├── ├── ├── ├── ├── ├── ├── TowerDefenseMainMenu.cs
+├── ├── ├── ├── ├── ├── ├── TowerDefenseMainMenu.cs.meta
+├── ├── ├── ├── ├── ├── ├── TowerInfoDisplay.cs
+├── ├── ├── ├── ├── ├── ├── TowerInfoDisplay.cs.meta
+├── ├── ├── ├── ├── ├── ├── TowerPlacementGhost.cs
+├── ├── ├── ├── ├── ├── ├── TowerPlacementGhost.cs.meta
+├── ├── ├── ├── ├── ├── ├── TowerSpawnButton.cs
+├── ├── ├── ├── ├── ├── ├── TowerSpawnButton.cs.meta
+├── ├── ├── ├── ├── ├── ├── TowerUI.cs
+├── ├── ├── ├── ├── ├── ├── TowerUI.cs.meta
+├── ├── ├── ├── ├── ├── ├── WaveUI.cs
+├── ├── ├── ├── ├── ├── └── WaveUI.cs.meta
+├── ├── ├── ├── ├── ├── EndGameScreen.cs
+├── ├── ├── ├── ├── ├── EndGameScreen.cs.meta
+├── ├── ├── ├── ├── ├── ExitButton.cs
+├── ├── ├── ├── ├── ├── ExitButton.cs.meta
+├── ├── ├── ├── ├── ├── HUD.meta
+├── ├── ├── ├── ├── ├── IntervalParticleSystemPlayer.cs
+├── ├── ├── ├── ├── ├── IntervalParticleSystemPlayer.cs.meta
+├── ├── ├── ├── ├── ├── LevelSelectButton.cs
+├── ├── ├── ├── ├── ├── LevelSelectButton.cs.meta
+├── ├── ├── ├── ├── ├── LevelSelectScreen.cs
+├── ├── ├── ├── ├── ├── LevelSelectScreen.cs.meta
+├── ├── ├── ├── ├── ├── MouseScroll.cs
+├── ├── ├── ├── ├── ├── MouseScroll.cs.meta
+├── ├── ├── ├── ├── ├── MovingCanvas.cs
+├── ├── ├── ├── ├── ├── MovingCanvas.cs.meta
+├── ├── ├── ├── ├── ├── OptionsMenu.cs
+├── ├── ├── ├── ├── ├── OptionsMenu.cs.meta
+├── ├── ├── ├── ├── ├── PauseMenu.cs
+├── ├── ├── ├── ├── ├── PauseMenu.cs.meta
+├── ├── ├── ├── ├── ├── PlayAnimation.cs
+├── ├── ├── ├── ├── ├── PlayAnimation.cs.meta
+├── ├── ├── ├── ├── ├── RadiusVisualizerController.cs
+├── ├── ├── ├── ├── ├── RadiusVisualizerController.cs.meta
+├── ├── ├── ├── ├── ├── Rotator.cs
+├── ├── ├── ├── ├── ├── Rotator.cs.meta
+├── ├── ├── ├── ├── ├── SceneLoader.cs
+├── ├── ├── ├── ├── ├── SceneLoader.cs.meta
+├── ├── ├── ├── ├── ├── ScorePanel.cs
+├── ├── ├── ├── ├── ├── ScorePanel.cs.meta
+├── ├── ├── ├── ├── ├── TowerDefenseInputSchemeSwitcher.cs
+├── ├── ├── ├── ├── ├── TowerDefenseInputSchemeSwitcher.cs.meta
+├── ├── ├── ├── ├── ├── UrlOpen.cs
+├── ├── ├── ├── ├── └── UrlOpen.cs.meta
+├── ├── ├── ├── ├── Affectors.meta
+├── ├── ├── ├── ├── Agents.meta
+├── ├── ├── ├── ├── Cameras.meta
+├── ├── ├── ├── ├── Economy.meta
+├── ├── ├── ├── ├── Effects.meta
+├── ├── ├── ├── ├── Game.meta
+├── ├── ├── ├── ├── Input.meta
+├── ├── ├── ├── ├── Level.meta
+├── ├── ├── ├── ├── MeshCreator.meta
+├── ├── ├── ├── ├── Nodes.meta
+├── ├── ├── ├── ├── Targetting.meta
+├── ├── ├── ├── ├── Towers.meta
+├── ├── ├── ├── └── UI.meta
+├── ├── ├── ├── ActionGameFramework.meta
+├── ├── ├── ├── Core.meta
+├── ├── ├── └── TowerDefense.meta
+├── ├── ├── UI/
+├── ├── ├── ├── 24BGLogo.png
+├── ├── ├── ├── 24BGLogo.png.meta
+├── ├── ├── ├── Circle.png
+├── ├── ├── ├── Circle.png.meta
+├── ├── ├── ├── HomeBaseTargetZone.png
+├── ├── ├── ├── HomeBaseTargetZone.png.meta
+├── ├── ├── ├── PlacementTile.png
+├── ├── ├── ├── PlacementTile.png.meta
+├── ├── ├── ├── PlacementTileFilled.png
+├── ├── ├── ├── PlacementTileFilled.png.meta
+├── ├── ├── ├── SinglePlacementTile.png
+├── ├── ├── ├── SinglePlacementTile.png.meta
+├── ├── ├── ├── SinglePlacementTileFilled.png
+├── ├── ├── ├── SinglePlacementTileFilled.png.meta
+├── ├── ├── ├── box_white_bottomleft.png
+├── ├── ├── ├── box_white_bottomleft.png.meta
+├── ├── ├── ├── box_white_bottomright.png
+├── ├── ├── ├── box_white_bottomright.png.meta
+├── ├── ├── ├── box_white_topleft.png
+├── ├── ├── ├── box_white_topleft.png.meta
+├── ├── ├── ├── box_white_topright.png
+├── ├── ├── ├── box_white_topright.png.meta
+├── ├── ├── ├── box_white_whole.png
+├── ├── ├── ├── box_white_whole.png.meta
+├── ├── ├── ├── icon_arrow_white.png
+├── ├── ├── ├── icon_arrow_white.png.meta
+├── ├── ├── ├── icon_close.png
+├── ├── ├── ├── icon_close.png.meta
+├── ├── ├── ├── icon_confirm_no.png
+├── ├── ├── ├── icon_confirm_no.png.meta
+├── ├── ├── ├── icon_confirm_yes.png
+├── ├── ├── ├── icon_confirm_yes.png.meta
+├── ├── ├── ├── icon_drag_dot_white.png
+├── ├── ├── ├── icon_drag_dot_white.png.meta
+├── ├── ├── ├── icon_energy.png
+├── ├── ├── ├── icon_energy.png.meta
+├── ├── ├── ├── icon_energy_small_white.png
+├── ├── ├── ├── icon_energy_small_white.png.meta
+├── ├── ├── ├── icon_gear.png
+├── ├── ├── ├── icon_gear.png.meta
+├── ├── ├── ├── icon_health.png
+├── ├── ├── ├── icon_health.png.meta
+├── ├── ├── ├── icon_pause.png
+├── ├── ├── ├── icon_pause.png.meta
+├── ├── ├── ├── icon_quit.png
+├── ├── ├── ├── icon_quit.png.meta
+├── ├── ├── ├── icon_restart.png
+├── ├── ├── ├── icon_restart.png.meta
+├── ├── ├── ├── icon_sell_white.png
+├── ├── ├── ├── icon_sell_white.png.meta
+├── ├── ├── ├── icon_star_small_gold.png
+├── ├── ├── ├── icon_star_small_gold.png.meta
+├── ├── ├── ├── icon_star_small_grey.png
+├── ├── ├── ├── icon_star_small_grey.png.meta
+├── ├── ├── ├── icon_tick_white.png
+├── ├── ├── ├── icon_tick_white.png.meta
+├── ├── ├── ├── icon_upgrade.png
+├── ├── ├── ├── icon_upgrade.png.meta
+├── ├── ├── ├── level_select_shadow.png
+├── ├── ├── ├── level_select_shadow.png.meta
+├── ├── ├── ├── square_white.png
+├── ├── ├── ├── square_white.png.meta
+├── ├── ├── ├── star_big.png
+├── ├── ├── ├── star_big.png.meta
+├── ├── ├── ├── star_big_grey.png
+├── ├── ├── └── star_big_grey.png.meta
+├── ├── ├── Animations.meta
+├── ├── ├── Audio.meta
+├── ├── ├── Data.meta
+├── ├── ├── Documentation.meta
+├── ├── ├── Fonts.meta
+├── ├── ├── Gizmos.meta
+├── ├── ├── Icon.meta
+├── ├── ├── Materials.meta
+├── ├── ├── Models.meta
+├── ├── ├── Particles.meta
+├── ├── ├── PostProcessing.meta
+├── ├── ├── Prefabs.meta
+├── ├── ├── Scenes.meta
+├── ├── ├── Scripts.meta
+├── ├── ├── Third-Party Notices.txt
+├── ├── ├── Third-Party Notices.txt.meta
+├── ├── └── UI.meta
+├── ├── vTabs/
+├── ├── ├── Manual.pdf
+├── ├── ├── Manual.pdf.meta
+├── ├── ├── VTabs.asmdef
+├── ├── ├── VTabs.asmdef.meta
+├── ├── ├── VTabs.cs
+├── ├── ├── VTabs.cs.meta
+├── ├── ├── VTabsLibs.cs
+├── ├── ├── VTabsLibs.cs.meta
+├── ├── ├── VTabsMenu.cs
+├── ├── ├── VTabsMenu.cs.meta
+├── ├── ├── VTabsMenuItems.cs
+├── ├── └── VTabsMenuItems.cs.meta
+├── ├── AutoCannonImport.meta
+├── ├── Feel.meta
+├── ├── Mech_Constructor_LtMed.meta
+├── ├── Plugins.meta
+├── ├── Resources.meta
+├── ├── Scenes.meta
+├── ├── Settings.meta
+├── ├── TowerDefenseTemplate.meta
+├── ├── UniversalRenderPipelineGlobalSettings.asset
+├── ├── UniversalRenderPipelineGlobalSettings.asset.meta
+├── └── vTabs.meta
+├── Packages/
+├── ├── com.singularitygroup.hotreload/
+├── ├── ├── Documentation/
+├── ├── ├── ├── Documentation.pdf
+├── ├── ├── └── Documentation.pdf.meta
+├── ├── ├── Editor/
+├── ├── ├── ├── Attribution/
+├── ├── ├── ├── ├── Attribution.cs
+├── ├── ├── ├── ├── Attribution.cs.meta
+├── ├── ├── ├── ├── VSAttribution.cs
+├── ├── ├── ├── └── VSAttribution.cs.meta
+├── ├── ├── ├── CLI/
+├── ├── ├── ├── ├── CliUtils.cs
+├── ├── ├── ├── ├── CliUtils.cs.meta
+├── ├── ├── ├── ├── FallbackCliController.cs
+├── ├── ├── ├── ├── FallbackCliController.cs.meta
+├── ├── ├── ├── ├── HotReloadCli.cs
+├── ├── ├── ├── ├── HotReloadCli.cs.meta
+├── ├── ├── ├── ├── ICliController.cs
+├── ├── ├── ├── ├── ICliController.cs.meta
+├── ├── ├── ├── ├── LinuxCliController.cs
+├── ├── ├── ├── ├── LinuxCliController.cs.meta
+├── ├── ├── ├── ├── OsxCliController.cs
+├── ├── ├── ├── ├── OsxCliController.cs.meta
+├── ├── ├── ├── ├── StartArgs.cs
+├── ├── ├── ├── ├── StartArgs.cs.meta
+├── ├── ├── ├── ├── WindowsCliController.cs
+├── ├── ├── ├── └── WindowsCliController.cs.meta
+├── ├── ├── ├── CompileChecker/
+├── ├── ├── ├── ├── DefaultCompileChecker.cs
+├── ├── ├── ├── ├── DefaultCompileChecker.cs.meta
+├── ├── ├── ├── ├── ICompileChecker.cs
+├── ├── ├── ├── ├── ICompileChecker.cs.meta
+├── ├── ├── ├── ├── LegacyCompileChecker.cs
+├── ├── ├── ├── └── LegacyCompileChecker.cs.meta
+├── ├── ├── ├── Demo/
+├── ├── ├── ├── ├── EditorDemo.cs
+├── ├── ├── ├── └── EditorDemo.cs.meta
+├── ├── ├── ├── Helpers/
+├── ├── ├── ├── ├── AssemblyOmission.cs
+├── ├── ├── ├── ├── AssemblyOmission.cs.meta
+├── ├── ├── ├── ├── BuildInfoHelper.cs
+├── ├── ├── ├── ├── BuildInfoHelper.cs.meta
+├── ├── ├── ├── ├── EditorWindowHelper.cs
+├── ├── ├── ├── ├── EditorWindowHelper.cs.meta
+├── ├── ├── ├── ├── GUIHelper.cs
+├── ├── ├── ├── ├── GUIHelper.cs.meta
+├── ├── ├── ├── ├── HotReloadSuggestionsHelper.cs
+├── ├── ├── ├── ├── HotReloadSuggestionsHelper.cs.meta
+├── ├── ├── ├── ├── HotReloadTimelineHelper.cs
+├── ├── ├── ├── ├── HotReloadTimelineHelper.cs.meta
+├── ├── ├── ├── ├── Spinner.cs
+├── ├── ├── ├── ├── Spinner.cs.meta
+├── ├── ├── ├── ├── UnitySettingsHelper.cs
+├── ├── ├── ├── └── UnitySettingsHelper.cs.meta
+├── ├── ├── ├── Installation/
+├── ├── ├── ├── ├── DownloadUtility.cs
+├── ├── ├── ├── ├── DownloadUtility.cs.meta
+├── ├── ├── ├── ├── ExponentialBackoff.cs
+├── ├── ├── ├── ├── ExponentialBackoff.cs.meta
+├── ├── ├── ├── ├── InstallUtility.cs
+├── ├── ├── ├── ├── InstallUtility.cs.meta
+├── ├── ├── ├── ├── ServerDownloader.cs
+├── ├── ├── ├── ├── ServerDownloader.cs.meta
+├── ├── ├── ├── ├── UpdateUtility.cs
+├── ├── ├── ├── └── UpdateUtility.cs.meta
+├── ├── ├── ├── PlayerBuild/
+├── ├── ├── ├── ├── BuildGenerateBuildInfo.cs
+├── ├── ├── ├── ├── BuildGenerateBuildInfo.cs.meta
+├── ├── ├── ├── ├── HotReloadBuildHelper.cs
+├── ├── ├── ├── ├── HotReloadBuildHelper.cs.meta
+├── ├── ├── ├── ├── PostbuildModifyAndroidManifest.cs
+├── ├── ├── ├── ├── PostbuildModifyAndroidManifest.cs.meta
+├── ├── ├── ├── ├── PostbuildSendProjectState.cs
+├── ├── ├── ├── ├── PostbuildSendProjectState.cs.meta
+├── ├── ├── ├── ├── PrebuildIncludeResources.cs
+├── ├── ├── ├── └── PrebuildIncludeResources.cs.meta
+├── ├── ├── ├── ProjectGeneration/
+├── ├── ├── ├── ├── Util/
+├── ├── ├── ├── ├── ├── FileSystemUtil.cs
+├── ├── ├── ├── ├── ├── FileSystemUtil.cs.meta
+├── ├── ├── ├── ├── ├── StringUtils.cs
+├── ├── ├── ├── ├── └── StringUtils.cs.meta
+├── ├── ├── ├── ├── FileIOProvider.cs
+├── ├── ├── ├── ├── FileIOProvider.cs.meta
+├── ├── ├── ├── ├── GUIDProvider.cs
+├── ├── ├── ├── ├── GUIDProvider.cs.meta
+├── ├── ├── ├── ├── IFileIO.cs
+├── ├── ├── ├── ├── IFileIO.cs.meta
+├── ├── ├── ├── ├── IGUIDGenerator.cs
+├── ├── ├── ├── ├── IGUIDGenerator.cs.meta
+├── ├── ├── ├── ├── IHotReloadProjectGenerationPostProcessor.cs
+├── ├── ├── ├── ├── IHotReloadProjectGenerationPostProcessor.cs.meta
+├── ├── ├── ├── ├── ProjectGenenerationPostProcessor.cs
+├── ├── ├── ├── ├── ProjectGenenerationPostProcessor.cs.meta
+├── ├── ├── ├── ├── ProjectGeneration.cs
+├── ├── ├── ├── ├── ProjectGeneration.cs.meta
+├── ├── ├── ├── ├── ProjectGenerationFlag.cs
+├── ├── ├── ├── ├── ProjectGenerationFlag.cs.meta
+├── ├── ├── ├── ├── ProjectPart.cs
+├── ├── ├── ├── ├── ProjectPart.cs.meta
+├── ├── ├── ├── ├── SolutionGuidGenerator.cs
+├── ├── ├── ├── ├── SolutionGuidGenerator.cs.meta
+├── ├── ├── ├── └── Util.meta
+├── ├── ├── ├── RequiredSettings/
+├── ├── ├── ├── ├── RequiredSettingChecker.cs
+├── ├── ├── ├── └── RequiredSettingChecker.cs.meta
+├── ├── ├── ├── Resources/
+├── ├── ├── ├── ├── Icn_Stop.png
+├── ├── ├── ├── ├── Icn_Stop.png.meta
+├── ├── ├── ├── ├── Icn_play.png
+├── ├── ├── ├── ├── Icn_play.png.meta
+├── ├── ├── ├── ├── Logo_HotReload_DarkMode.png
+├── ├── ├── ├── ├── Logo_HotReload_DarkMode.png.meta
+├── ├── ├── ├── ├── Logo_HotReload_LightMode.png
+├── ├── ├── ├── ├── Logo_HotReload_LightMode.png.meta
+├── ├── ├── ├── ├── alert_info.png
+├── ├── ├── ├── ├── alert_info.png.meta
+├── ├── ├── ├── ├── applied_patch.png
+├── ├── ├── ├── ├── applied_patch.png.meta
+├── ├── ├── ├── ├── blue.png
+├── ├── ├── ├── ├── blue.png.meta
+├── ├── ├── ├── ├── close.png
+├── ├── ├── ├── ├── close.png.meta
+├── ├── ├── ├── ├── error.png
+├── ├── ├── ├── ├── error.png.meta
+├── ├── ├── ├── ├── events.png
+├── ├── ├── ├── ├── events.png.meta
+├── ├── ├── ├── ├── foldout_closed.png
+├── ├── ├── ├── ├── foldout_closed.png.meta
+├── ├── ├── ├── ├── foldout_open.png
+├── ├── ├── ├── ├── foldout_open.png.meta
+├── ├── ├── ├── ├── green.png
+├── ├── ├── ├── ├── green.png.meta
+├── ├── ├── ├── ├── grey.png
+├── ├── ├── ├── ├── grey.png.meta
+├── ├── ├── ├── ├── icon_check_circle.png
+├── ├── ├── ├── ├── icon_check_circle.png.meta
+├── ├── ├── ├── ├── icon_circle_black.png
+├── ├── ├── ├── ├── icon_circle_black.png.meta
+├── ├── ├── ├── ├── icon_circle_gray.png
+├── ├── ├── ├── ├── icon_circle_gray.png.meta
+├── ├── ├── ├── ├── icon_loading_star_light_mode_96.png
+├── ├── ├── ├── ├── icon_loading_star_light_mode_96.png.meta
+├── ├── ├── ├── ├── icon_warning_circle.png
+├── ├── ├── ├── ├── icon_warning_circle.png.meta
+├── ├── ├── ├── ├── infos.png
+├── ├── ├── ├── ├── infos.png.meta
+├── ├── ├── ├── ├── logo.png
+├── ├── ├── ├── ├── logo.png.meta
+├── ├── ├── ├── ├── red.png
+├── ├── ├── ├── ├── red.png.meta
+├── ├── ├── ├── ├── red_dot.png
+├── ├── ├── ├── ├── red_dot.png.meta
+├── ├── ├── ├── ├── refresh.png
+├── ├── ├── ├── ├── refresh.png.meta
+├── ├── ├── ├── ├── report_bug.png
+├── ├── ├── ├── ├── report_bug.png.meta
+├── ├── ├── ├── ├── warning.png
+├── ├── ├── ├── ├── warning.png.meta
+├── ├── ├── ├── ├── yellow.png
+├── ├── ├── ├── └── yellow.png.meta
+├── ├── ├── ├── Versioning/
+├── ├── ├── ├── ├── PackageUpdateChecker.cs
+├── ├── ├── ├── ├── PackageUpdateChecker.cs.meta
+├── ├── ├── ├── ├── SemVer.cs
+├── ├── ├── ├── └── SemVer.cs.meta
+├── ├── ├── ├── Window/
+├── ├── ├── ├── ├── GUI/
+├── ├── ├── ├── ├── ├── Buttons/
+├── ├── ├── ├── ├── ├── ├── OpenDialogueButton.cs
+├── ├── ├── ├── ├── ├── ├── OpenDialogueButton.cs.meta
+├── ├── ├── ├── ├── ├── ├── OpenURLButton.cs
+├── ├── ├── ├── ├── ├── └── OpenURLButton.cs.meta
+├── ├── ├── ├── ├── ├── Options/
+├── ├── ├── ├── ├── ├── ├── Base/
+├── ├── ├── ├── ├── ├── ├── ├── HotReloadOptionBase.cs
+├── ├── ├── ├── ├── ├── ├── ├── HotReloadOptionBase.cs.meta
+├── ├── ├── ├── ├── ├── ├── ├── OptionInterfaces.cs
+├── ├── ├── ├── ├── ├── ├── └── OptionInterfaces.cs.meta
+├── ├── ├── ├── ├── ├── ├── AllowAndroidAppToMakeHttpRequestsOption.cs
+├── ├── ├── ├── ├── ├── ├── AllowAndroidAppToMakeHttpRequestsOption.cs.meta
+├── ├── ├── ├── ├── ├── ├── Base.meta
+├── ├── ├── ├── ├── ├── ├── ExposeServerOption.cs
+├── ├── ├── ├── ├── ├── ├── ExposeServerOption.cs.meta
+├── ├── ├── ├── ├── ├── ├── IncludeInBuildOption.cs
+├── ├── ├── ├── ├── ├── └── IncludeInBuildOption.cs.meta
+├── ├── ├── ├── ├── ├── Tabs/
+├── ├── ├── ├── ├── ├── ├── Base/
+├── ├── ├── ├── ├── ├── ├── ├── HotReloadTabBase.cs
+├── ├── ├── ├── ├── ├── ├── └── HotReloadTabBase.cs.meta
+├── ├── ├── ├── ├── ├── ├── Helpers/
+├── ├── ├── ├── ├── ├── ├── ├── RedeemLicenseHelper.cs
+├── ├── ├── ├── ├── ├── ├── └── RedeemLicenseHelper.cs.meta
+├── ├── ├── ├── ├── ├── ├── Base.meta
+├── ├── ├── ├── ├── ├── ├── Helpers.meta
+├── ├── ├── ├── ├── ├── ├── HotReloadAboutTab.cs
+├── ├── ├── ├── ├── ├── ├── HotReloadAboutTab.cs.meta
+├── ├── ├── ├── ├── ├── ├── HotReloadOptionsSection.cs
+├── ├── ├── ├── ├── ├── ├── HotReloadOptionsSection.cs.meta
+├── ├── ├── ├── ├── ├── ├── HotReloadRunTab.cs
+├── ├── ├── ├── ├── ├── ├── HotReloadRunTab.cs.meta
+├── ├── ├── ├── ├── ├── ├── HotReloadSettingsTab.cs
+├── ├── ├── ├── ├── ├── └── HotReloadSettingsTab.cs.meta
+├── ├── ├── ├── ├── ├── Buttons.meta
+├── ├── ├── ├── ├── ├── EditorTextures.cs
+├── ├── ├── ├── ├── ├── EditorTextures.cs.meta
+├── ├── ├── ├── ├── ├── IGUIComponent.cs
+├── ├── ├── ├── ├── ├── IGUIComponent.cs.meta
+├── ├── ├── ├── ├── ├── Options.meta
+├── ├── ├── ├── ├── └── Tabs.meta
+├── ├── ├── ├── ├── Styles/
+├── ├── ├── ├── ├── ├── HotReloadWindowStyles.cs
+├── ├── ├── ├── ├── └── HotReloadWindowStyles.cs.meta
+├── ├── ├── ├── ├── GUI.meta
+├── ├── ├── ├── ├── HotReloadWindow.cs
+├── ├── ├── ├── ├── HotReloadWindow.cs.meta
+├── ├── ├── ├── ├── ShowOnStartupEnum.cs
+├── ├── ├── ├── ├── ShowOnStartupEnum.cs.meta
+├── ├── ├── ├── └── Styles.meta
+├── ├── ├── ├── Attribution.meta
+├── ├── ├── ├── CLI.meta
+├── ├── ├── ├── CompileChecker.meta
+├── ├── ├── ├── Constants.cs
+├── ├── ├── ├── Constants.cs.meta
+├── ├── ├── ├── Demo.meta
+├── ├── ├── ├── EditorCodePatcher.cs
+├── ├── ├── ├── EditorCodePatcher.cs.meta
+├── ├── ├── ├── EditorIndicationState.cs
+├── ├── ├── ├── EditorIndicationState.cs.meta
+├── ├── ├── ├── GitUtil.cs
+├── ├── ├── ├── GitUtil.cs.meta
+├── ├── ├── ├── Helpers.meta
+├── ├── ├── ├── HotReloadEventPopup.cs
+├── ├── ├── ├── HotReloadEventPopup.cs.meta
+├── ├── ├── ├── HotReloadOverlay.cs
+├── ├── ├── ├── HotReloadOverlay.cs.meta
+├── ├── ├── ├── HotReloadPrefs.cs
+├── ├── ├── ├── HotReloadPrefs.cs.meta
+├── ├── ├── ├── HotReloadSettingsEditor.cs
+├── ├── ├── ├── HotReloadSettingsEditor.cs.meta
+├── ├── ├── ├── HotReloadState.cs
+├── ├── ├── ├── HotReloadState.cs.meta
+├── ├── ├── ├── Icon_Player.png
+├── ├── ├── ├── Icon_Player.png.meta
+├── ├── ├── ├── InspectorFreezeFix.cs
+├── ├── ├── ├── InspectorFreezeFix.cs.meta
+├── ├── ├── ├── Installation.meta
+├── ├── ├── ├── PlayerBuild.meta
+├── ├── ├── ├── ProjectGeneration.meta
+├── ├── ├── ├── RequiredSettings.meta
+├── ├── ├── ├── Resources.meta
+├── ├── ├── ├── ServerHealthCheck.cs
+├── ├── ├── ├── ServerHealthCheck.cs.meta
+├── ├── ├── ├── SingularityGroup.HotReload.Editor.asmdef
+├── ├── ├── ├── SingularityGroup.HotReload.Editor.asmdef.meta
+├── ├── ├── ├── SingularityGroup.HotReload.EditorDependencies.dll
+├── ├── ├── ├── SingularityGroup.HotReload.EditorDependencies.dll.meta
+├── ├── ├── ├── Versioning.meta
+├── ├── ├── └── Window.meta
+├── ├── ├── Runtime/
+├── ├── ├── ├── Burst/
+├── ├── ├── ├── ├── EditorOnly.meta
+├── ├── ├── ├── └── OnDevice.meta
+├── ├── ├── ├── MonoBehaviours/
+├── ├── ├── ├── ├── ConnectionDialog.cs
+├── ├── ├── ├── ├── ConnectionDialog.cs.meta
+├── ├── ├── ├── ├── Prompts.cs
+├── ├── ├── ├── ├── Prompts.cs.meta
+├── ├── ├── ├── ├── QuestionDialog.cs
+├── ├── ├── ├── ├── QuestionDialog.cs.meta
+├── ├── ├── ├── ├── RetryDialog.cs
+├── ├── ├── ├── └── RetryDialog.cs.meta
+├── ├── ├── ├── OSX/
+├── ├── ├── ├── ├── HotReloadNativeHelper.dylib
+├── ├── ├── ├── └── HotReloadNativeHelper.dylib.meta
+├── ├── ├── ├── Public/
+├── ├── ├── ├── ├── HotReloadLogging.cs
+├── ├── ├── ├── ├── HotReloadLogging.cs.meta
+├── ├── ├── ├── ├── InvokeOnHotReload.cs
+├── ├── ├── ├── ├── InvokeOnHotReload.cs.meta
+├── ├── ├── ├── ├── InvokeOnHotReloadLocal.cs
+├── ├── ├── ├── ├── InvokeOnHotReloadLocal.cs.meta
+├── ├── ├── ├── ├── Log.cs
+├── ├── ├── ├── ├── Log.cs.meta
+├── ├── ├── ├── ├── LogLevel.cs
+├── ├── ├── ├── ├── LogLevel.cs.meta
+├── ├── ├── ├── ├── SingularityGroup.HotReload.Runtime.Public.asmdef
+├── ├── ├── ├── └── SingularityGroup.HotReload.Runtime.Public.asmdef.meta
+├── ├── ├── ├── AppCallbackListener.cs
+├── ├── ├── ├── AppCallbackListener.cs.meta
+├── ├── ├── ├── BuildInfo.cs
+├── ├── ├── ├── BuildInfo.cs.meta
+├── ├── ├── ├── Burst.meta
+├── ├── ├── ├── BurstChecker.cs
+├── ├── ├── ├── BurstChecker.cs.meta
+├── ├── ├── ├── CodePatcher.cs
+├── ├── ├── ├── CodePatcher.cs.meta
+├── ├── ├── ├── Demo.meta
+├── ├── ├── ├── HotReloadPrompts.prefab
+├── ├── ├── ├── HotReloadPrompts.prefab.meta
+├── ├── ├── ├── HotReloadSettingsObject.cs
+├── ├── ├── ├── HotReloadSettingsObject.cs.meta
+├── ├── ├── ├── HttpClientUtils.cs
+├── ├── ├── ├── HttpClientUtils.cs.meta
+├── ├── ├── ├── IServerHealthCheck.cs
+├── ├── ├── ├── IServerHealthCheck.cs.meta
+├── ├── ├── ├── InstallQRDialog.cs
+├── ├── ├── ├── InstallQRDialog.cs.meta
+├── ├── ├── ├── IpHelper.cs
+├── ├── ├── ├── IpHelper.cs.meta
+├── ├── ├── ├── Libs.meta
+├── ├── ├── ├── MethodCompatiblity.cs
+├── ├── ├── ├── MethodCompatiblity.cs.meta
+├── ├── ├── ├── MethodPatchResponsesConverter.cs
+├── ├── ├── ├── MethodPatchResponsesConverter.cs.meta
+├── ├── ├── ├── MethodUtils.cs
+├── ├── ├── ├── MethodUtils.cs.meta
+├── ├── ├── ├── MonoBehaviours.meta
+├── ├── ├── ├── MonoMethod.cs
+├── ├── ├── ├── MonoMethod.cs.meta
+├── ├── ├── ├── OSX.meta
+├── ├── ├── ├── OnHotReloadDispatch.cs
+├── ├── ├── ├── OnHotReloadDispatch.cs.meta
+├── ├── ├── ├── PackageConst.cs
+├── ├── ├── ├── PackageConst.cs.meta
+├── ├── ├── ├── PatchServerInfo.cs
+├── ├── ├── ├── PatchServerInfo.cs.meta
+├── ├── ├── ├── PersistencePaths.cs
+├── ├── ├── ├── PersistencePaths.cs.meta
+├── ├── ├── ├── PlayerCodePatcher.cs
+├── ├── ├── ├── PlayerCodePatcher.cs.meta
+├── ├── ├── ├── PlayerEntrypoint.cs
+├── ├── ├── ├── PlayerEntrypoint.cs.meta
+├── ├── ├── ├── Public.meta
+├── ├── ├── ├── RequestHelper.cs
+├── ├── ├── ├── RequestHelper.cs.meta
+├── ├── ├── ├── ServerHandshake.cs
+├── ├── ├── ├── ServerHandshake.cs.meta
+├── ├── ├── ├── ServerHealthCheck.cs
+├── ├── ├── ├── ServerHealthCheck.cs.meta
+├── ├── ├── ├── SingularityGroup.HotReload.Runtime.asmdef
+├── ├── ├── ├── SingularityGroup.HotReload.Runtime.asmdef.meta
+├── ├── ├── ├── SymbolResolver.cs
+├── ├── ├── ├── SymbolResolver.cs.meta
+├── ├── ├── ├── SymbolResolvingFailedException.cs
+├── ├── ├── ├── SymbolResolvingFailedException.cs.meta
+├── ├── ├── ├── TaskExtensions.cs
+├── ├── ├── ├── TaskExtensions.cs.meta
+├── ├── ├── ├── ThreadUtility.cs
+├── ├── ├── ├── ThreadUtility.cs.meta
+├── ├── ├── ├── UnityHelper.cs
+├── ├── ├── └── UnityHelper.cs.meta
+├── ├── ├── Server/
+├── ├── ├── ├── linux-x64/
+├── ├── ├── ├── ├── hotreload-start-script.sh
+├── ├── ├── ├── ├── hotreload-start-script.sh.meta
+├── ├── ├── ├── ├── terminal-run.sh
+├── ├── ├── ├── └── terminal-run.sh.meta
+├── ├── ├── ├── hot-reload-config.graphql
+├── ├── ├── ├── hot-reload-config.graphql.meta
+├── ├── ├── └── linux-x64.meta
+├── ├── ├── Documentation.meta
+├── ├── ├── Editor.meta
+├── ├── ├── LICENSE.md
+├── ├── ├── LICENSE.md.meta
+├── ├── ├── README.md
+├── ├── ├── README.md.meta
+├── ├── ├── Runtime.meta
+├── ├── ├── Server.meta
+├── ├── ├── Third Party Notices.md
+├── ├── ├── Third Party Notices.md.meta
+├── ├── ├── package.json
+├── ├── └── package.json.meta
+├── ├── manifest.json
+├── └── packages-lock.json
+├── ProjectSettings/
+├── ├── AudioManager.asset
+├── ├── BurstAotSettings_StandaloneWindows.json
+├── ├── ClusterInputManager.asset
+├── ├── CommonBurstAotSettings.json
+├── ├── DynamicsManager.asset
+├── ├── EditorBuildSettings.asset
+├── ├── EditorSettings.asset
+├── ├── GraphicsSettings.asset
+├── ├── InputManager.asset
+├── ├── MemorySettings.asset
+├── ├── NavMeshAreas.asset
+├── ├── PackageManagerSettings.asset
+├── ├── Physics2DSettings.asset
+├── ├── PresetManager.asset
+├── ├── ProjectSettings.asset
+├── ├── ProjectVersion.txt
+├── ├── QualitySettings.asset
+├── ├── SceneTemplateSettings.json
+├── ├── ShaderGraphSettings.asset
+├── ├── TagManager.asset
+├── ├── TimeManager.asset
+├── ├── URPProjectSettings.asset
+├── ├── UnityConnectSettings.asset
+├── ├── VFXManager.asset
+├── ├── VersionControlSettings.asset
+├── └── XRSettings.asset
+├── Assembly-CSharp-Editor-firstpass.csproj
+├── Assembly-CSharp-Editor.csproj
+├── Assembly-CSharp-firstpass.csproj
+├── Assembly-CSharp.csproj
+├── Lofelt.NiceVibrations.Demo.csproj
+├── Lofelt.NiceVibrations.Editor.csproj
+├── Lofelt.NiceVibrations.csproj
+├── MachineGunSetup.txt
+├── MoreMountains.Tools.Editor.csproj
+├── MoreMountains.Tools.csproj
+├── SingularityGroup.HotReload.Editor.csproj
+├── SingularityGroup.HotReload.Runtime.Public.csproj
+├── SingularityGroup.HotReload.Runtime.csproj
+├── Sirenix.OdinInspector.Modules.UnityMathematics.csproj
+├── TD_Andrew.sln
+├── VTabs.csproj
+├── auto_commit.py
+├── project_structure_20240820_220326.txt
+├── project_structure_20240821_212600.txt
+└── pt.py
+
+
+Unity Version:
+m_EditorVersion: 2022.3.42f1
+m_EditorVersionWithRevision: 2022.3.42f1 (2dcb6a0abc42)
+
+Git Information:
+Branch: main
+Last commit: b68671e39b892681fd5a3b9a34a22417de53b132
+
+Asset Counts:
+{
+  "Scenes": 57,
+  "Prefabs": 270,
+  "Materials": 371,
+  "Textures": 504,
+  "Scripts": 1129
+}
+    

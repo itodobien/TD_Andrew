@@ -189,7 +189,7 @@ namespace TowerDefense.MeshCreator.Editor
 
 					float size = HandleUtility.GetHandleSize(t.position) * 0.125f;
 					Vector3 snap = Vector3.one * 0.5f;
-					var fmh_192_63_638594363960012119 = Quaternion.LookRotation(Vector3.up); Vector3 newPosition = Handles.FreeMoveHandle(t.position, size, snap,
+					var fmh_192_63_638598424488809824 = Quaternion.LookRotation(Vector3.up); Vector3 newPosition = Handles.FreeMoveHandle(t.position, size, snap,
 					                                             Handles.RectangleHandleCap);
 					newPosition.y = t.position.y;
 

@@ -39,13 +39,13 @@ namespace Core.Camera.Editor
 			// Draw handles to resize map rect
 			float size = HandleUtility.GetHandleSize(m_CameraRig.transform.position) * 0.125f;
 			Vector3 snap = Vector3.one * 0.5f;
-			var fmh_42_60_638594363959904286 = Quaternion.LookRotation(Vector3.up); Vector3 bottom = Handles.FreeMoveHandle(bottomPosition, size, snap,
+			var fmh_42_60_638598424488691590 = Quaternion.LookRotation(Vector3.up); Vector3 bottom = Handles.FreeMoveHandle(bottomPosition, size, snap,
 			                                        Handles.RectangleHandleCap);
-			var fmh_44_54_638594363959920310 = Quaternion.LookRotation(Vector3.up); Vector3 top = Handles.FreeMoveHandle(topPosition, size, snap,
+			var fmh_44_54_638598424488707706 = Quaternion.LookRotation(Vector3.up); Vector3 top = Handles.FreeMoveHandle(topPosition, size, snap,
 			                                     Handles.RectangleHandleCap);
-			var fmh_46_56_638594363959921757 = Quaternion.LookRotation(Vector3.up); Vector3 left = Handles.FreeMoveHandle(leftPosition, size, snap,
+			var fmh_46_56_638598424488708979 = Quaternion.LookRotation(Vector3.up); Vector3 left = Handles.FreeMoveHandle(leftPosition, size, snap,
 			                                      Handles.RectangleHandleCap);
-			var fmh_48_58_638594363959922650 = Quaternion.LookRotation(Vector3.up); Vector3 right = Handles.FreeMoveHandle(rightPosition, size, snap,
+			var fmh_48_58_638598424488709874 = Quaternion.LookRotation(Vector3.up); Vector3 right = Handles.FreeMoveHandle(rightPosition, size, snap,
 			                                       Handles.RectangleHandleCap);
 			
 			ReprojectOntoFloor(ref bottom, floor);

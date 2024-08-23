@@ -45,8 +45,8 @@ namespace Core.Economy
 			{
 				return false;
 			}
-			ChangeCurrency(-cost);// Deduct the cost
-            return true;
+			ChangeCurrency(-cost);
+			return true;
 		}
 
 		/// <summary>
